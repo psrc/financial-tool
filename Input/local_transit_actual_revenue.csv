@@ -1,0 +1,631 @@
+Revenue Type,Transit Agency,Year,Nominal
+Sales & Use Tax,Community Transit,1989,8087999.999999999
+MVET,Community Transit,1989,8087999.999999999
+Fares,Community Transit,1989,3266000.0
+Sales & Use Tax,Everett Transit,1989,4176999.9999999995
+MVET,Everett Transit,1989,0.0
+Fares,Everett Transit,1989,278000.0
+Sales & Use Tax,King County Metro,1989,120856000.0
+MVET,King County Metro,1989,52057000.0
+Fares,King County Metro,1989,36736000.0
+Sales & Use Tax,Kitsap Transit,1989,3190000.0
+MVET,Kitsap Transit,1989,3151000.0
+Fares,Kitsap Transit,1989,741000.0
+Sales & Use Tax,Pierce Transit,1989,13514000.0
+MVET,Pierce Transit,1989,11386000.0
+Fares,Pierce Transit,1989,3523000.0
+Sales & Use Tax,Community Transit,1990,15068000.0
+MVET,Community Transit,1990,9743000.0
+Fares,Community Transit,1990,3535000.0
+Sales & Use Tax,Everett Transit,1990,4513000.0
+MVET,Everett Transit,1990,0.0
+Fares,Everett Transit,1990,304000.0
+Sales & Use Tax,King County Metro,1990,135133000.0
+MVET,King County Metro,1990,59018000.0
+Fares,King County Metro,1990,41036000.0
+Sales & Use Tax,Kitsap Transit,1990,4093000.0
+MVET,Kitsap Transit,1990,3832000.0
+Fares,Kitsap Transit,1990,781000.0
+Sales & Use Tax,Pierce Transit,1990,14250000.0
+MVET,Pierce Transit,1990,13370000.0
+Fares,Pierce Transit,1990,3740000.0
+Sales & Use Tax,Community Transit,1991,18341000.0
+MVET,Community Transit,1991,10955000.0
+Fares,Community Transit,1991,4331000.0
+Sales & Use Tax,Everett Transit,1991,4581000.0
+MVET,Everett Transit,1991,0.0
+Fares,Everett Transit,1991,336000.0
+Sales & Use Tax,King County Metro,1991,136522000.0
+MVET,King County Metro,1991,62199000.0
+Fares,King County Metro,1991,48252000.0
+Sales & Use Tax,Kitsap Transit,1991,4274000.0
+MVET,Kitsap Transit,1991,4080000.0
+Fares,Kitsap Transit,1991,1253000.0
+Sales & Use Tax,Pierce Transit,1991,15084000.0
+MVET,Pierce Transit,1991,13953000.0
+Fares,Pierce Transit,1991,4649000.0
+Sales & Use Tax,Community Transit,1992,19964000.0
+MVET,Community Transit,1992,11725000.0
+Fares,Community Transit,1992,4817000.0
+Sales & Use Tax,Everett Transit,1992,5882000.0
+MVET,Everett Transit,1992,0.0
+Fares,Everett Transit,1992,357000.0
+Sales & Use Tax,King County Metro,1992,140247000.0
+MVET,King County Metro,1992,66528000.00000001
+Fares,King County Metro,1992,51167000.0
+Sales & Use Tax,Kitsap Transit,1992,4671000.0
+MVET,Kitsap Transit,1992,4699000.0
+Fares,Kitsap Transit,1992,1397000.0
+Sales & Use Tax,Pierce Transit,1992,16074000.000000002
+MVET,Pierce Transit,1992,14237000.0
+Fares,Pierce Transit,1992,5023000.0
+Sales & Use Tax,Community Transit,1993,21063000.0
+MVET,Community Transit,1993,11359000.0
+Fares,Community Transit,1993,5207000.0
+Sales & Use Tax,Everett Transit,1993,6240000.0
+MVET,Everett Transit,1993,0.0
+Fares,Everett Transit,1993,438000.0
+Sales & Use Tax,King County Metro,1993,149685000.0
+MVET,King County Metro,1993,64958000.0
+Fares,King County Metro,1993,55719000.0
+Sales & Use Tax,Kitsap Transit,1993,6475000.0
+MVET,Kitsap Transit,1993,4694000.0
+Fares,Kitsap Transit,1993,1177000.0
+Sales & Use Tax,Pierce Transit,1993,17839000.0
+MVET,Pierce Transit,1993,17265000.0
+Fares,Pierce Transit,1993,5471000.0
+Sales & Use Tax,Community Transit,1994,21464000.0
+MVET,Community Transit,1994,11931000.0
+Fares,Community Transit,1994,5290000.0
+Sales & Use Tax,Everett Transit,1994,5496000.0
+MVET,Everett Transit,1994,0.0
+Fares,Everett Transit,1994,401000.0
+Sales & Use Tax,King County Metro,1994,152141000.0
+MVET,King County Metro,1994,70912000.0
+Fares,King County Metro,1994,54329000.0
+Sales & Use Tax,Kitsap Transit,1994,9749000.0
+MVET,Kitsap Transit,1994,5155000.0
+Fares,Kitsap Transit,1994,1197000.0
+Sales & Use Tax,Pierce Transit,1994,18583000.0
+MVET,Pierce Transit,1994,18743000.0
+Fares,Pierce Transit,1994,5556000.0
+Sales & Use Tax,Community Transit,1995,22534202.0
+MVET,Community Transit,1995,13046911.0
+Fares,Community Transit,1995,5699282.0
+Sales & Use Tax,Everett Transit,1995,5326884.0
+MVET,Everett Transit,1995,0.0
+Fares,Everett Transit,1995,549979.0
+Sales & Use Tax,King County Metro,1995,161998000.0
+MVET,King County Metro,1995,74947000.0
+Fares,King County Metro,1995,55037000.0
+Sales & Use Tax,Kitsap Transit,1995,9195000.0
+MVET,Kitsap Transit,1995,5464562.0
+Fares,Kitsap Transit,1995,1416128.0
+Sales & Use Tax,Pierce Transit,1995,19026649.0
+MVET,Pierce Transit,1995,19509840.0
+Fares,Pierce Transit,1995,6304422.0
+Sales & Use Tax,Community Transit,1996,23236800.0
+MVET,Community Transit,1996,13697300.0
+Fares,Community Transit,1996,6036200.0
+Sales & Use Tax,Everett Transit,1996,5448900.0
+MVET,Everett Transit,1996,0.0
+Fares,Everett Transit,1996,611900.0
+Sales & Use Tax,King County Metro,1996,172073500.0
+MVET,King County Metro,1996,79422800.0
+Fares,King County Metro,1996,55713300.0
+Sales & Use Tax,Kitsap Transit,1996,9614500.0
+MVET,Kitsap Transit,1996,5540400.0
+Fares,Kitsap Transit,1996,2032900.0000000002
+Sales & Use Tax,Pierce Transit,1996,19391100.0
+MVET,Pierce Transit,1996,20155500.0
+Fares,Pierce Transit,1996,7253400.0
+Sales & Use Tax,Community Transit,1997,26518080.0
+MVET,Community Transit,1997,15553689.0
+Fares,Community Transit,1997,7249277.0
+Sales & Use Tax,Everett Transit,1997,6383101.0
+MVET,Everett Transit,1997,0.0
+Fares,Everett Transit,1997,706327.0
+Sales & Use Tax,King County Metro,1997,187460715.0
+MVET,King County Metro,1997,85017652.0
+Fares,King County Metro,1997,56819800.0
+Sales & Use Tax,Kitsap Transit,1997,10023688.0
+MVET,Kitsap Transit,1997,5797762.0
+Fares,Kitsap Transit,1997,1704804.0
+Sales & Use Tax,Pierce Transit,1997,20655289.0
+MVET,Pierce Transit,1997,20918075.0
+Fares,Pierce Transit,1997,7930929.0
+Sales & Use Tax,Community Transit,1998,27118203.0
+MVET,Community Transit,1998,16973134.0
+Fares,Community Transit,1998,8175528.999999999
+Sales & Use Tax,Everett Transit,1998,6516763.0
+MVET,Everett Transit,1998,0.0
+Fares,Everett Transit,1998,749761.0
+Sales & Use Tax,King County Metro,1998,202031721.0
+MVET,King County Metro,1998,94340609.0
+Fares,King County Metro,1998,62318624.0
+Sales & Use Tax,Kitsap Transit,1998,10907509.0
+MVET,Kitsap Transit,1998,7563206.0
+Fares,Kitsap Transit,1998,1718580.0
+Sales & Use Tax,Pierce Transit,1998,22550155.0
+MVET,Pierce Transit,1998,23099360.0
+Fares,Pierce Transit,1998,8878332.0
+Sales & Use Tax,Community Transit,1999,30007905.0
+MVET,Community Transit,1999,18835958.0
+Fares,Community Transit,1999,9404980.0
+Sales & Use Tax,Everett Transit,1999,7095269.0
+MVET,Everett Transit,1999,278417.0
+Fares,Everett Transit,1999,705712.0
+Sales & Use Tax,King County Metro,1999,217710548.0
+MVET,King County Metro,1999,98155447.0
+Fares,King County Metro,1999,65797134.0
+Sales & Use Tax,Kitsap Transit,1999,14259185.0
+MVET,Kitsap Transit,1999,7895768.0
+Fares,Kitsap Transit,1999,1486573.0
+Sales & Use Tax,Pierce Transit,1999,24218060.0
+MVET,Pierce Transit,1999,22609654.0
+Fares,Pierce Transit,1999,9576682.0
+Sales & Use Tax,Community Transit,2000,32834000.000000004
+MVET,Community Transit,2000,8679000.0
+Fares,Community Transit,2000,11251000.0
+Sales & Use Tax,Everett Transit,2000,7140000.0
+MVET,Everett Transit,2000,193000.0
+Fares,Everett Transit,2000,791000.0
+Sales & Use Tax,King County Metro,2000,239234000.0
+MVET,King County Metro,2000,46731000.0
+Fares,King County Metro,2000,69078000.0
+Sales & Use Tax,Kitsap Transit,2000,14326000.0
+MVET,Kitsap Transit,2000,54000.0
+Fares,Kitsap Transit,2000,2794000.0
+Sales & Use Tax,Pierce Transit,2000,25789000.0
+MVET,Pierce Transit,2000,297000.0
+Fares,Pierce Transit,2000,7380000.0
+Sales & Use Tax,Community Transit,2001,34350000.0
+MVET,Community Transit,2001,0.0
+Fares,Community Transit,2001,10850000.0
+Sales & Use Tax,Everett Transit,2001,6670000.0
+MVET,Everett Transit,2001,0.0
+Fares,Everett Transit,2001,810000.0
+Sales & Use Tax,King County Metro,2001,287840000.0
+MVET,King County Metro,2001,0.0
+Fares,King County Metro,2001,73230000.0
+Sales & Use Tax,Kitsap Transit,2001,15330000.0
+MVET,Kitsap Transit,2001,0.0
+Fares,Kitsap Transit,2001,2110000.0
+Sales & Use Tax,Pierce Transit,2001,16446586.52
+MVET,Pierce Transit,2001,0.0
+Fares,Pierce Transit,2001,6330000.0
+Sales & Use Tax,Community Transit,2002,51600000.0
+MVET,Community Transit,2002,0.0
+Fares,Community Transit,2002,11360000.0
+Sales & Use Tax,Everett Transit,2002,6800000.0
+MVET,Everett Transit,2002,0.0
+Fares,Everett Transit,2002,810000.0
+Sales & Use Tax,King County Metro,2002,297140000.0
+MVET,King County Metro,2002,0.0
+Fares,King County Metro,2002,75910000.0
+Sales & Use Tax,Kitsap Transit,2002,22250000.0
+MVET,Kitsap Transit,2002,0.0
+Fares,Kitsap Transit,2002,1850000.0
+Sales & Use Tax,Pierce Transit,2002,41140000.0
+MVET,Pierce Transit,2002,0.0
+Fares,Pierce Transit,2002,7120000.0
+Sales & Use Tax,Community Transit,2003,53080000.0
+MVET,Community Transit,2003,0.0
+Fares,Community Transit,2003,10870000.0
+Sales & Use Tax,Everett Transit,2003,6870000.0
+MVET,Everett Transit,2003,0.0
+Fares,Everett Transit,2003,1020000.0
+Sales & Use Tax,King County Metro,2003,309630000.0
+MVET,King County Metro,2003,0.0
+Fares,King County Metro,2003,71110000.0
+Sales & Use Tax,Kitsap Transit,2003,24000000.0
+MVET,Kitsap Transit,2003,0.0
+Fares,Kitsap Transit,2003,1980000.0
+Sales & Use Tax,Pierce Transit,2003,58190000.0
+MVET,Pierce Transit,2003,0.0
+Fares,Pierce Transit,2003,7470000.0
+Sales & Use Tax,Community Transit,2004,57810000.0
+MVET,Community Transit,2004,0.0
+Fares,Community Transit,2004,13520000.0
+Sales & Use Tax,Everett Transit,2004,6680000.0
+MVET,Everett Transit,2004,0.0
+Fares,Everett Transit,2004,1090000.0
+Sales & Use Tax,King County Metro,2004,285616052.29999995
+MVET,King County Metro,2004,0.0
+Fares,King County Metro,2004,79430000.0
+Sales & Use Tax,Kitsap Transit,2004,25310000.0
+MVET,Kitsap Transit,2004,0.0
+Fares,Kitsap Transit,2004,2410000.0
+Sales & Use Tax,Pierce Transit,2004,61770000.0
+MVET,Pierce Transit,2004,0.0
+Fares,Pierce Transit,2004,9370000.0
+Sales & Use Tax,Community Transit,2005,65047000.0
+MVET,Community Transit,2005,0.0
+Fares,Community Transit,2005,14880000.0
+Sales & Use Tax,Everett Transit,2005,13193000.0
+MVET,Everett Transit,2005,0.0
+Fares,Everett Transit,2005,1070000.0
+Sales & Use Tax,King County Metro,2005,335521000.0
+MVET,King County Metro,2005,0.0
+Fares,King County Metro,2005,78494000.0
+Sales & Use Tax,Kitsap Transit,2005,26928000.0
+MVET,Kitsap Transit,2005,0.0
+Fares,Kitsap Transit,2005,2619000.0
+Sales & Use Tax,Pierce Transit,2005,69126000.0
+MVET,Pierce Transit,2005,0.0
+Fares,Pierce Transit,2005,9096000.0
+Sales & Use Tax,Community Transit,2006,70784000.0
+MVET,Community Transit,2006,0.0
+Fares,Community Transit,2006,16155999.999999998
+Sales & Use Tax,Everett Transit,2006,14590000.0
+MVET,Everett Transit,2006,0.0
+Fares,Everett Transit,2006,1076000.0
+Sales & Use Tax,King County Metro,2006,364356000.0
+MVET,King County Metro,2006,0.0
+Fares,King County Metro,2006,79944000.0
+Sales & Use Tax,Kitsap Transit,2006,29188000.0
+MVET,Kitsap Transit,2006,0.0
+Fares,Kitsap Transit,2006,3737000.0
+Sales & Use Tax,Pierce Transit,2006,74593000.0
+MVET,Pierce Transit,2006,0.0
+Fares,Pierce Transit,2006,11515000.0
+Sales & Use Tax,Community Transit,2007,76919000.0
+MVET,Community Transit,2007,0.0
+Fares,Community Transit,2007,18823000.0
+Sales & Use Tax,Everett Transit,2007,18769000.0
+MVET,Everett Transit,2007,0.0
+Fares,Everett Transit,2007,1095000.0
+Sales & Use Tax,King County Metro,2007,429262000.0
+MVET,King County Metro,2007,0.0
+Fares,King County Metro,2007,87466000.0
+Sales & Use Tax,Kitsap Transit,2007,30149000.0
+MVET,Kitsap Transit,2007,0.0
+Fares,Kitsap Transit,2007,3897000.0
+Sales & Use Tax,Pierce Transit,2007,77157000.0
+MVET,Pierce Transit,2007,0.0
+Fares,Pierce Transit,2007,12372000.0
+Sales & Use Tax,Community Transit,2008,69185000.0
+MVET,Community Transit,2008,0.0
+Fares,Community Transit,2008,17640000.0
+Sales & Use Tax,Everett Transit,2008,17352000.0
+MVET,Everett Transit,2008,0.0
+Fares,Everett Transit,2008,1132000.0
+Sales & Use Tax,King County Metro,2008,445428000.0
+MVET,King County Metro,2008,0.0
+Fares,King County Metro,2008,110662000.0
+Sales & Use Tax,Kitsap Transit,2008,28382000.0
+MVET,Kitsap Transit,2008,0.0
+Fares,Kitsap Transit,2008,4684000.0
+Sales & Use Tax,Pierce Transit,2008,71752000.0
+MVET,Pierce Transit,2008,0.0
+Fares,Pierce Transit,2008,14121000.0
+Sales & Use Tax,Community Transit,2009,62185000.0
+MVET,Community Transit,2009,0.0
+Fares,Community Transit,2009,17818000.0
+Sales & Use Tax,Everett Transit,2009,14148000.0
+MVET,Everett Transit,2009,0.0
+Fares,Everett Transit,2009,1123000.0
+Sales & Use Tax,King County Metro,2009,382354000.0
+MVET,King County Metro,2009,0.0
+Fares,King County Metro,2009,122862000.0
+Sales & Use Tax,Kitsap Transit,2009,25934000.0
+MVET,Kitsap Transit,2009,0.0
+Fares,Kitsap Transit,2009,6395000.0
+Sales & Use Tax,Pierce Transit,2009,63335000.0
+MVET,Pierce Transit,2009,0.0
+Fares,Pierce Transit,2009,15741000.0
+Sales & Use Tax,Community Transit,2010,62634000.0
+MVET,Community Transit,2010,0.0
+Fares,Community Transit,2010,19266000.0
+Sales & Use Tax,Everett Transit,2010,15651000.0
+MVET,Everett Transit,2010,0.0
+Fares,Everett Transit,2010,1311000.0
+Sales & Use Tax,King County Metro,2010,373093000.0
+MVET,King County Metro,2010,0.0
+Fares,King County Metro,2010,129562000.00000001
+Sales & Use Tax,Kitsap Transit,2010,25758000.0
+MVET,Kitsap Transit,2010,0.0
+Fares,Kitsap Transit,2010,7954000.0
+Sales & Use Tax,Pierce Transit,2010,65339000.0
+MVET,Pierce Transit,2010,0.0
+Fares,Pierce Transit,2010,14506000.0
+Sales & Use Tax,Community Transit,2011,63710000.0
+MVET,Community Transit,2011,0.0
+Fares,Community Transit,2011,18810000.0
+Sales & Use Tax,Everett Transit,2011,14920000.0
+MVET,Everett Transit,2011,0.0
+Fares,Everett Transit,2011,1290000.0
+Sales & Use Tax,King County Metro,2011,397580000.0
+MVET,King County Metro,2011,0.0
+Fares,King County Metro,2011,139670000.0
+Sales & Use Tax,Kitsap Transit,2011,25940000.0
+MVET,Kitsap Transit,2011,0.0
+Fares,Kitsap Transit,2011,7920000.0
+Sales & Use Tax,Pierce Transit,2011,64510000.00000001
+MVET,Pierce Transit,2011,0.0
+Fares,Pierce Transit,2011,13500000.0
+Sales & Use Tax,Community Transit,2012,67480000.0
+MVET,Community Transit,2012,0.0
+Fares,Community Transit,2012,17630000.0
+Sales & Use Tax,Everett Transit,2012,15740000.0
+MVET,Everett Transit,2012,0.0
+Fares,Everett Transit,2012,1320000.0
+Sales & Use Tax,King County Metro,2012,399500000.0
+MVET,King County Metro,2012,0.0
+Fares,King County Metro,2012,153430000.0
+Sales & Use Tax,Kitsap Transit,2012,26650000.0
+MVET,Kitsap Transit,2012,0.0
+Fares,Kitsap Transit,2012,7180000.0
+Sales & Use Tax,Pierce Transit,2012,65190000.0
+MVET,Pierce Transit,2012,0.0
+Fares,Pierce Transit,2012,12220000.0
+Sales & Use Tax,Community Transit,2013,74780000.0
+MVET,Community Transit,2013,0.0
+Fares,Community Transit,2013,19330000.0
+Sales & Use Tax,Everett Transit,2013,16379999.999999998
+MVET,Everett Transit,2013,0.0
+Fares,Everett Transit,2013,1610000.0
+Sales & Use Tax,King County Metro,2013,437140000.0
+MVET,King County Metro,2013,0.0
+Fares,King County Metro,2013,159510000.0
+Sales & Use Tax,Kitsap Transit,2013,27540000.0
+MVET,Kitsap Transit,2013,0.0
+Fares,Kitsap Transit,2013,6810000.0
+Sales & Use Tax,Pierce Transit,2013,62590000.0
+MVET,Pierce Transit,2013,0.0
+Fares,Pierce Transit,2013,12270000.0
+Sales & Use Tax,Community Transit,2014,79550000.0
+MVET,Community Transit,2014,0.0
+Fares,Community Transit,2014,19770000.0
+Sales & Use Tax,Everett Transit,2014,17320000.0
+MVET,Everett Transit,2014,0.0
+Fares,Everett Transit,2014,1560000.0
+Sales & Use Tax,King County Metro,2014,473790000.0
+MVET,King County Metro,2014,0.0
+Fares,King County Metro,2014,169600000.0
+Sales & Use Tax,Kitsap Transit,2014,29330000.0
+MVET,Kitsap Transit,2014,0.0
+Fares,Kitsap Transit,2014,6730000.0
+Sales & Use Tax,Pierce Transit,2014,65769999.99999999
+MVET,Pierce Transit,2014,0.0
+Fares,Pierce Transit,2014,12210000.0
+Sales & Use Tax,Community Transit,2015,84461000.0
+MVET,Community Transit,2015,0.0
+Fares,Community Transit,2015,20799000.0
+Sales & Use Tax,Everett Transit,2015,18327000.0
+MVET,Everett Transit,2015,0.0
+Fares,Everett Transit,2015,1515000.0
+Sales & Use Tax,King County Metro,2015,521140999.99999994
+MVET,King County Metro,2015,0.0
+Fares,King County Metro,2015,168374000.0
+Sales & Use Tax,Kitsap Transit,2015,31974000.0
+MVET,Kitsap Transit,2015,0.0
+Fares,Kitsap Transit,2015,6671000.0
+Sales & Use Tax,Pierce Transit,2015,70914000.0
+MVET,Pierce Transit,2015,0.0
+Fares,Pierce Transit,2015,12629000.0
+Sales & Use Tax,Community Transit,2016,115768000.0
+MVET,Community Transit,2016,0.0
+Fares,Community Transit,2016,21893000.0
+PSRC FHWA,Community Transit,2016,608182.0
+Non-PSRC FHWA,Community Transit,2016,0.0
+PSRC FTA,Community Transit,2016,11341165.0
+Non-PSRC FTA,Community Transit,2016,0.0
+State,Community Transit,2016,0.0
+Other Federal,Community Transit,2016,0.0
+Sales & Use Tax,Everett Transit,2016,18960000.0
+MVET,Everett Transit,2016,0.0
+Fares,Everett Transit,2016,1392000.0
+PSRC FHWA,Everett Transit,2016,422469.0
+Non-PSRC FHWA,Everett Transit,2016,0.0
+PSRC FTA,Everett Transit,2016,2202226.0
+Non-PSRC FTA,Everett Transit,2016,0.0
+State,Everett Transit,2016,0.0
+Other Federal,Everett Transit,2016,0.0
+Sales & Use Tax,King County Metro,2016,567127000.0
+MVET,King County Metro,2016,0.0
+Fares,King County Metro,2016,173043000.0
+PSRC FHWA,King County Metro,2016,2165900.0
+Non-PSRC FHWA,King County Metro,2016,0.0
+PSRC FTA,King County Metro,2016,79768173.0
+Non-PSRC FTA,King County Metro,2016,0.0
+State,King County Metro,2016,0.0
+Other Federal,King County Metro,2016,3000000.0
+Sales & Use Tax,Kitsap Transit,2016,34580000.0
+MVET,Kitsap Transit,2016,0.0
+Fares,Kitsap Transit,2016,5436000.0
+PSRC FHWA,Kitsap Transit,2016,2309321.0
+Non-PSRC FHWA,Kitsap Transit,2016,0.0
+PSRC FTA,Kitsap Transit,2016,4165730.0
+Non-PSRC FTA,Kitsap Transit,2016,0.0
+State,Kitsap Transit,2016,2774844.0
+Other Federal,Kitsap Transit,2016,0.0
+Sales & Use Tax,Pierce Transit,2016,76178000.0
+MVET,Pierce Transit,2016,0.0
+Fares,Pierce Transit,2016,11913000.0
+PSRC FHWA,Pierce Transit,2016,373401.0
+Non-PSRC FHWA,Pierce Transit,2016,0.0
+PSRC FTA,Pierce Transit,2016,7999060.0
+Non-PSRC FTA,Pierce Transit,2016,0.0
+State,Pierce Transit,2016,0.0
+Other Federal,Pierce Transit,2016,0.0
+Sales & Use Tax,Community Transit,2017,131303000.0
+MVET,Community Transit,2017,0.0
+Fares,Community Transit,2017,21844000.0
+PSRC FHWA,Community Transit,2017,611209.0
+Non-PSRC FHWA,Community Transit,2017,0.0
+PSRC FTA,Community Transit,2017,11858333.0
+Non-PSRC FTA,Community Transit,2017,0.0
+State,Community Transit,2017,0.0
+Other Federal,Community Transit,2017,0.0
+Sales & Use Tax,Everett Transit,2017,19553000.0
+MVET,Everett Transit,2017,0.0
+Fares,Everett Transit,2017,1310000.0
+PSRC FHWA,Everett Transit,2017,424572.0
+Non-PSRC FHWA,Everett Transit,2017,0.0
+PSRC FTA,Everett Transit,2017,1766045.0
+Non-PSRC FTA,Everett Transit,2017,3358459.0
+State,Everett Transit,2017,0.0
+Other Federal,Everett Transit,2017,0.0
+Sales & Use Tax,King County Metro,2017,591088000.0
+MVET,King County Metro,2017,0.0
+Fares,King County Metro,2017,173704000.0
+PSRC FHWA,King County Metro,2017,2176679.0
+Non-PSRC FHWA,King County Metro,2017,0.0
+PSRC FTA,King County Metro,2017,78462902.0
+Non-PSRC FTA,King County Metro,2017,5304000.0
+State,King County Metro,2017,0.0
+Other Federal,King County Metro,2017,0.0
+Sales & Use Tax,Kitsap Transit,2017,47845000.0
+MVET,Kitsap Transit,2017,0.0
+Fares,Kitsap Transit,2017,5796000.0
+PSRC FHWA,Kitsap Transit,2017,2320814.0
+Non-PSRC FHWA,Kitsap Transit,2017,0.0
+PSRC FTA,Kitsap Transit,2017,4305161.0
+Non-PSRC FTA,Kitsap Transit,2017,0.0
+State,Kitsap Transit,2017,17100.0
+Other Federal,Kitsap Transit,2017,0.0
+Sales & Use Tax,Pierce Transit,2017,80982000.0
+MVET,Pierce Transit,2017,0.0
+Fares,Pierce Transit,2017,12138000.0
+PSRC FHWA,Pierce Transit,2017,375259.0
+Non-PSRC FHWA,Pierce Transit,2017,0.0
+PSRC FTA,Pierce Transit,2017,7984252.0
+Non-PSRC FTA,Pierce Transit,2017,0.0
+State,Pierce Transit,2017,0.0
+Other Federal,Pierce Transit,2017,0.0
+Sales & Use Tax,Community Transit,2018,141941000.0
+MVET,Community Transit,2018,0.0
+Fares,Community Transit,2018,22399000.0
+PSRC FHWA,Community Transit,2018,619709.0
+Non-PSRC FHWA,Community Transit,2018,0.0
+PSRC FTA,Community Transit,2018,15562445.0
+Non-PSRC FTA,Community Transit,2018,43190000.0
+State,Community Transit,2018,13800000.0
+Other Federal,Community Transit,2018,0.0
+Sales & Use Tax,Everett Transit,2018,20170000.0
+MVET,Everett Transit,2018,0.0
+Fares,Everett Transit,2018,1224000.0
+PSRC FHWA,Everett Transit,2018,430476.0
+Non-PSRC FHWA,Everett Transit,2018,0.0
+PSRC FTA,Everett Transit,2018,1430364.0
+Non-PSRC FTA,Everett Transit,2018,1375000.0
+State,Everett Transit,2018,0.0
+Other Federal,Everett Transit,2018,0.0
+Sales & Use Tax,King County Metro,2018,652299000.0
+MVET,King County Metro,2018,0.0
+Fares,King County Metro,2018,175944000.0
+PSRC FHWA,King County Metro,2018,2206950.0
+Non-PSRC FHWA,King County Metro,2018,0.0
+PSRC FTA,King County Metro,2018,90322252.0
+Non-PSRC FTA,King County Metro,2018,1980040.0
+State,King County Metro,2018,0.0
+Other Federal,King County Metro,2018,0.0
+Sales & Use Tax,Kitsap Transit,2018,41743000.0
+MVET,Kitsap Transit,2018,0.0
+Fares,Kitsap Transit,2018,6584000.0
+PSRC FHWA,Kitsap Transit,2018,2353090.0
+Non-PSRC FHWA,Kitsap Transit,2018,0.0
+PSRC FTA,Kitsap Transit,2018,4405686.0
+Non-PSRC FTA,Kitsap Transit,2018,0.0
+State,Kitsap Transit,2018,12100000.0
+Other Federal,Kitsap Transit,2018,190057.0
+Sales & Use Tax,Pierce Transit,2018,86801000.0
+MVET,Pierce Transit,2018,0.0
+Fares,Pierce Transit,2018,12014000.0
+PSRC FHWA,Pierce Transit,2018,380478.0
+Non-PSRC FHWA,Pierce Transit,2018,0.0
+PSRC FTA,Pierce Transit,2018,7952502.0
+Non-PSRC FTA,Pierce Transit,2018,1664894.0
+State,Pierce Transit,2018,0.0
+Other Federal,Pierce Transit,2018,0.0
+Sales & Use Tax,Community Transit,2019,127937822.4
+MVET,Community Transit,2019,0.0
+Fares,Community Transit,2019,22851639.85
+PSRC FHWA,Community Transit,2019,694099.0
+Non-PSRC FHWA,Community Transit,2019,0.0
+PSRC FTA,Community Transit,2019,13703949.0
+Non-PSRC FTA,Community Transit,2019,1375000.0
+State,Community Transit,2019,0.0
+Other Federal,Community Transit,2019,0.0
+Sales & Use Tax,Everett Transit,2019,11121031.97
+MVET,Everett Transit,2019,0.0
+Fares,Everett Transit,2019,1255022.0620000002
+PSRC FHWA,Everett Transit,2019,482151.0
+Non-PSRC FHWA,Everett Transit,2019,0.0
+PSRC FTA,Everett Transit,2019,1431348.0
+Non-PSRC FTA,Everett Transit,2019,382874.0
+State,Everett Transit,2019,0.0
+Other Federal,Everett Transit,2019,0.0
+Sales & Use Tax,King County Metro,2019,517688102.99999994
+MVET,King County Metro,2019,0.0
+Fares,King County Metro,2019,176643989.6
+PSRC FHWA,King County Metro,2019,2471874.0
+Non-PSRC FHWA,King County Metro,2019,0.0
+PSRC FTA,King County Metro,2019,89220623.0
+Non-PSRC FTA,King County Metro,2019,2575000.0
+State,King County Metro,2019,0.0
+Other Federal,King County Metro,2019,590869.0
+Sales & Use Tax,Kitsap Transit,2019,33704993.7
+MVET,Kitsap Transit,2019,0.0
+Fares,Kitsap Transit,2019,6661122.013
+PSRC FHWA,Kitsap Transit,2019,2635556.0
+Non-PSRC FHWA,Kitsap Transit,2019,0.0
+PSRC FTA,Kitsap Transit,2019,4807075.0
+Non-PSRC FTA,Kitsap Transit,2019,6963000.0
+State,Kitsap Transit,2019,0.0
+Other Federal,Kitsap Transit,2019,0.0
+Sales & Use Tax,Pierce Transit,2019,64641732.45
+MVET,Pierce Transit,2019,0.0
+Fares,Pierce Transit,2019,12184144.549999999
+PSRC FHWA,Pierce Transit,2019,426151.0
+Non-PSRC FHWA,Pierce Transit,2019,0.0
+PSRC FTA,Pierce Transit,2019,9581992.0
+Non-PSRC FTA,Pierce Transit,2019,4131710.0
+State,Pierce Transit,2019,0.0
+Other Federal,Pierce Transit,2019,0.0
+Sales & Use Tax,Community Transit,2020,134316383.6
+MVET,Community Transit,2020,0.0
+Fares,Community Transit,2020,23313426.65
+PSRC FHWA,Community Transit,2020,713708.0
+Non-PSRC FHWA,Community Transit,2020,0.0
+PSRC FTA,Community Transit,2020,13758530.0
+Non-PSRC FTA,Community Transit,2020,0.0
+State,Community Transit,2020,0.0
+Other Federal,Community Transit,2020,0.0
+Sales & Use Tax,Everett Transit,2020,11675490.24
+MVET,Everett Transit,2020,0.0
+Fares,Everett Transit,2020,1286830.372
+PSRC FHWA,Everett Transit,2020,495772.0
+Non-PSRC FHWA,Everett Transit,2020,0.0
+PSRC FTA,Everett Transit,2020,1433591.0
+Non-PSRC FTA,Everett Transit,2020,0.0
+State,Everett Transit,2020,0.0
+Other Federal,Everett Transit,2020,0.0
+Sales & Use Tax,King County Metro,2020,527349211.5
+MVET,King County Metro,2020,0.0
+Fares,King County Metro,2020,177346764.2
+PSRC FHWA,King County Metro,2020,2541705.0
+Non-PSRC FHWA,King County Metro,2020,0.0
+PSRC FTA,King County Metro,2020,84899161.0
+Non-PSRC FTA,King County Metro,2020,2200000.0
+State,King County Metro,2020,0.0
+Other Federal,King County Metro,2020,0.0
+Sales & Use Tax,Kitsap Transit,2020,35561134.449999996
+MVET,Kitsap Transit,2020,0.0
+Fares,Kitsap Transit,2020,6739147.4
+PSRC FHWA,Kitsap Transit,2020,2710012.0
+Non-PSRC FHWA,Kitsap Transit,2020,0.0
+PSRC FTA,Kitsap Transit,2020,4993765.0
+Non-PSRC FTA,Kitsap Transit,2020,0.0
+State,Kitsap Transit,2020,649070.0
+Other Federal,Kitsap Transit,2020,342896.0
+Sales & Use Tax,Pierce Transit,2020,68039569.64
+MVET,Pierce Transit,2020,0.0
+Fares,Pierce Transit,2020,12356698.72
+PSRC FHWA,Pierce Transit,2020,438190.0
+Non-PSRC FHWA,Pierce Transit,2020,0.0
+PSRC FTA,Pierce Transit,2020,8351312.0
+Non-PSRC FTA,Pierce Transit,2020,0.0
+State,Pierce Transit,2020,0.0
+Other Federal,Pierce Transit,2020,0.0

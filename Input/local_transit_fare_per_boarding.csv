@@ -1,0 +1,151 @@
+Transit Agency,Year,Average Fare per Boarding ($)
+Community Transit,1989,0.811889684
+Everett Transit,1989,0.214929232
+King County Metro,1989,0.474413026
+Kitsap Transit,1989,0.309010212
+Pierce Transit,1989,0.334518152
+Community Transit,1990,0.854134385
+Everett Transit,1990,0.200663642
+King County Metro,1990,0.510920878
+Kitsap Transit,1990,0.289313586
+Pierce Transit,1990,0.348672174
+Community Transit,1991,0.880978054
+Everett Transit,1991,0.185035476
+King County Metro,1991,0.60247768
+Kitsap Transit,1991,0.39185149
+Pierce Transit,1991,0.461920015
+Community Transit,1992,0.952373985
+Everett Transit,1992,0.189854434
+King County Metro,1992,0.611367444
+Kitsap Transit,1992,0.423389144
+Pierce Transit,1992,0.480213126
+Community Transit,1993,0.984393944
+Everett Transit,1993,0.224434111
+King County Metro,1993,0.66560279
+Kitsap Transit,1993,0.363358295
+Pierce Transit,1993,0.513555047
+Community Transit,1994,0.963742337
+Everett Transit,1994,0.222129284
+King County Metro,1994,0.658021855
+Kitsap Transit,1994,0.296548884
+Pierce Transit,1994,0.433237183
+Community Transit,1995,0.908719432
+Everett Transit,1995,0.289782613
+King County Metro,1995,0.659099274
+Kitsap Transit,1995,0.309457576
+Pierce Transit,1995,0.340386173
+Community Transit,1996,0.857006477
+Everett Transit,1996,0.376971879
+King County Metro,1996,0.61538625
+Kitsap Transit,1996,0.384680086
+Pierce Transit,1996,0.591363278
+Community Transit,1997,0.881508997
+Everett Transit,1997,0.467573932
+King County Metro,1997,0.62096286
+Kitsap Transit,1997,0.318572422
+Pierce Transit,1997,0.600102558
+Community Transit,1998,0.960052989
+Everett Transit,1998,0.49140907
+King County Metro,1998,0.663033824
+Kitsap Transit,1998,0.328624448
+Pierce Transit,1998,0.637292034
+Community Transit,1999,1.06924286
+Everett Transit,1999,0.490877499
+King County Metro,1999,0.66011415
+Kitsap Transit,1999,0.267137421
+Pierce Transit,1999,0.646942627
+Community Transit,2000,1.806901912
+Everett Transit,2000,0.509240035
+King County Metro,2000,0.670463976
+Kitsap Transit,2000,0.738144056
+Pierce Transit,2000,0.50415649
+Community Transit,2001,1.100107557
+Everett Transit,2001,0.500991778
+King County Metro,2001,0.725047481
+Kitsap Transit,2001,0.526300167
+Pierce Transit,2001,0.432718939
+Community Transit,2002,1.189081054
+Everett Transit,2002,0.516983878
+King County Metro,2002,0.778428512
+Kitsap Transit,2002,0.422803604
+Pierce Transit,2002,0.506776751
+Community Transit,2003,1.202859153
+Everett Transit,2003,0.508600078
+King County Metro,2003,0.72157813
+Kitsap Transit,2003,0.392136281
+Pierce Transit,2003,0.51935494
+Community Transit,2004,1.366947848
+Everett Transit,2004,0.540397435
+King County Metro,2004,0.77805044
+Kitsap Transit,2004,0.466066852
+Pierce Transit,2004,0.618076936
+Community Transit,2005,1.393129289
+Everett Transit,2005,0.522245715
+King County Metro,2005,0.756370305
+Kitsap Transit,2005,0.49286095
+Pierce Transit,2005,0.59033766
+Community Transit,2006,1.382993731
+Everett Transit,2006,0.487311116
+King County Metro,2006,0.752255786
+Kitsap Transit,2006,0.731755506
+Pierce Transit,2006,0.737901255
+Community Transit,2007,1.55831843
+Everett Transit,2007,0.469655736
+King County Metro,2007,0.769627056
+Kitsap Transit,2007,0.767147277
+Pierce Transit,2007,0.744657211
+Community Transit,2008,1.480017747
+Everett Transit,2008,0.43061735
+King County Metro,2008,0.899865572
+Kitsap Transit,2008,0.871071392
+Pierce Transit,2008,0.866900214
+Community Transit,2009,1.566762201
+Everett Transit,2009,0.431266722
+King County Metro,2009,1.060670532
+Kitsap Transit,2009,1.396176333
+Pierce Transit,2009,1.011589288
+Community Transit,2010,1.918707206
+Everett Transit,2010,0.545497668
+King County Metro,2010,1.140136075
+Kitsap Transit,2010,2.044649132
+Pierce Transit,2010,0.949354186
+Community Transit,2011,1.94818713
+Everett Transit,2011,0.525667659
+King County Metro,2011,1.192878188
+Kitsap Transit,2011,2.013804733
+Pierce Transit,2011,1.004116058
+Community Transit,2012,1.938728695
+Everett Transit,2012,0.551187119
+King County Metro,2012,1.2790919
+Kitsap Transit,2012,1.863942092
+Pierce Transit,2012,1.031425214
+Community Transit,2013,2.125029339
+Everett Transit,2013,0.76048501
+King County Metro,2013,1.294807652
+Kitsap Transit,2013,1.733539899
+Pierce Transit,2013,1.053504008
+Community Transit,2014,2.015231563
+Everett Transit,2014,0.745750655
+King County Metro,2014,1.353115002
+Kitsap Transit,2014,1.767217769
+Pierce Transit,2014,1.060765256
+Community Transit,2015,2.071978825
+Everett Transit,2015,0.733288287
+King County Metro,2015,1.333459773
+Kitsap Transit,2015,1.749378631
+Pierce Transit,2015,1.223514221
+Community Transit,2016,2.135486175
+Everett Transit,2016,0.673393507
+King County Metro,2016,1.364877366
+Kitsap Transit,2016,1.533799888
+Pierce Transit,2016,1.219996014
+Community Transit,2017,2.108590072
+Everett Transit,2017,0.646828295
+King County Metro,2017,1.363943606
+Kitsap Transit,2017,1.603179362
+Pierce Transit,2017,1.25414678
+Community Transit,2018,1.558291252
+Everett Transit,2018,0.634419431
+King County Metro,2018,1.370388895
+Kitsap Transit,2018,1.71961949
+Pierce Transit,2018,1.233718996

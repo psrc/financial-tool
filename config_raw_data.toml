@@ -1,0 +1,53 @@
+all_counties = ['King County', 'Kitsap County', 'Pierce County', 'Snohomish County']
+end_year = 2050
+
+psrc_transit_funding_annual_increase = 1.025
+
+
+#################################################
+# paths: processed data input from excel_raw_data_process jupyter file
+#################################################
+parameter = "Input/parameters_tax.csv"
+# Actual transit revenues (Nominal $millions) from Local Transit Tab
+data_revenue_local_transit = "Input/local_transit_actual_revenue.csv"
+data_boardings_local_transit = "Input/local_transit_actual_boardings.csv"            # FIXME: consider RTP forecast data
+data_fare_per_boarding_local_transit = "Input/local_transit_fare_per_boarding.csv"
+data_tax_base = "Input/tax_base_actual.csv"
+data_subarea_population = "Input/subarea_allocation_bases_population_actual.csv"
+
+#################################################
+# paths: output predicted data
+#################################################
+result_revenue_local_transit = "Output/Local_Transit/local_transit_revenue.csv"
+result_boardings_local_transit = "Output/Local_Transit/local_transit_boardings.csv"
+result_fare_per_boarding_local_transit = "Output/Local_Transit/fare_per_boarding.csv"
+result_tax_base = "Output/Local_Transit/tax_base.csv"
+result_subarea_population = "Output/Local_Transit/subarea_allocation_bases_population.csv"
+
+
+
+# Each transit agency's service county
+[county_transit]
+'Community Transit'= 'Snohomish County'
+'Everett Transit'= 'Snohomish County'
+'King County Metro'= 'King County'
+'Kitsap Transit'= 'Kitsap County'
+'Pierce Transit'= 'Pierce County'
+
+# Average Fare Change Period
+# Pasted from: X:\Trans\Finance\LRTP Finance\2022 Regional Transportation Plan\Background_Materials\Interim_Validations\Local Fare History
+[transit_fare_change_period]
+'Community Transit'= 3
+'Everett Transit'= 4
+'King County Metro'= 3
+'Kitsap Transit'= 6
+'Pierce Transit'= 5
+
+# Average Annual Increase Based on Historic Data
+# Pasted from: X:\Trans\Finance\LRTP Finance\2022 Regional Transportation Plan\Background_Materials\Interim_Validations\Local Fare History
+[transit_annual_fare_increase]
+'Community Transit'= 0.0468802349768656
+'Everett Transit'= 0.0550263896562226
+'King County Metro'= 0.0402102623115881
+'Kitsap Transit'= 0.0371550444461919
+'Pierce Transit'= 0.0352649238413776

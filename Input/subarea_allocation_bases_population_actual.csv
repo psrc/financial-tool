@@ -1,0 +1,521 @@
+County,PopulationArea,Year,Population
+King County,Cities,2000,1387812
+King County,Unincorp.,2000,349234
+King County,Total,2000,1737046
+King County,PTBA,2000,1737046
+King County,Sound Transit,2000,1466331
+Kitsap County,Cities,2000,72073
+Kitsap County,Unincorp.,2000,159896
+Kitsap County,Total,2000,231969
+Kitsap County,PTBA,2000,217627
+Pierce County,Cities,2000,385459
+Pierce County,Unincorp.,2000,315359
+Pierce County,Total,2000,700818
+Pierce County,PTBA,2000,606175
+Pierce County,Sound Transit,2000,553629
+Snohomish County,Cities,2000,314882
+Snohomish County,Unincorp.,2000,291142
+Snohomish County,Total,2000,606024
+Snohomish County,PTBA,2000,405635
+Snohomish County,Sound Transit,2000,345315
+Snohomish County,City Transit,2000,82806
+King County,Cities,2001,1404829
+King County,Unincorp.,2001,350658
+King County,Total,2001,1755487
+King County,PTBA,2001,1755487
+King County,Sound Transit,2001,1487534
+Kitsap County,Cities,2001,73267
+Kitsap County,Unincorp.,2001,160651
+Kitsap County,Total,2001,233918
+Kitsap County,PTBA,2001,219576
+Pierce County,Cities,2001,388498
+Pierce County,Unincorp.,2001,320790
+Pierce County,Total,2001,709288
+Pierce County,PTBA,2001,617046
+Pierce County,Sound Transit,2001,563392
+Snohomish County,Cities,2001,325027
+Snohomish County,Unincorp.,2001,292837
+Snohomish County,Total,2001,617864
+Snohomish County,PTBA,2001,414401
+Snohomish County,Sound Transit,2001,352074
+Snohomish County,City Transit,2001,83983
+King County,Cities,2002,1427263
+King County,Unincorp.,2002,350251
+King County,Total,2002,1777514
+King County,PTBA,2002,1777514
+King County,Sound Transit,2002,1509043
+Kitsap County,Cities,2002,74050
+Kitsap County,Unincorp.,2002,162606
+Kitsap County,Total,2002,236656
+Kitsap County,PTBA,2002,221542
+Pierce County,Cities,2002,394188
+Pierce County,Unincorp.,2002,326936
+Pierce County,Total,2002,721124
+Pierce County,PTBA,2002,628113
+Pierce County,Sound Transit,2002,573328
+Snohomish County,Cities,2002,329032
+Snohomish County,Unincorp.,2002,300255
+Snohomish County,Total,2002,629287
+Snohomish County,PTBA,2002,423357
+Snohomish County,Sound Transit,2002,358964
+Snohomish County,City Transit,2002,85176
+King County,Cities,2003,1436622
+King County,Unincorp.,2003,351460
+King County,Total,2003,1788082
+King County,PTBA,2003,1788082
+King County,Sound Transit,2003,1530863
+Kitsap County,Cities,2003,75332
+Kitsap County,Unincorp.,2003,164111
+Kitsap County,Total,2003,239443
+Kitsap County,PTBA,2003,223526
+Pierce County,Cities,2003,398332
+Pierce County,Unincorp.,2003,333637
+Pierce County,Total,2003,731969
+Pierce County,PTBA,2003,639377
+Pierce County,Sound Transit,2003,583438
+Snohomish County,Cities,2003,333163
+Snohomish County,Unincorp.,2003,306779
+Snohomish County,Total,2003,639942
+Snohomish County,PTBA,2003,432505
+Snohomish County,Sound Transit,2003,365990
+Snohomish County,City Transit,2003,86387
+King County,Cities,2004,1443623
+King County,Unincorp.,2004,357160
+King County,Total,2004,1800783
+King County,PTBA,2004,1800783
+King County,Sound Transit,2004,1552998
+Kitsap County,Cities,2004,75136
+Kitsap County,Unincorp.,2004,165641
+Kitsap County,Total,2004,240777
+Kitsap County,PTBA,2004,225528
+Pierce County,Cities,2004,401658
+Pierce County,Unincorp.,2004,342043
+Pierce County,Total,2004,743701
+Pierce County,PTBA,2004,650844
+Pierce County,Sound Transit,2004,593727
+Snohomish County,Cities,2004,335309
+Snohomish County,Unincorp.,2004,313469
+Snohomish County,Total,2004,648778
+Snohomish County,PTBA,2004,441852
+Snohomish County,Sound Transit,2004,373153
+Snohomish County,City Transit,2004,87615
+King County,Cities,2005,1455474
+King County,Unincorp.,2005,359525
+King County,Total,2005,1814999
+King County,PTBA,2005,1814999
+King County,Sound Transit,2005,1575454
+Kitsap County,Cities,2005,72670
+Kitsap County,Unincorp.,2005,167149
+Kitsap County,Total,2005,239819
+Kitsap County,PTBA,2005,227548
+Pierce County,Cities,2005,406460
+Pierce County,Unincorp.,2005,350459
+Pierce County,Total,2005,756919
+Pierce County,PTBA,2005,662517
+Pierce County,Sound Transit,2005,604197
+Snohomish County,Cities,2005,340862
+Snohomish County,Unincorp.,2005,320484
+Snohomish County,Total,2005,661346
+Snohomish County,PTBA,2005,451400
+Snohomish County,Sound Transit,2005,380456
+Snohomish County,City Transit,2005,88860
+King County,Cities,2006,1481836
+King County,Unincorp.,2006,363373
+King County,Total,2006,1845209
+King County,PTBA,2006,1845209
+King County,Sound Transit,2006,1598234
+Kitsap County,Cities,2006,74657
+Kitsap County,Unincorp.,2006,169392
+Kitsap County,Total,2006,244049
+Kitsap County,PTBA,2006,229586
+Pierce County,Cities,2006,414678
+Pierce County,Unincorp.,2006,359372
+Pierce County,Total,2006,774050
+Pierce County,PTBA,2006,674398
+Pierce County,Sound Transit,2006,614852
+Snohomish County,Cities,2006,355994
+Snohomish County,Unincorp.,2006,320132
+Snohomish County,Total,2006,676126
+Snohomish County,PTBA,2006,461155
+Snohomish County,Sound Transit,2006,387902
+Snohomish County,City Transit,2006,90123
+King County,Cities,2007,1508783
+King County,Unincorp.,2007,362315
+King County,Total,2007,1871098
+King County,PTBA,2007,1871098
+King County,Sound Transit,2007,1621344
+Kitsap County,Cities,2007,76131
+Kitsap County,Unincorp.,2007,171345
+Kitsap County,Total,2007,247476
+Kitsap County,PTBA,2007,231642
+Pierce County,Cities,2007,420426
+Pierce County,Unincorp.,2007,366485
+Pierce County,Total,2007,786911
+Pierce County,PTBA,2007,686493
+Pierce County,Sound Transit,2007,625695
+Snohomish County,Cities,2007,368259
+Snohomish County,Unincorp.,2007,321055
+Snohomish County,Total,2007,689314
+Snohomish County,PTBA,2007,471121
+Snohomish County,Sound Transit,2007,395494
+Snohomish County,City Transit,2007,91403
+King County,Cities,2008,1559103
+King County,Unincorp.,2008,332022
+King County,Total,2008,1891125
+King County,PTBA,2008,1891125
+King County,Sound Transit,2008,1644787
+Kitsap County,Cities,2008,77865
+Kitsap County,Unincorp.,2008,172040
+Kitsap County,Total,2008,249905
+Kitsap County,PTBA,2008,233716
+Pierce County,Cities,2008,423078
+Pierce County,Unincorp.,2008,371252
+Pierce County,Total,2008,794330
+Pierce County,PTBA,2008,698805
+Pierce County,Sound Transit,2008,636729
+Snohomish County,Cities,2008,372948
+Snohomish County,Unincorp.,2008,326382
+Snohomish County,Total,2008,699330
+Snohomish County,PTBA,2008,481302
+Snohomish County,Sound Transit,2008,403234
+Snohomish County,City Transit,2008,92702
+King County,Cities,2009,1580145
+King County,Unincorp.,2009,329060
+King County,Total,2009,1909205
+King County,PTBA,2009,1909205
+King County,Sound Transit,2009,1668570
+Kitsap County,Cities,2009,78836
+Kitsap County,Unincorp.,2009,172413
+Kitsap County,Total,2009,251249
+Kitsap County,PTBA,2009,235809
+Pierce County,Cities,2009,426175
+Pierce County,Unincorp.,2009,370725
+Pierce County,Total,2009,796900
+Pierce County,PTBA,2009,711338
+Pierce County,Sound Transit,2009,647958
+Snohomish County,Cities,2009,376418
+Snohomish County,Unincorp.,2009,329476
+Snohomish County,Total,2009,705894
+Snohomish County,PTBA,2009,491703
+Snohomish County,Sound Transit,2009,411126
+Snohomish County,City Transit,2009,94020
+King County,Cities,2010,1606249
+King County,Unincorp.,2010,325000
+King County,Total,2010,1931249
+King County,PTBA,2010,1931249
+King County,Sound Transit,2010,1692697
+Kitsap County,Cities,2010,81111
+Kitsap County,Unincorp.,2010,170022
+Kitsap County,Total,2010,251133
+Kitsap County,PTBA,2010,237921
+Pierce County,Cities,2010,428487
+Pierce County,Unincorp.,2010,366738
+Pierce County,Total,2010,795225
+Pierce County,PTBA,2010,724095
+Pierce County,Sound Transit,2010,659385
+Snohomish County,Cities,2010,411043
+Snohomish County,Unincorp.,2010,302292
+Snohomish County,Total,2010,713335
+Snohomish County,PTBA,2010,502329
+Snohomish County,Sound Transit,2010,419173
+Snohomish County,City Transit,2010,95356
+King County,Cities,2011,1657335
+King County,Unincorp.,2011,285265
+King County,Total,2011,1942600
+King County,PTBA,2011,1942600
+King County,Sound Transit,2011,1703816
+Kitsap County,Cities,2011,82505
+Kitsap County,Unincorp.,2011,171395
+Kitsap County,Total,2011,253900
+Kitsap County,PTBA,2011,240052
+Pierce County,Cities,2011,430040
+Pierce County,Unincorp.,2011,372110
+Pierce County,Total,2011,802150
+Pierce County,PTBA,2011,665213
+Pierce County,Sound Transit,2011,662878
+Snohomish County,Cities,2011,412565
+Snohomish County,Unincorp.,2011,304435
+Snohomish County,Total,2011,717000
+Snohomish County,PTBA,2011,507196
+Snohomish County,Sound Transit,2011,422604
+Snohomish County,City Transit,2011,96180
+King County,Cities,2012,1701280
+King County,Unincorp.,2012,255720
+King County,Total,2012,1957000
+King County,PTBA,2012,1957000
+King County,Sound Transit,2012,1715009
+Kitsap County,Cities,2012,83880
+Kitsap County,Unincorp.,2012,170620
+Kitsap County,Total,2012,254500
+Kitsap County,PTBA,2012,242202
+Pierce County,Cities,2012,432245
+Pierce County,Unincorp.,2012,375955
+Pierce County,Total,2012,808200
+Pierce County,PTBA,2012,611119
+Pierce County,Sound Transit,2012,666389
+Snohomish County,Cities,2012,414455
+Snohomish County,Unincorp.,2012,308445
+Snohomish County,Total,2012,722900
+Snohomish County,PTBA,2012,512110
+Snohomish County,Sound Transit,2012,426064
+Snohomish County,City Transit,2012,97010
+King County,Cities,2013,1728800
+King County,Unincorp.,2013,253100
+King County,Total,2013,1981900
+King County,PTBA,2013,1981900
+King County,Sound Transit,2013,1726275
+Kitsap County,Cities,2013,83495
+Kitsap County,Unincorp.,2013,170505
+Kitsap County,Total,2013,254000
+Kitsap County,PTBA,2013,244371
+Pierce County,Cities,2013,436005
+Pierce County,Unincorp.,2013,378495
+Pierce County,Total,2013,814500
+Pierce County,PTBA,2013,561424
+Pierce County,Sound Transit,2013,669920
+Snohomish County,Cities,2013,418000
+Snohomish County,Unincorp.,2013,312500
+Snohomish County,Total,2013,730500
+Snohomish County,PTBA,2013,517072
+Snohomish County,Sound Transit,2013,429553
+Snohomish County,City Transit,2013,97848
+King County,Cities,2014,1739734
+King County,Unincorp.,2014,228601
+King County,Total,2014,1968335
+King County,PTBA,2014,1967639
+King County,Sound Transit,2014,1737615
+Kitsap County,Cities,2014,79099
+Kitsap County,Unincorp.,2014,167468
+Kitsap County,Total,2014,246567
+Kitsap County,PTBA,2014,246560
+Pierce County,Cities,2014,429649
+Pierce County,Unincorp.,2014,370352
+Pierce County,Total,2014,800001
+Pierce County,PTBA,2014,515771
+Pierce County,Sound Transit,2014,673469
+Snohomish County,Cities,2014,409015
+Snohomish County,Unincorp.,2014,321495
+Snohomish County,Total,2014,730510
+Snohomish County,PTBA,2014,522082
+Snohomish County,Sound Transit,2014,433070
+Snohomish County,City Transit,2014,98694
+King County,Cities,2015,1799520
+King County,Unincorp.,2015,253280
+King County,Total,2015,2052800
+King County,PTBA,2015,2052800
+King County,Sound Transit,2015,1772599
+Kitsap County,Cities,2015,86260
+Kitsap County,Unincorp.,2015,171940
+Kitsap County,Total,2015,258200
+Kitsap County,PTBA,2015,249448
+Pierce County,Cities,2015,444070
+Pierce County,Unincorp.,2015,386050
+Pierce County,Total,2015,830120
+Pierce County,PTBA,2015,523075
+Pierce County,Sound Transit,2015,684213
+Snohomish County,Cities,2015,427340
+Snohomish County,Unincorp.,2015,330260
+Snohomish County,Total,2015,757600
+Snohomish County,PTBA,2015,532632
+Snohomish County,Sound Transit,2015,442528
+Snohomish County,City Transit,2015,101195
+King County,Cities,2016,1859180
+King County,Unincorp.,2016,245920
+King County,Total,2016,2105100
+King County,PTBA,2016,2105100
+King County,Sound Transit,2016,1808287
+Kitsap County,Cities,2016,88280
+Kitsap County,Unincorp.,2016,174310
+Kitsap County,Total,2016,262590
+Kitsap County,PTBA,2016,252370
+Pierce County,Cities,2016,452230
+Pierce County,Unincorp.,2016,392260
+Pierce County,Total,2016,844490
+Pierce County,PTBA,2016,530483
+Pierce County,Sound Transit,2016,695128
+Snohomish County,Cities,2016,433865
+Snohomish County,Unincorp.,2016,338995
+Snohomish County,Total,2016,772860
+Snohomish County,PTBA,2016,543395
+Snohomish County,Sound Transit,2016,452192
+Snohomish County,City Transit,2016,103760
+King County,Cities,2017,1906640
+King County,Unincorp.,2017,247060
+King County,Total,2017,2153700
+King County,PTBA,2017,2153700
+King County,Sound Transit,2017,1844695
+Kitsap County,Cities,2017,89080
+Kitsap County,Unincorp.,2017,175220
+Kitsap County,Total,2017,264300
+Kitsap County,PTBA,2017,255326
+Pierce County,Cities,2017,458920
+Pierce County,Unincorp.,2017,400480
+Pierce County,Total,2017,859400
+Pierce County,PTBA,2017,537996
+Pierce County,Sound Transit,2017,706218
+Snohomish County,Cities,2017,439600
+Snohomish County,Unincorp.,2017,349800
+Snohomish County,Total,2017,789400
+Snohomish County,PTBA,2017,554376
+Snohomish County,Sound Transit,2017,462068
+Snohomish County,City Transit,2017,106389
+King County,Cities,2018,1942960
+King County,Unincorp.,2018,247240
+King County,Total,2018,2190200
+King County,PTBA,2018,2190200
+King County,Sound Transit,2018,1881835
+Kitsap County,Cities,2018,90830
+Kitsap County,Unincorp.,2018,176290
+Kitsap County,Total,2018,267120
+Kitsap County,PTBA,2018,258316
+Pierce County,Cities,2018,463200
+Pierce County,Unincorp.,2018,409020
+Pierce County,Total,2018,872220
+Pierce County,PTBA,2018,545615
+Pierce County,Sound Transit,2018,717485
+Snohomish County,Cities,2018,447565
+Snohomish County,Unincorp.,2018,357555
+Snohomish County,Total,2018,805120
+Snohomish County,PTBA,2018,565579
+Snohomish County,Sound Transit,2018,472160
+Snohomish County,City Transit,2018,109086
+King County,Cities,2020,1957444
+King County,Unincorp.,2020,251039
+King County,Total,2020,2208483
+King County,PTBA,2020,2207662
+King County,Sound Transit,2020,1958374
+Kitsap County,Cities,2020,86410
+Kitsap County,Unincorp.,2020,178001
+Kitsap County,Total,2020,264411
+Kitsap County,PTBA,2020,264404
+Pierce County,Cities,2020,478316
+Pierce County,Unincorp.,2020,400269
+Pierce County,Total,2020,878585
+Pierce County,PTBA,2020,561179
+Pierce County,Sound Transit,2020,740561
+Snohomish County,Cities,2020,461575
+Snohomish County,Unincorp.,2020,363522
+Snohomish County,Total,2020,825097
+Snohomish County,PTBA,2020,588669
+Snohomish County,Sound Transit,2020,493009
+Snohomish County,City Transit,2020,114686
+King County,Cities,2025,2096102
+King County,Unincorp.,2025,257333
+King County,Total,2025,2353435
+King County,PTBA,2025,2352562
+King County,Sound Transit,2025,2096356
+Kitsap County,Cities,2025,93418
+Kitsap County,Unincorp.,2025,186878
+Kitsap County,Total,2025,280296
+Kitsap County,PTBA,2025,280289
+Pierce County,Cities,2025,524839
+Pierce County,Unincorp.,2025,414054
+Pierce County,Total,2025,938893
+Pierce County,PTBA,2025,607493
+Pierce County,Sound Transit,2025,797252
+Snohomish County,Cities,2025,510653
+Snohomish County,Unincorp.,2025,385318
+Snohomish County,Total,2025,895971
+Snohomish County,PTBA,2025,639334
+Snohomish County,Sound Transit,2025,538630
+Snohomish County,City Transit,2025,128968
+King County,Cities,2030,2230693
+King County,Unincorp.,2030,263441
+King County,Total,2030,2494134
+King County,PTBA,2030,2493168
+King County,Sound Transit,2030,2230373
+Kitsap County,Cities,2030,100197
+Kitsap County,Unincorp.,2030,195468
+Kitsap County,Total,2030,295665
+Kitsap County,PTBA,2030,295658
+Pierce County,Cities,2030,569988
+Pierce County,Unincorp.,2030,427463
+Pierce County,Total,2030,997451
+Pierce County,PTBA,2030,651852
+Pierce County,Sound Transit,2030,852423
+Snohomish County,Cities,2030,558328
+Snohomish County,Unincorp.,2030,406421
+Snohomish County,Total,2030,964749
+Snohomish County,PTBA,2030,688831
+Snohomish County,Sound Transit,2030,582532
+Snohomish County,City Transit,2030,142889
+King County,Cities,2035,2351847
+King County,Unincorp.,2035,268980
+King County,Total,2035,2620827
+King County,PTBA,2035,2619851
+King County,Sound Transit,2035,2351067
+Kitsap County,Cities,2035,106291
+Kitsap County,Unincorp.,2035,203243
+Kitsap County,Total,2035,309534
+Kitsap County,PTBA,2035,309529
+Pierce County,Cities,2035,610614
+Pierce County,Unincorp.,2035,439508
+Pierce County,Total,2035,1050122
+Pierce County,PTBA,2035,692732
+Pierce County,Sound Transit,2035,901989
+Snohomish County,Cities,2035,601232
+Snohomish County,Unincorp.,2035,425461
+Snohomish County,Total,2035,1026693
+Snohomish County,PTBA,2035,733161
+Snohomish County,Sound Transit,2035,622125
+Snohomish County,City Transit,2035,155429
+King County,Cities,2040,2468605
+King County,Unincorp.,2040,274316
+King County,Total,2040,2742921
+King County,PTBA,2040,2741918
+King County,Sound Transit,2040,2467500
+Kitsap County,Cities,2040,112210
+Kitsap County,Unincorp.,2040,210708
+Kitsap County,Total,2040,322918
+Kitsap County,PTBA,2040,322913
+Pierce County,Cities,2040,649781
+Pierce County,Unincorp.,2040,451139
+Pierce County,Total,2040,1100920
+Pierce County,PTBA,2040,731757
+Pierce County,Sound Transit,2040,949816
+Snohomish County,Cities,2040,642616
+Snohomish County,Unincorp.,2040,443770
+Snohomish County,Total,2040,1086386
+Snohomish County,PTBA,2040,776083
+Snohomish County,Sound Transit,2040,660593
+Snohomish County,City Transit,2040,167519
+King County,Cities,2045,2586373
+King County,Unincorp.,2045,279618
+King County,Total,2045,2865991
+King County,PTBA,2045,2865017
+King County,Sound Transit,2045,2584728
+Kitsap County,Cities,2045,118141
+Kitsap County,Unincorp.,2045,218244
+Kitsap County,Total,2045,336385
+Kitsap County,PTBA,2045,336376
+Pierce County,Cities,2045,689264
+Pierce County,Unincorp.,2045,462867
+Pierce County,Total,2045,1152131
+Pierce County,PTBA,2045,771177
+Pierce County,Sound Transit,2045,998040
+Snohomish County,Cities,2045,684310
+Snohomish County,Unincorp.,2045,462281
+Snohomish County,Total,2045,1146591
+Snohomish County,PTBA,2045,819310
+Snohomish County,Sound Transit,2045,699443
+Snohomish County,City Transit,2045,179671
+King County,Cities,2050,2702610
+King County,Unincorp.,2050,284882
+King County,Total,2050,2987492
+King County,PTBA,2050,2986514
+King County,Sound Transit,2050,2700573
+Kitsap County,Cities,2050,124031
+Kitsap County,Unincorp.,2050,225729
+Kitsap County,Total,2050,349760
+Kitsap County,PTBA,2050,349753
+Pierce County,Cities,2050,728289
+Pierce County,Unincorp.,2050,474487
+Pierce County,Total,2050,1202776
+Pierce County,PTBA,2050,810165
+Pierce County,Sound Transit,2050,1045598
+Snohomish County,Cities,2050,725516
+Snohomish County,Unincorp.,2050,480505
+Snohomish County,Total,2050,1206021
+Snohomish County,PTBA,2050,861111
+Snohomish County,Sound Transit,2050,737650
+Snohomish County,City Transit,2050,191660
