@@ -1,11 +1,10 @@
 import pandas as pd
 import numpy as np
-import math
 import os
 import toml
-import input_data_processing
+import forecasting_tool
 
-data_config = toml.load(os.path.join(os.getcwd(), "config_raw_data.toml"))
+data_config = toml.load(os.path.join(os.getcwd(), "../configuration.toml"))
 
 # predict data
 predict_subarea_population = False
@@ -13,7 +12,6 @@ predict_boardings_local_transit = False
 predict_fare_per_boarding_local_transit = False
 predict_revenue_local_transit = True
 predict_tax_base = False
-
 
 parameter = pd.read_csv(data_config['parameter'])
 
@@ -27,7 +25,7 @@ if predict_subarea_population:
 
             df_pop = subarea_population[
                 (subarea_population['County'] == i_county) & (
-                            subarea_population['PopulationArea'] == i_pop_area)].copy()
+                        subarea_population['PopulationArea'] == i_pop_area)].copy()
 
             if df_pop.empty:
                 pass
@@ -36,10 +34,10 @@ if predict_subarea_population:
                 start_year = int(df_pop['Year'].min())
                 end_year = int(df_pop['Year'].max())
                 # fill in missing years
-                df_pop = input_data_processing.fill_year(df_pop, ['County', 'PopulationArea'], start_year, end_year)
+                df_pop = forecasting_tool.fill_year(df_pop, ['County', 'PopulationArea'], start_year, end_year)
                 # calculate interpolated population
-                df_pop['Population'] = input_data_processing.interpolate_population(df_pop, 'Population', start_year,
-                                                                                    end_year)
+                df_pop['Population'] = forecasting_tool.interpolate_population(df_pop, 'Population', start_year,
+                                                                               end_year)
                 df_pop = df_pop[['County', 'PopulationArea', 'Year', 'Population']]
 
                 result_subarea_population = pd.concat([result_subarea_population, df_pop], ignore_index=True)
@@ -57,7 +55,7 @@ if predict_boardings_local_transit:
         # fill in missing years
         start_year = df_agency['Year'].min()
 
-        df_agency = input_data_processing.fill_year(df_agency, 'Transit Agency', start_year, data_config['end_year'])
+        df_agency = forecasting_tool.fill_year(df_agency, 'Transit Agency', start_year, data_config['end_year'])
 
         # last and next year with population values
         # Everett transit using City Transit Population for boarding estimation, others using PTBA
@@ -105,7 +103,7 @@ if predict_fare_per_boarding_local_transit:
             list(range(1, data_config['end_year'] - last_value_year)) * data_config['transit_fare_change_period'][
                 agency])
 
-        fare_per_boarding1 = input_data_processing.fill_year(
+        fare_per_boarding1 = forecasting_tool.fill_year(
             fare_per_boarding1[fare_per_boarding1['Transit Agency'] == agency], 'Transit Agency', 1989,
             data_config['end_year'])
 
@@ -118,7 +116,7 @@ if predict_fare_per_boarding_local_transit:
                     fare_per_boarding1['Year'] == year - 1, 'Average Fare per Boarding ($)'].item()
                 fare_per_boarding1.loc[
                     fare_per_boarding1['Year'] == year, 'Average Fare per Boarding ($)'] = fare_prev_year + (
-                            fare_prev_year * data_config['transit_annual_fare_increase'][agency])
+                        fare_prev_year * data_config['transit_annual_fare_increase'][agency])
 
             else:
                 pass
@@ -128,9 +126,10 @@ if predict_fare_per_boarding_local_transit:
                                                                                                'end_year'] - last_value_year + 1]
         # Average Fixed-Route fare per boarding with periodic increases
         fare_per_boarding1.loc[fare_per_boarding1['list_grp'] > 0, 'Average Fare per Boarding ($)'] = \
-        fare_per_boarding1.loc[
-            fare_per_boarding1['list_grp'] > 0, ['list_grp', 'Average Fare per Boarding ($)']].groupby(['list_grp'])[
-            'Average Fare per Boarding ($)'].transform(min)
+            fare_per_boarding1.loc[
+                fare_per_boarding1['list_grp'] > 0, ['list_grp', 'Average Fare per Boarding ($)']].groupby(
+                ['list_grp'])[
+                'Average Fare per Boarding ($)'].transform(min)
         result_fare_per_boarding = pd.concat(
             [result_fare_per_boarding, fare_per_boarding1[['Year', 'Transit Agency', 'Average Fare per Boarding ($)']]],
             ignore_index=True)
@@ -160,39 +159,93 @@ if predict_revenue_local_transit:
     revenue_transit_fare['Nominal'] = revenue_transit_fare['Boardings'] * revenue_transit_fare[
         'Average Fare per Boarding ($)']
     revenue_transit_fare['Revenue Type'] = "Fares"
-    result_transit_revenue_fare = revenue_transit_fare[['Revenue Type', 'Transit Agency', 'Year', 'Nominal']].copy()
+    result_transit_revenue_fare = revenue_transit_fare[['Year', 'Revenue Type', 'Transit Agency', 'Nominal']].copy()
 
     # Part 3 - PSRC FHWA and PSRC FTA funding
     # previous year times 1.025
+    parameter = pd.read_csv(data_config['parameter']).astype({'Year': 'int64'})
+
     process_list = ['PSRC FHWA', 'PSRC FTA']
-    max_year = max(transit_revenue['Year'])
+    predict_list_other = ['Non-PSRC FTA', 'State', 'Other Federal']
 
-    result_transit_revenue_psrc = transit_revenue[(transit_revenue['Revenue Type'].isin(process_list)) &
-                                                  (transit_revenue['Year'] <= max_year - 5)]
-    for predict in process_list:
-        for agency in data_config['county_transit'].keys():
+    result_transit_funding = pd.DataFrame()
+    for agency in data_config['county_transit'].keys():
+        # forecasting ['PSRC FHWA', 'PSRC FTA'] fundings
+        for predict in process_list:
             # first predicting year uses the average of the last five years with known revenue
-            transit_revenue_psrc = transit_revenue[(transit_revenue['Transit Agency'] == agency) &
-                                                   (transit_revenue['Revenue Type'] == predict) &
-                                                   (transit_revenue['Year'] > max_year - 5)].copy()
-            transit_revenue_psrc = input_data_processing.fill_year(transit_revenue_psrc,
-                                                                   ['Revenue Type', 'Transit Agency'],
-                                                                   max_year - 5, data_config['end_year'])
-            transit_revenue_psrc.loc[transit_revenue_psrc['Year'] == max_year + 1, 'Nominal'] = transit_revenue_psrc[
-                                                                                                    'Nominal'].mean() * \
-                                                                                                data_config[
-                                                                                                    'psrc_transit_funding_annual_increase']
-
+            df = transit_revenue[
+                (transit_revenue['Transit Agency'] == agency) & (transit_revenue['Revenue Type'] == predict)].copy()
+            max_year = max(df['Year'])
+            df = forecasting_tool.fill_year(df, ['Revenue Type', 'Transit Agency'],
+                                            min(df['Year']), data_config['end_year'])
+            df.loc[df['Year'] == max_year + 1, 'Nominal'] = df[df['Year'].isin(range(max_year - 5, max_year + 1))][
+                                                                'Nominal'].mean() * \
+                                                            data_config['psrc_transit_funding_annual_increase']
             # other years: previous year funding * 1.025
             for year in range(max_year + 2, data_config['end_year'] + 1):
-                funding_prev_year = transit_revenue_psrc.loc[transit_revenue_psrc['Year'] == year - 1, 'Nominal'].item()
-                transit_revenue_psrc.loc[transit_revenue_psrc['Year'] == year, 'Nominal'] = funding_prev_year * \
-                                                                                            data_config[
-                                                                                                'psrc_transit_funding_annual_increase']
-            result_transit_revenue_psrc = pd.concat([result_transit_revenue_psrc, transit_revenue_psrc],
-                                                    ignore_index=True)
+                funding_prev_year = df.loc[df['Year'] == year - 1, 'Nominal'].item()
+                df.loc[df['Year'] == year, 'Nominal'] = funding_prev_year * data_config[
+                    'psrc_transit_funding_annual_increase']
+            result_transit_funding = pd.concat([result_transit_funding, df], ignore_index=True)
+
+        # forecasting ['Non-PSRC FTA','State','Other Federal'] fundings
+        for predict in predict_list_other:
+            # first predicting year uses the average of the last five years with known revenue
+            df = transit_revenue[
+                (transit_revenue['Transit Agency'] == agency) & (transit_revenue['Revenue Type'] == predict)].copy()
+            max_year = max(df['Year'])
+            df = forecasting_tool.fill_year(df, ['Revenue Type', 'Transit Agency'],
+                                            min(df['Year']), data_config['end_year'])
+            df.loc[df['Year'] == max_year + 1, 'Nominal'] = df[df['Year'].isin(range(max_year - 5, max_year + 1))][
+                                                                'Nominal'].mean() * \
+                                                            parameter.loc[
+                                                                parameter['Year'] == max_year + 1, 'indecies'].item()
+            # other years: previous year funding * 1.025
+            for year in range(max_year + 2, data_config['end_year'] + 1):
+                funding_prev_year = df.loc[df['Year'] == year - 1, 'Nominal'].item()
+                df.loc[df['Year'] == year, 'Nominal'] = funding_prev_year * parameter.loc[
+                    parameter['Year'] == year, 'indecies'].item()
+            result_transit_funding = pd.concat([result_transit_funding, df], ignore_index=True)
+
+    # PART 4: Sales & Use Tax
+    transit_sales_tax_rate = pd.read_csv(data_config['data_transit_sales_tax_rate']).astype({'Year': 'int64'})
+
+    retail_sales = pd.read_csv(data_config['data_tax_base'])
+    retail_sales = retail_sales[retail_sales['Tax Base Category'] == 'Retail Sales (nominal)']
+
+    result_transit_sales_tax = pd.DataFrame()
+
+    for agency in data_config['county_transit'].keys():
+        df = transit_revenue[(transit_revenue['Transit Agency'] == agency) & (
+                    transit_revenue['Revenue Type'] == 'Sales & Use Tax')].copy()
+
+        max_year = max(df['Year'])
+
+        df = forecasting_tool.fill_year(df, ['Revenue Type', 'Transit Agency'],
+                                        min(df['Year']), data_config['end_year'])
+
+        sales = pd.merge(retail_sales[retail_sales['County'] == data_config['county_transit'][agency]],
+                         transit_sales_tax_rate[['Year', agency]],
+                         on=['Year'])
+        sales['Sales & Use Tax'] = sales[agency] * sales['Value'] * data_config['transit_boundary_cal'][agency]
+
+        df = pd.merge(df, sales[['Year', 'Sales & Use Tax']],
+                      how='left', on=['Year'])
+        df.loc[np.isnan(df['Nominal']), 'Nominal'] = df['Sales & Use Tax']
+        df = df[['Year', 'Revenue Type', 'Transit Agency', 'Nominal']]
+        result_transit_sales_tax = pd.concat([result_transit_sales_tax, df], ignore_index=True)
+
+    # aggregate all revenue types
+    df = transit_revenue[transit_revenue['Revenue Type'] == 'MVET'].copy()
+    result_revenue = pd.concat([result_transit_revenue_fare, result_transit_funding,
+                                result_transit_sales_tax, df], ignore_index=True)
+    result_revenue = result_revenue[result_revenue['Nominal'] != 0.0]
+
+    # df_wide = pd.pivot(result_revenue, index=['Year','Transit Agency'], columns = 'Revenue Type',values = 'Nominal') #Reshape from long to wide
 
     # calculate constant revenue with PV factor
-    # transit_revenue = pd.merge(transit_revenue, parameter[['Year', 'PV factor']], how="left" , on="Year")
-    # transit_revenue["Constant"] = transit_revenue['Nominal'] * transit_revenue['PV factor']
-    transit_revenue
+    result_revenue = pd.merge(result_revenue, parameter[['Year', 'PV factor']], how="left" , on="Year")
+    result_revenue["Constant"] = result_revenue['Nominal'] * result_revenue['PV factor']
+    result_revenue = result_revenue[['Year', 'Revenue Type', 'Transit Agency', 'Nominal', 'Constant']]
+    result_revenue.to_csv(data_config['tab_revenue_local_transit'], index=False)
+transit_revenue
