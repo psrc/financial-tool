@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import os
 import toml
-import forecasting_tool
+from scripts import forecasting_tool
 
 data_config = toml.load(os.path.join(os.getcwd(), "../configuration.toml"))
 
@@ -12,8 +12,6 @@ predict_boardings_local_transit = False
 predict_fare_per_boarding_local_transit = False
 predict_revenue_local_transit = True
 predict_tax_base = False
-
-parameter = pd.read_csv(data_config['parameter'])
 
 # Subarea Allocation Bases - Population
 if predict_subarea_population:
@@ -150,8 +148,8 @@ if predict_revenue_local_transit:
     transit_revenue = pd.read_csv(data_config['data_revenue_local_transit'])
 
     # Part 2 - Local transit fare revenue
-    result_fare_per_boarding = pd.read_csv(data_config['result_fare_per_boarding_local_transit'])
-    result_boarding = pd.read_csv(data_config['result_boardings_local_transit'])
+    result_fare_per_boarding = pd.read_csv(forecasting_tool.fix_path(data_config['result_fare_per_boarding_local_transit']))
+    result_boarding = pd.read_csv(forecasting_tool.fix_path(data_config['result_boardings_local_transit']))
     revenue_transit_fare = pd.merge(result_boarding[['Year', 'Transit Agency', 'Boardings']],
                                     result_fare_per_boarding[
                                         ['Year', 'Transit Agency', 'Average Fare per Boarding ($)']],
@@ -163,7 +161,6 @@ if predict_revenue_local_transit:
 
     # Part 3 - PSRC FHWA and PSRC FTA funding
     # previous year times 1.025
-    parameter = pd.read_csv(data_config['parameter']).astype({'Year': 'int64'})
 
     process_list = ['PSRC FHWA', 'PSRC FTA']
     predict_list_other = ['Non-PSRC FTA', 'State', 'Other Federal']
@@ -237,15 +234,14 @@ if predict_revenue_local_transit:
 
     # aggregate all revenue types
     df = transit_revenue[transit_revenue['Revenue Type'] == 'MVET'].copy()
-    result_revenue = pd.concat([result_transit_revenue_fare, result_transit_funding,
+    revenue_nominal = pd.concat([result_transit_revenue_fare, result_transit_funding,
                                 result_transit_sales_tax, df], ignore_index=True)
-    result_revenue = result_revenue[result_revenue['Nominal'] != 0.0]
-
-    # df_wide = pd.pivot(result_revenue, index=['Year','Transit Agency'], columns = 'Revenue Type',values = 'Nominal') #Reshape from long to wide
+    revenue_nominal = revenue_nominal[revenue_nominal['Nominal'] != 0.0]
 
     # calculate constant revenue with PV factor
-    result_revenue = pd.merge(result_revenue, parameter[['Year', 'PV factor']], how="left" , on="Year")
-    result_revenue["Constant"] = result_revenue['Nominal'] * result_revenue['PV factor']
-    result_revenue = result_revenue[['Year', 'Revenue Type', 'Transit Agency', 'Nominal', 'Constant']]
-    result_revenue.to_csv(data_config['tab_revenue_local_transit'], index=False)
-transit_revenue
+    result_revenue = forecasting_tool.add_constant_dollar(revenue_nominal, parameter[['Year', 'PV factor']])
+
+    # save to output
+    result_revenue.to_csv(forecasting_tool.fix_path(data_config['tab_revenue_local_transit']), index=False)
+    print("saved Local Transit Revenue to " + forecasting_tool.fix_path(data_config['tab_revenue_local_transit']))
+

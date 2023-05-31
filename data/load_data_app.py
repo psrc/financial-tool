@@ -1,27 +1,62 @@
 import pandas as pd
-import os
-import toml
+# import os
+# import toml
 
-data_config = toml.load(os.path.join(os.getcwd(), "./configuration.toml"))
-
-
-class DataSchema:
-    YEAR = "Year"
-    REVENUE_TYPE = "Revenue Type"
-    TRANSIT_AGENCY = "Transit Agency"
-    NOMINAL = "Nominal"
-    CONSTANT = "Constant"
+# data_config = toml.load(os.path.join(os.getcwd(), "./configuration.toml"))
 
 
-def load_local_transit_revenue_data(path: str) -> pd.DataFrame:
-    data = pd.read_csv(
-        data_config[path],
-        dtype={
-            DataSchema.YEAR: int,
-            DataSchema.REVENUE_TYPE: str,
-            DataSchema.TRANSIT_AGENCY: str,
-            DataSchema.NOMINAL: float,
-            DataSchema.CONSTANT: float
-        }
-    )
-    return data
+class LocalTransitRevenue(object):
+
+    def __init__(self, path: str):
+        self._df = pd.read_csv(
+            path,
+            dtype={
+                "Year": int,
+                "Revenue Type": str,
+                "Transit Agency": str,
+                "Nominal": float,
+                "Constant": float
+            }
+        )
+
+    @property
+    def data(self):
+        """The Local Transit Revenue dataframe property."""
+        print("get Local Transit Revenue dataframe")
+        return self._df
+
+    def datatable(self, revenue_types: list[str], agencies: list[str], dollar: str, value_unit: str = '') -> pd.DataFrame:
+        """
+        present dash datatable
+        1. dollar type
+        2. filtering revenue type and transit agency
+        3. Millions/ Thousands
+        4. sorting
+        """
+
+        # change value format to thousands or millions
+        def format_value(df: pd.DataFrame, value_col: str, value_unit: str):
+
+            df2 = df.copy()
+            if value_unit in ['', 'K', 'M']:
+                if value_unit == '':
+                    df2[value_col] = df2[value_col].apply(lambda x: f"{round(x, 2)}")
+                if value_unit == 'K':
+                    df2[value_col] = df2[value_col].apply(lambda x: f"{round(x / 1000.0, 2)}{'K'}")
+                if value_unit == 'M':
+                    df2[value_col] = df2[value_col].apply(lambda x: f"{round(x / 1000000.0, 2)}{'M'}")
+            else:
+                print("Value units must be 'K' for thousands or 'M' for millions")
+
+            return df2
+
+        _datatable = self._df.copy()
+        _datatable = format_value(_datatable, 'Value', value_unit)
+
+        return _datatable. \
+            query("`Dollar Type` in @dollar and `Revenue Type` in @revenue_types and `Transit Agency` in @agencies"). \
+            pivot(index=['Revenue Type', 'Transit Agency'],
+                  columns='Year',
+                  values='Value'). \
+            reset_index()
+

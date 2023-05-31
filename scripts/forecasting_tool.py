@@ -3,7 +3,12 @@ import numpy as np
 import math
 
 
+def fix_path(base_path: str) -> str:
+    return "../"+base_path
+
+
 def fill_year(df, group_cols, start_year, end_year):
+    """fill in missing years with nan values between start and end year (2050 for 2018 RTP)"""
     df3 = df.copy()
 
     # fill in missing years
@@ -13,6 +18,20 @@ def fill_year(df, group_cols, start_year, end_year):
     df3[group_cols] = df3[group_cols].ffill()
 
     return df3
+
+
+def add_constant_dollar(df: pd.DataFrame, parameter: pd.DataFrame) -> pd.DataFrame:
+    """append another version of same dataframe with calculated constant dollar"""
+    # prep dataframe with nominal revenue
+    df_nominal = df.copy().rename(columns={"Nominal": "Value"})
+    df_nominal["Dollar Type"] = "Nominal"
+    # calculate constant dollar
+    df_constant = pd.merge(df, parameter[['Year', 'PV factor']], how="left", on="Year")
+    df_constant["Value"] = df_constant['Nominal'] * df_constant['PV factor']
+    df_constant["Dollar Type"] = "Constant"
+    df_constant = df_constant[df_nominal.columns]
+
+    return pd.concat([df_nominal, df_constant], ignore_index=True)
 
 
 def interpolate_population(df, pop_col, start_year, end_year):
