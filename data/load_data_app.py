@@ -23,7 +23,7 @@ class LocalTransitRevenue(object):
     @property
     def data(self, data_name: str = NAME):
         """The Local Transit Revenue dataframe property."""
-        print("get" + data_name + "dataframe")
+        print("get " + data_name + " dataframe")
         return self._df
 
     def datatable(self, revenue_types: list[str], agencies: list[str], dollar: str, value_unit: str = '') \
@@ -79,7 +79,7 @@ class LocalTransitBoarding(object):
     @property
     def data(self, data_name: str = NAME):
         """The Local Transit Revenue dataframe property."""
-        print("get" + data_name + "dataframe")
+        print("get " + data_name + " dataframe")
         return self._df
 
     def datatable(self, agencies: list[str], value_unit: str = '') -> pd.DataFrame:
@@ -93,7 +93,7 @@ class LocalTransitBoarding(object):
             df2 = df.copy()
             if value_unit in ['', 'K', 'M']:
                 if value_unit == '':
-                    df2[value_col] = df2[value_col].apply(lambda x: f"{round(x, 2)}")
+                    df2[value_col] = df2[value_col].apply(lambda x: f"{round(x, 0)}")
                 if value_unit == 'K':
                     df2[value_col] = df2[value_col].apply(lambda x: f"{round(x / 1000.0, 2)}{'K'}")
                 if value_unit == 'M':
