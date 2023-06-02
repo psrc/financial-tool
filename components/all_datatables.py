@@ -6,18 +6,20 @@ from components import ids
 from data.load_data_app import LocalTransitRevenue, LocalTransitBoarding
 
 
-def render(app: Dash, local_transit_revenue: LocalTransitRevenue) -> html.Div:
+def render_local_transit_revenue(app: Dash, local_transit_revenue: LocalTransitRevenue) -> html.Div:
     @app.callback(
         Output(ids.LOCAL_TRANSIT_REVENUE_TABLE, "children"),
         Input(ids.LOCAL_TRANSIT_REVENUE_TYPE_DROPDOWN, "value"),
         Input(ids.LOCAL_TRANSIT_AGENCY_DROPDOWN, "value"),
+        Input(ids.LOCAL_TRANSIT_REVENUE_YEAR_SLIDER, "value"),
         Input(ids.LOCAL_TRANSIT_DOLLAR_TYPE_DROPDOWN, "value"),
         Input(ids.LOCAL_TRANSIT_FORMAT_UNIT_DROPDOWN, "value")
     )
-    def update_datatable(revenue_types: list[str], agencies: list[str], dollar: str = 'Nominal', value_unit: str = '') \
-            -> html.Div:
+    def update_datatable(revenue_types: list[str], agencies: list[str],
+                         slider_year: list[int], dollar: str = 'Nominal', value_unit: str = '') -> html.Div:
 
-        filtered_data = local_transit_revenue.datatable(revenue_types=revenue_types, agencies=agencies, dollar=dollar,
+        filtered_data = local_transit_revenue.datatable(revenue_types=revenue_types, agencies=agencies,
+                                                        slider_year=slider_year, dollar=dollar,
                                                         value_unit=value_unit)
 
         # return "No data selected." if nothing in table
@@ -28,8 +30,6 @@ def render(app: Dash, local_transit_revenue: LocalTransitRevenue) -> html.Div:
                                                  columns=[{"name": str(i), "id": str(i)} for i in
                                                           filtered_data.columns],
                                                  page_size=100,
-                                                 # you can copy elements in the datatable and paste on Excel (headers will
-                                                 # be included in the clipboard automatically)
                                                  include_headers_on_copy_paste=True
                                                  )
             return html.Div(revenue_table, id=ids.LOCAL_TRANSIT_REVENUE_TABLE)
@@ -41,11 +41,12 @@ def render_local_transit_boarding(app: Dash, local_transit_boarding: LocalTransi
     @app.callback(
         Output(ids.LOCAL_TRANSIT_BOARDING_TABLE, "children"),
         Input(ids.LOCAL_TRANSIT_BOARDING_AGENCY_DROPDOWN, "value"),
+        Input(ids.LOCAL_TRANSIT_BOARDING_YEAR_SLIDER, "value"),
         Input(ids.LOCAL_TRANSIT_BOARDING_FORMAT_UNIT_DROPDOWN, "value")
     )
-    def update_datatable(agencies: list[str], value_unit: str = '') -> html.Div:
+    def update_datatable(agencies: list[str], slider_year: list[int], value_unit: str = '') -> html.Div:
 
-        filtered_data = local_transit_boarding.datatable(agencies=agencies, value_unit=value_unit)
+        filtered_data = local_transit_boarding.datatable(agencies=agencies, slider_year=slider_year, value_unit=value_unit)
 
         # return "No data selected." if nothing in table
         if filtered_data.shape[0] == 0:

@@ -4,8 +4,7 @@ from dash.dependencies import Input, Output
 import os
 import toml
 
-# from components.local_transit_dropdown import render
-from components import local_transit_datatable, local_transit_dropdown
+from components import all_datatables, all_datatable_filters
 from data.load_data_app import LocalTransitRevenue, LocalTransitBoarding
 
 data_config = toml.load(os.path.join(os.getcwd(), "./configuration.toml"))
@@ -44,9 +43,9 @@ def tab_local_transit_revenue(app: Dash) -> html.Div:
     return html.Div(children=[html.H1("Local Transit Revenue"),
                               html.Hr(),
                               # dropdown menu selecting revenue types + select all button
-                              local_transit_dropdown.render(app, local_transit_revenue.data),
+                              all_datatable_filters.render_local_transit_revenue(app, local_transit_revenue.data),
                               # local transit data table
-                              local_transit_datatable.render(app, local_transit_revenue)
+                              all_datatables.render_local_transit_revenue(app, local_transit_revenue)
                               ]
                     )
 
@@ -60,8 +59,8 @@ def tab_local_transit_boarding(app: Dash) -> html.Div:
     return html.Div(children=[html.H1("Local Transit Boarding"),
                               html.Hr(),
                               # dropdown menu selecting revenue types + select all button
-                              local_transit_dropdown.render_local_transit_boarding(app, local_transit_boarding.data),
+                              all_datatable_filters.render_local_transit_boarding(app, local_transit_boarding.data),
                               # local transit data table
-                              local_transit_datatable.render_local_transit_boarding(app, local_transit_boarding)
+                              all_datatables.render_local_transit_boarding(app, local_transit_boarding)
                               ]
                     )
