@@ -6,6 +6,7 @@ import pandas as pd
 
 
 class LocalTransitRevenue(object):
+    NAME = "Local Transit Revenue"
 
     def __init__(self, path: str):
         self._df = pd.read_csv(
@@ -20,12 +21,13 @@ class LocalTransitRevenue(object):
         )
 
     @property
-    def data(self):
+    def data(self, data_name: str = NAME):
         """The Local Transit Revenue dataframe property."""
-        print("get Local Transit Revenue dataframe")
+        print("get" + data_name + "dataframe")
         return self._df
 
-    def datatable(self, revenue_types: list[str], agencies: list[str], dollar: str, value_unit: str = '') -> pd.DataFrame:
+    def datatable(self, revenue_types: list[str], agencies: list[str], dollar: str, value_unit: str = '') \
+            -> pd.DataFrame:
         """
         present dash datatable
         1. dollar type
@@ -58,5 +60,56 @@ class LocalTransitRevenue(object):
             pivot(index=['Revenue Type', 'Transit Agency'],
                   columns='Year',
                   values='Value'). \
+            reset_index()
+
+
+class LocalTransitBoarding(object):
+    NAME = "Local Transit Boarding"
+
+    def __init__(self, path: str):
+        self._df = pd.read_csv(
+            path,
+            dtype={
+                "Transit Agency": str,
+                "Year": int,
+                "Boardings": float
+            }
+        )
+
+    @property
+    def data(self, data_name: str = NAME):
+        """The Local Transit Revenue dataframe property."""
+        print("get" + data_name + "dataframe")
+        return self._df
+
+    def datatable(self, agencies: list[str], value_unit: str = '') -> pd.DataFrame:
+        """
+        present dash datatable
+        """
+
+        # change value format to thousands or millions
+        def format_value(df: pd.DataFrame, value_col: str, value_unit: str):
+
+            df2 = df.copy()
+            if value_unit in ['', 'K', 'M']:
+                if value_unit == '':
+                    df2[value_col] = df2[value_col].apply(lambda x: f"{round(x, 2)}")
+                if value_unit == 'K':
+                    df2[value_col] = df2[value_col].apply(lambda x: f"{round(x / 1000.0, 2)}{'K'}")
+                if value_unit == 'M':
+                    df2[value_col] = df2[value_col].apply(lambda x: f"{round(x / 1000000.0, 2)}{'M'}")
+            else:
+                print("Value units must be 'K' for thousands or 'M' for millions")
+
+            return df2
+
+        _datatable = self._df.copy()
+        _datatable = format_value(_datatable, 'Boardings', value_unit)
+
+        return _datatable. \
+            query("`Transit Agency` in @agencies"). \
+            pivot(index=['Transit Agency'],
+                  columns='Year',
+                  values='Boardings'). \
             reset_index()
 

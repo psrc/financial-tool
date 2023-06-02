@@ -64,3 +64,38 @@ def render(app: Dash, data: pd.DataFrame) -> html.Div:
             )
         ]
     )
+
+
+# def render_local_transit_boarding(app: Dash, data: pd.DataFrame) -> html.Div:
+#     all_agencies = data['Transit Agency'].unique()
+#     all_format_units = ['', 'K', 'M']
+#
+#     @app.callback(
+#         Output(ids.LOCAL_TRANSIT_BOARDING_AGENCY_DROPDOWN, "value"),
+#         Input(ids.LOCAL_TRANSIT_BOARDING_SELECT_ALL_AGENCIES, "n_clicks")
+#     )
+#     def select_all_agencies(_: int) -> list[str]:
+#         return all_agencies
+#
+#     return html.Div(
+#         children=[
+#             html.H6("Transit Agency"),
+#             dcc.Dropdown(
+#                 id=ids.LOCAL_TRANSIT_BOARDING_AGENCY_DROPDOWN,
+#                 options=[{"label": agency, "value": agency} for agency in all_agencies],
+#                 value=all_agencies,
+#                 multi=True
+#             ),
+#             html.Button(
+#                 className="dropdown-button",
+#                 children=["Select All Transit Agencies"],
+#                 id=ids.LOCAL_TRANSIT_BOARDING_SELECT_ALL_AGENCIES
+#             ),
+#             html.H6("Format Unit"),
+#             dcc.Dropdown(
+#                 id=ids.LOCAL_TRANSIT_BOARDING_FORMAT_UNIT_DROPDOWN,
+#                 options=[{"label": value_unit, "value": value_unit} for value_unit in all_format_units],
+#                 value=""
+#             )
+#         ]
+#     )
