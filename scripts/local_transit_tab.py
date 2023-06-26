@@ -44,6 +44,7 @@ if predict_subarea_population:
 # Local Transit - Total Fixed-Route boardings
 if predict_boardings_local_transit:
     transit_boardings = pd.read_csv(data_config['data_boardings_local_transit'])
+    result_subarea_population = pd.read_csv(data_config['result_subarea_population'])
 
     result_boarding = pd.DataFrame()
     for agency in data_config['county_transit']:

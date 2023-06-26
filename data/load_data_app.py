@@ -1,10 +1,7 @@
 import pandas as pd
-# import os
-# import toml
 
-# data_config = toml.load(os.path.join(os.getcwd(), "./configuration.toml"))
-
-
+# a class for each dataset
+# TODO: transit boarding and fare per boarding can use the same class
 class LocalTransitRevenue(object):
     NAME = "Local Transit Revenue"
 
@@ -35,7 +32,7 @@ class LocalTransitRevenue(object):
         3. Millions/ Thousands
         4. sorting
         """
-        YEAR_RANGE = range(slider_year[0],slider_year[1])
+        YEAR_RANGE = range(slider_year[0],slider_year[1]+1)
 
         # change value format to thousands or millions
         def format_value(df: pd.DataFrame, value_col: str, value_unit: str):
@@ -54,12 +51,21 @@ class LocalTransitRevenue(object):
             return df2
 
         _datatable = self._df.copy()
-        _datatable = format_value(_datatable, 'Value', value_unit)
 
-        return _datatable. \
+        _filtered_datatable = _datatable. \
             query("`Dollar Type` in @dollar and `Revenue Type` in @revenue_types and `Transit Agency` in @agencies and "
-                  "`Year` in @YEAR_RANGE"). \
-            pivot(index=['Revenue Type', 'Transit Agency'],
+                  "`Year` in @YEAR_RANGE").drop(columns=['Dollar Type'])
+
+        # calculate total revenue of each agency
+        test = _filtered_datatable.groupby(['Transit Agency', 'Year'], as_index=False)['Value'].agg("sum")
+        test['Revenue Type'] = "Total"
+        _filtered_datatable2 = pd.concat([_filtered_datatable, test[["Year", "Revenue Type", "Transit Agency", "Value"]]]).\
+            reset_index(drop=True)
+
+        _filtered_datatable2 = format_value(_filtered_datatable2, 'Value', value_unit)
+
+        return _filtered_datatable2. \
+            pivot(index=['Transit Agency', 'Revenue Type'],
                   columns='Year',
                   values='Value'). \
             reset_index()
@@ -89,7 +95,7 @@ class LocalTransitBoarding(object):
         """
         present dash datatable
         """
-        YEAR_RANGE = range(slider_year[0],slider_year[1])
+        YEAR_RANGE = range(slider_year[0],slider_year[1]+1)
 
         # change value format to thousands or millions
         def format_value(df: pd.DataFrame, value_col: str, value_unit: str):

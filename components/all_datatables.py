@@ -1,4 +1,10 @@
-import plotly.express as px
+"""
+# datatables connected to filtering components in `all_datatable_filters.py`
+- local transit revenue
+- local transit boarding
+"""
+# TODO: put boarding datatable underneath revenue datatable and use the same filtering dropdowns
+
 from dash import Dash, dcc, html, dash_table
 from dash.dependencies import Input, Output
 
@@ -30,7 +36,17 @@ def render_local_transit_revenue(app: Dash, local_transit_revenue: LocalTransitR
                                                  columns=[{"name": str(i), "id": str(i)} for i in
                                                           filtered_data.columns],
                                                  page_size=100,
-                                                 include_headers_on_copy_paste=True
+                                                 include_headers_on_copy_paste=True,
+                                                 # change color for row of total agency revenue
+                                                 style_data_conditional=[
+                                                     {
+                                                         'if': {
+                                                             'filter_query': '{Revenue Type} = "Total"',
+                                                         },
+                                                         'backgroundColor': '#91268F',
+                                                         'color': 'white'
+                                                     },
+                                                 ]
                                                  )
             return html.Div(revenue_table, id=ids.LOCAL_TRANSIT_REVENUE_TABLE)
 

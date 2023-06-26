@@ -38,6 +38,7 @@ def tab_local_transit_revenue(app: Dash) -> html.Div:
     """
     tab with local transit revenue table
     """
+    # create local transit revenue data
     local_transit_revenue = LocalTransitRevenue(data_config['tab_revenue_local_transit'])
 
     return html.Div(children=[html.H1("Local Transit Revenue"),
