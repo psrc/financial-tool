@@ -114,9 +114,21 @@ class LocalTransitBoarding(object):
             return df2
 
         _datatable = self._df.copy()
-        _datatable = format_value(_datatable, 'Boardings', value_unit)
 
-        return _datatable. \
+        # calculate total boarding
+        _filtered_datatable = _datatable. \
+            query("`Transit Agency` in @agencies and "
+                  "`Year` in @YEAR_RANGE")
+        test = _filtered_datatable.groupby(['Year'], as_index=False)['Boardings'].agg("sum")
+        test['Transit Agency'] = 'Total Transit Boardings'
+        agencies.extend(['Total Transit Boardings'])
+
+        _datatable2 = pd.concat([_filtered_datatable, test[["Year", "Transit Agency", "Boardings"]]]). \
+            reset_index(drop=True)
+
+        _datatable2 = format_value(_datatable2, 'Boardings', value_unit)
+
+        return _datatable2. \
             query("`Transit Agency` in @agencies and `Year` in @YEAR_RANGE"). \
             pivot(index=['Transit Agency'],
                   columns='Year',

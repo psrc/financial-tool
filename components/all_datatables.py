@@ -5,15 +5,15 @@
 """
 # TODO: put boarding datatable underneath revenue datatable and use the same filtering dropdowns
 
-from dash import Dash, dcc, html, dash_table
+from dash import Dash, dcc, html, dash_table, callback
 from dash.dependencies import Input, Output
 
 from components import ids
 from data.load_data_app import LocalTransitRevenue, LocalTransitBoarding
 
 
-def render_local_transit_revenue(app: Dash, local_transit_revenue: LocalTransitRevenue) -> html.Div:
-    @app.callback(
+def render_local_transit_revenue(local_transit_revenue: LocalTransitRevenue) -> html.Div:
+    @callback(
         Output(ids.LOCAL_TRANSIT_REVENUE_TABLE, "children"),
         Input(ids.LOCAL_TRANSIT_REVENUE_TYPE_DROPDOWN, "value"),
         Input(ids.LOCAL_TRANSIT_AGENCY_DROPDOWN, "value"),
@@ -53,8 +53,8 @@ def render_local_transit_revenue(app: Dash, local_transit_revenue: LocalTransitR
     return html.Div(className="transit-all-year-table", id=ids.LOCAL_TRANSIT_REVENUE_TABLE)
 
 
-def render_local_transit_boarding(app: Dash, local_transit_boarding: LocalTransitBoarding) -> html.Div:
-    @app.callback(
+def render_local_transit_boarding(local_transit_boarding: LocalTransitBoarding) -> html.Div:
+    @callback(
         Output(ids.LOCAL_TRANSIT_BOARDING_TABLE, "children"),
         Input(ids.LOCAL_TRANSIT_BOARDING_AGENCY_DROPDOWN, "value"),
         Input(ids.LOCAL_TRANSIT_BOARDING_YEAR_SLIDER, "value"),

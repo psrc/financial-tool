@@ -4,12 +4,12 @@
 - local transit boarding
 """
 import pandas as pd
-from dash import Dash, html, dcc
+from dash import Dash, html, dcc, callback
 from dash.dependencies import Input, Output
 from components import ids
 
 
-def render_local_transit_revenue(app: Dash, data: pd.DataFrame) -> html.Div:
+def render_local_transit_revenue(data: pd.DataFrame) -> html.Div:
     all_revenue_type = data['Revenue Type'].unique()
     all_agencies = data['Transit Agency'].unique()
     all_dollar_types = ["Nominal", "Constant"]
@@ -17,14 +17,14 @@ def render_local_transit_revenue(app: Dash, data: pd.DataFrame) -> html.Div:
     years_min = data['Year'].min()
     years_max = data['Year'].max()
 
-    @app.callback(
-        Output(ids.LOCAL_TRANSIT_REVENUE_TYPE_DROPDOWN, "value"),
-        Input(ids.LOCAL_TRANSIT_SELECT_ALL_REVENUE_TYPE, "n_clicks")
+    @callback(
+        Output(component_id=ids.LOCAL_TRANSIT_REVENUE_TYPE_DROPDOWN, component_property="value"),
+        Input(component_id=ids.LOCAL_TRANSIT_SELECT_ALL_REVENUE_TYPE, component_property="n_clicks")
     )
     def select_all_revenue_types(_: int) -> list[str]:
         return all_revenue_type
 
-    @app.callback(
+    @callback(
         Output(ids.LOCAL_TRANSIT_AGENCY_DROPDOWN, "value"),
         Input(ids.LOCAL_TRANSIT_SELECT_ALL_AGENCIES, "n_clicks")
     )
@@ -78,13 +78,13 @@ def render_local_transit_revenue(app: Dash, data: pd.DataFrame) -> html.Div:
     )
 
 
-def render_local_transit_boarding(app: Dash, data: pd.DataFrame) -> html.Div:
+def render_local_transit_boarding(data: pd.DataFrame) -> html.Div:
     all_agencies = data['Transit Agency'].unique()
     all_format_units = ['', 'K', 'M']
     years_min = data['Year'].min()
     years_max = data['Year'].max()
 
-    @app.callback(
+    @callback(
         Output(ids.LOCAL_TRANSIT_BOARDING_AGENCY_DROPDOWN, "value"),
         Input(ids.LOCAL_TRANSIT_BOARDING_SELECT_ALL_AGENCIES, "n_clicks")
     )
