@@ -1,7 +1,6 @@
 import pandas as pd
 
-# a class for each dataset
-# TODO: transit boarding and fare per boarding can use the same class
+
 class LocalTransitRevenue(object):
     NAME = "Local Transit Revenue"
 
@@ -32,7 +31,8 @@ class LocalTransitRevenue(object):
         3. Millions/ Thousands
         4. sorting
         """
-        YEAR_RANGE = range(slider_year[0],slider_year[1]+1)
+
+        YEAR_RANGE = range(slider_year[0], slider_year[1]+1)
 
         # change value format to thousands or millions
         def format_value(df: pd.DataFrame, value_col: str, value_unit: str):
@@ -59,7 +59,7 @@ class LocalTransitRevenue(object):
         # calculate total revenue of each agency
         test = _filtered_datatable.groupby(['Transit Agency', 'Year'], as_index=False)['Value'].agg("sum")
         test['Revenue Type'] = "Total"
-        _filtered_datatable2 = pd.concat([_filtered_datatable, test[["Year", "Revenue Type", "Transit Agency", "Value"]]]).\
+        _filtered_datatable2 = pd.concat([_filtered_datatable, test[_filtered_datatable.columns]]).\
             reset_index(drop=True)
 
         _filtered_datatable2 = format_value(_filtered_datatable2, 'Value', value_unit)
@@ -95,7 +95,8 @@ class LocalTransitBoarding(object):
         """
         present dash datatable
         """
-        YEAR_RANGE = range(slider_year[0],slider_year[1]+1)
+
+        YEAR_RANGE = range(slider_year[0], slider_year[1]+1)
 
         # change value format to thousands or millions
         def format_value(df: pd.DataFrame, value_col: str, value_unit: str):
@@ -117,13 +118,12 @@ class LocalTransitBoarding(object):
 
         # calculate total boarding
         _filtered_datatable = _datatable. \
-            query("`Transit Agency` in @agencies and "
-                  "`Year` in @YEAR_RANGE")
+            query("`Transit Agency` in @agencies and `Year` in @YEAR_RANGE")
         test = _filtered_datatable.groupby(['Year'], as_index=False)['Boardings'].agg("sum")
         test['Transit Agency'] = 'Total Transit Boardings'
         agencies.extend(['Total Transit Boardings'])
 
-        _datatable2 = pd.concat([_filtered_datatable, test[["Year", "Transit Agency", "Boardings"]]]). \
+        _datatable2 = pd.concat([_filtered_datatable, test[_filtered_datatable.columns]]). \
             reset_index(drop=True)
 
         _datatable2 = format_value(_datatable2, 'Boardings', value_unit)
