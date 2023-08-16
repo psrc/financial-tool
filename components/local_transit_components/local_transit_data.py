@@ -1,4 +1,5 @@
 import pandas as pd
+from components import ids, common_functions
 
 
 class LocalTransitRevenue(object):
@@ -34,22 +35,6 @@ class LocalTransitRevenue(object):
 
         YEAR_RANGE = range(slider_year[0], slider_year[1]+1)
 
-        # change value format to thousands or millions
-        def format_value(df: pd.DataFrame, value_col: str, value_unit: str):
-
-            df2 = df.copy()
-            if value_unit in ['', 'K', 'M']:
-                if value_unit == '':
-                    df2[value_col] = df2[value_col].apply(lambda x: f"{round(x, 2)}")
-                if value_unit == 'K':
-                    df2[value_col] = df2[value_col].apply(lambda x: f"{round(x / 1000.0, 2)}{'K'}")
-                if value_unit == 'M':
-                    df2[value_col] = df2[value_col].apply(lambda x: f"{round(x / 1000000.0, 2)}{'M'}")
-            else:
-                print("Value units must be 'K' for thousands or 'M' for millions")
-
-            return df2
-
         _datatable = self._df.copy()
 
         _filtered_datatable = _datatable. \
@@ -62,12 +47,10 @@ class LocalTransitRevenue(object):
         _filtered_datatable2 = pd.concat([_filtered_datatable, test[_filtered_datatable.columns]]).\
             reset_index(drop=True)
 
-        _filtered_datatable2 = format_value(_filtered_datatable2, 'Value', value_unit)
+        _filtered_datatable2 = common_functions.format_value(_filtered_datatable2, 'Value', value_unit)
 
         return _filtered_datatable2. \
-            pivot(index=['Transit Agency', 'Revenue Type'],
-                  columns='Year',
-                  values='Value'). \
+            pivot(index=['Transit Agency', 'Revenue Type'], columns='Year', values='Value'). \
             reset_index()
 
 
@@ -90,29 +73,12 @@ class LocalTransitBoarding(object):
         print("get " + data_name + " dataframe")
         return self._df
 
-    def datatable(self, agencies: list[str],
-                  slider_year: list[int], value_unit: str = '') -> pd.DataFrame:
+    def datatable(self, agencies: list[str], slider_year: list[int], value_unit: str = '') -> pd.DataFrame:
         """
         present dash datatable
         """
 
         YEAR_RANGE = range(slider_year[0], slider_year[1]+1)
-
-        # change value format to thousands or millions
-        def format_value(df: pd.DataFrame, value_col: str, value_unit: str):
-
-            df2 = df.copy()
-            if value_unit in ['', 'K', 'M']:
-                if value_unit == '':
-                    df2[value_col] = df2[value_col].apply(lambda x: f"{round(x, 0)}")
-                if value_unit == 'K':
-                    df2[value_col] = df2[value_col].apply(lambda x: f"{round(x / 1000.0, 2)}{'K'}")
-                if value_unit == 'M':
-                    df2[value_col] = df2[value_col].apply(lambda x: f"{round(x / 1000000.0, 2)}{'M'}")
-            else:
-                print("Value units must be 'K' for thousands or 'M' for millions")
-
-            return df2
 
         _datatable = self._df.copy()
 
@@ -126,12 +92,10 @@ class LocalTransitBoarding(object):
         _datatable2 = pd.concat([_filtered_datatable, test[_filtered_datatable.columns]]). \
             reset_index(drop=True)
 
-        _datatable2 = format_value(_datatable2, 'Boardings', value_unit)
+        _datatable2 = common_functions.format_value(_datatable2, 'Boardings', value_unit)
 
         return _datatable2. \
             query("`Transit Agency` in @agencies and `Year` in @YEAR_RANGE"). \
-            pivot(index=['Transit Agency'],
-                  columns='Year',
-                  values='Boardings'). \
+            pivot(index=['Transit Agency'], columns='Year', values='Boardings'). \
             reset_index()
 

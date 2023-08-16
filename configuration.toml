@@ -7,14 +7,14 @@ psrc_transit_funding_annual_increase = 1.025
 #################################################
 # paths: processed data input from excel_raw_data_process jupyter file
 #################################################
-parameter = "script_data/Input/parameters_tax.csv"
+input_parameter = "script_data/input_data_2018/parameters_tax.csv"
 # Actual transit revenues (Nominal $millions) from Local Transit Tab
-data_revenue_local_transit = "script_data/Input/local_transit_actual_revenue.csv"
-data_boardings_local_transit = "script_data/Input/local_transit_actual_boardings.csv"            # FIXME: consider RTP forecast data
-data_fare_per_boarding_local_transit = "script_data/Input/local_transit_fare_per_boarding.csv"
-data_tax_base = "script_data/Input/tax_base.csv"
-data_subarea_population = "script_data/Input/subarea_allocation_bases_population_actual.csv"
-data_transit_sales_tax_rate = "script_data/Input/transit_sales_tax_rate.csv"
+input_local_transit_revenue = "script_data/input_data_2018/local_transit_actual_revenue.csv"
+input_local_transit_boardings = "script_data/input_data_2018/local_transit_actual_boardings.csv"            # FIXME: consider RTP forecast data
+input_local_transit_fare_per_boarding = "script_data/input_data_2018/local_transit_fare_per_boarding.csv"
+data_tax_base = "script_data/input_data_2018/tax_base.csv"
+input_subarea_population = "script_data/input_data_2018/subarea_allocation_bases_population_actual.csv"
+data_transit_sales_tax_rate = "script_data/input_data_2018/transit_sales_tax_rate.csv"
 
 #################################################
 # paths: output predicted data

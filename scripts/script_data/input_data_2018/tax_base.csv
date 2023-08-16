@@ -6,7 +6,7 @@ County,Tax Base Category,Year,Value
 4-County regional Totals,Motor Fuel (gal.),1975,941502657.0
 4-County regional Totals,Cars and Gas Trucks,1975,1218553.0
 4-County regional Totals,Diesel,1975,6.1667429
-4-County regional Totals,Total Registrations (000s),1975,1224719.743
+4-County regional Totals,Total Registrations,1975,1224719.743
 King County,Population,1975,1155135.948
 King County,Employment,1975,502172.9274
 King County,Cars and Gas Trucks,1975,725670.0
@@ -26,7 +26,7 @@ Snohomish County,Cars and Gas Trucks,1975,171445.0
 4-County regional Totals,Motor Fuel (gal.),1976,985069793.7
 4-County regional Totals,Cars and Gas Trucks,1976,1240951.105
 4-County regional Totals,Diesel,1976,6.3737371
-4-County regional Totals,Total Registrations (000s),1976,1247324.842
+4-County regional Totals,Total Registrations,1976,1247324.842
 King County,Population,1976,1156884.033
 King County,Employment,1976,516019.59380000003
 King County,Retail Sales (nominal),1976,5091643343.0
@@ -50,7 +50,7 @@ Snohomish County,Cars and Gas Trucks,1976,175713.77730000002
 4-County regional Totals,Motor Fuel (gal.),1977,1102465542.0
 4-County regional Totals,Cars and Gas Trucks,1977,1386158.342
 4-County regional Totals,Diesel,1977,6.78146153
-4-County regional Totals,Total Registrations (000s),1977,1392939.804
+4-County regional Totals,Total Registrations,1977,1392939.804
 King County,Population,1977,1162979.355
 King County,Employment,1977,553426.5098
 King County,Retail Sales (nominal),1977,5788244971.0
@@ -74,7 +74,7 @@ Snohomish County,Cars and Gas Trucks,1977,192783.6327
 4-County regional Totals,Motor Fuel (gal.),1978,1166607518.0
 4-County regional Totals,Cars and Gas Trucks,1978,1476415.4479999999
 4-County regional Totals,Diesel,1978,8.9209141
-4-County regional Totals,Total Registrations (000s),1978,1485336.362
+4-County regional Totals,Total Registrations,1978,1485336.362
 King County,Population,1978,1182844.374
 King County,Employment,1978,609930.06
 King County,Retail Sales (nominal),1978,6997276772.0
@@ -98,7 +98,7 @@ Snohomish County,Cars and Gas Trucks,1978,211171.0305
 4-County regional Totals,Motor Fuel (gal.),1979,1175508793.0
 4-County regional Totals,Cars and Gas Trucks,1979,1547187.851
 4-County regional Totals,Diesel,1979,10.36244073
-4-County regional Totals,Total Registrations (000s),1979,1557550.292
+4-County regional Totals,Total Registrations,1979,1557550.292
 King County,Population,1979,1214604.204
 King County,Employment,1979,658408.8014
 King County,Retail Sales (nominal),1979,8294997939.999999
@@ -122,7 +122,7 @@ Snohomish County,Cars and Gas Trucks,1979,235396.9784
 4-County regional Totals,Motor Fuel (gal.),1980,1130079476.0
 4-County regional Totals,Cars and Gas Trucks,1980,1623821.101
 4-County regional Totals,Diesel,1980,11.53863323
-4-County regional Totals,Total Registrations (000s),1980,1635359.734
+4-County regional Totals,Total Registrations,1980,1635359.734
 King County,Population,1980,1255237.1
 King County,Employment,1980,679798.7625
 King County,Retail Sales (nominal),1980,8948756469.0
@@ -146,7 +146,7 @@ Snohomish County,Cars and Gas Trucks,1980,239095.64370000002
 4-County regional Totals,Motor Fuel (gal.),1981,1116648411.0
 4-County regional Totals,Cars and Gas Trucks,1981,1691032.929
 4-County regional Totals,Diesel,1981,12.75384203
-4-County regional Totals,Total Registrations (000s),1981,1703786.771
+4-County regional Totals,Total Registrations,1981,1703786.771
 King County,Population,1981,1291945.844
 King County,Employment,1981,680348.6448
 King County,Retail Sales (nominal),1981,9289101183.0
@@ -170,7 +170,7 @@ Snohomish County,Cars and Gas Trucks,1981,254098.0699
 4-County regional Totals,Motor Fuel (gal.),1982,1081696183.0
 4-County regional Totals,Cars and Gas Trucks,1982,1662767.699
 4-County regional Totals,Diesel,1982,17.55310356
-4-County regional Totals,Total Registrations (000s),1982,1680320.802
+4-County regional Totals,Total Registrations,1982,1680320.802
 King County,Population,1982,1314165.3960000002
 King County,Employment,1982,668513.9385
 King County,Retail Sales (nominal),1982,9426788797.0
@@ -194,7 +194,7 @@ Snohomish County,Cars and Gas Trucks,1982,262843.13680000004
 4-County regional Totals,Motor Fuel (gal.),1983,1122217865.0
 4-County regional Totals,Cars and Gas Trucks,1983,1662582.533
 4-County regional Totals,Diesel,1983,21.1023568
-4-County regional Totals,Total Registrations (000s),1983,1683684.8890000002
+4-County regional Totals,Total Registrations,1983,1683684.8890000002
 King County,Population,1983,1318557.67
 King County,Employment,1983,672151.6471
 King County,Retail Sales (nominal),1983,10170818630.0
@@ -218,7 +218,7 @@ Snohomish County,Cars and Gas Trucks,1983,267909.50450000004
 4-County regional Totals,Motor Fuel (gal.),1984,1154802528.0
 4-County regional Totals,Cars and Gas Trucks,1984,1734756.29
 4-County regional Totals,Diesel,1984,22.52041203
-4-County regional Totals,Total Registrations (000s),1984,1757276.7019999998
+4-County regional Totals,Total Registrations,1984,1757276.7019999998
 King County,Population,1984,1326736.9209999999
 King County,Employment,1984,710500.5684999999
 King County,Retail Sales (nominal),1984,11801561690.0
@@ -242,7 +242,7 @@ Snohomish County,Cars and Gas Trucks,1984,283573.22349999996
 4-County regional Totals,Motor Fuel (gal.),1985,1213725167.0
 4-County regional Totals,Cars and Gas Trucks,1985,1790760.791
 4-County regional Totals,Diesel,1985,24.97785375
-4-County regional Totals,Total Registrations (000s),1985,1815738.645
+4-County regional Totals,Total Registrations,1985,1815738.645
 King County,Population,1985,1349405.7089999998
 King County,Employment,1985,739701.6496
 King County,Retail Sales (nominal),1985,12842884610.0
@@ -266,7 +266,7 @@ Snohomish County,Cars and Gas Trucks,1985,300073.2701
 4-County regional Totals,Motor Fuel (gal.),1986,1292925302.0
 4-County regional Totals,Cars and Gas Trucks,1986,1891598.5310000002
 4-County regional Totals,Diesel,1986,28.07566704
-4-County regional Totals,Total Registrations (000s),1986,1919674.1979999999
+4-County regional Totals,Total Registrations,1986,1919674.1979999999
 King County,Population,1986,1369061.129
 King County,Employment,1986,771620.0997
 King County,Retail Sales (nominal),1986,13965362350.0
@@ -290,7 +290,7 @@ Snohomish County,Cars and Gas Trucks,1986,320852.2081
 4-County regional Totals,Motor Fuel (gal.),1987,1330405782.0
 4-County regional Totals,Cars and Gas Trucks,1987,1991591.147
 4-County regional Totals,Diesel,1987,31.18185516
-4-County regional Totals,Total Registrations (000s),1987,2022773.003
+4-County regional Totals,Total Registrations,1987,2022773.003
 King County,Population,1987,1391893.192
 King County,Employment,1987,808781.1873000001
 King County,Retail Sales (nominal),1987,15120415980.0
@@ -314,7 +314,7 @@ Snohomish County,Cars and Gas Trucks,1987,343687.7532
 4-County regional Totals,Motor Fuel (gal.),1988,1393325956.0
 4-County regional Totals,Cars and Gas Trucks,1988,2040183.317
 4-County regional Totals,Diesel,1988,32.21961799
-4-County regional Totals,Total Registrations (000s),1988,2072402.935
+4-County regional Totals,Total Registrations,1988,2072402.935
 King County,Population,1988,1418830.737
 King County,Employment,1988,849268.698
 King County,Retail Sales (nominal),1988,16260573730.0
@@ -338,7 +338,7 @@ Snohomish County,Cars and Gas Trucks,1988,355855.9377
 4-County regional Totals,Motor Fuel (gal.),1989,1445454505.0
 4-County regional Totals,Cars and Gas Trucks,1989,2125713.961
 4-County regional Totals,Diesel,1989,37.79687929
-4-County regional Totals,Total Registrations (000s),1989,2163510.84
+4-County regional Totals,Total Registrations,1989,2163510.84
 King County,Population,1989,1450374.447
 King County,Employment,1989,898500.6140000001
 King County,Retail Sales (nominal),1989,18176951610.0
@@ -362,7 +362,7 @@ Snohomish County,Cars and Gas Trucks,1989,372799.57050000003
 4-County regional Totals,Motor Fuel (gal.),1990,1471259920.0
 4-County regional Totals,Cars and Gas Trucks,1990,2217184.714
 4-County regional Totals,Diesel,1990,49.36110037
-4-County regional Totals,Total Registrations (000s),1990,2266545.815
+4-County regional Totals,Total Registrations,1990,2266545.815
 King County,Population,1990,1490370.881
 King County,Employment,1990,936414.553
 King County,Retail Sales (nominal),1990,20182769830.0
@@ -386,7 +386,7 @@ Snohomish County,Cars and Gas Trucks,1990,389540.031
 4-County regional Totals,Motor Fuel (gal.),1991,1500976882.0
 4-County regional Totals,Cars and Gas Trucks,1991,2301610.229
 4-County regional Totals,Diesel,1991,55.08016973
-4-County regional Totals,Total Registrations (000s),1991,2356690.398
+4-County regional Totals,Total Registrations,1991,2356690.398
 King County,Population,1991,1534987.4319999998
 King County,Employment,1991,942661.863
 King County,Retail Sales (nominal),1991,21259481560.0
@@ -410,7 +410,7 @@ Snohomish County,Cars and Gas Trucks,1991,405956.90660000005
 4-County regional Totals,Motor Fuel (gal.),1992,1522860771.0
 4-County regional Totals,Cars and Gas Trucks,1992,2306795.199
 4-County regional Totals,Diesel,1992,56.79998961
-4-County regional Totals,Total Registrations (000s),1992,2363595.1890000002
+4-County regional Totals,Total Registrations,1992,2363595.1890000002
 King County,Population,1992,1564984.813
 King County,Employment,1992,950660.0006
 King County,Retail Sales (nominal),1992,21648491440.0
@@ -434,7 +434,7 @@ Snohomish County,Cars and Gas Trucks,1992,409143.9192
 4-County regional Totals,Motor Fuel (gal.),1993,1537903757.0
 4-County regional Totals,Cars and Gas Trucks,1993,2267708.989
 4-County regional Totals,Diesel,1993,44.23679261
-4-County regional Totals,Total Registrations (000s),1993,2311945.7819999997
+4-County regional Totals,Total Registrations,1993,2311945.7819999997
 King County,Population,1993,1584817.356
 King County,Employment,1993,947320.874
 King County,Retail Sales (nominal),1993,22232408190.0
@@ -458,7 +458,7 @@ Snohomish County,Cars and Gas Trucks,1993,404864.2746
 4-County regional Totals,Motor Fuel (gal.),1994,1562594945.0
 4-County regional Totals,Cars and Gas Trucks,1994,2294030.985
 4-County regional Totals,Diesel,1994,38.98249436
-4-County regional Totals,Total Registrations (000s),1994,2333013.4790000003
+4-County regional Totals,Total Registrations,1994,2333013.4790000003
 King County,Population,1994,1603690.212
 King County,Employment,1994,959230.813
 King County,Retail Sales (nominal),1994,23156073300.0
@@ -482,7 +482,7 @@ Snohomish County,Cars and Gas Trucks,1994,404507.9651
 4-County regional Totals,Motor Fuel (gal.),1995,1571132869.0
 4-County regional Totals,Cars and Gas Trucks,1995,2317119.5560000003
 4-County regional Totals,Diesel,1995,40.9564511
-4-County regional Totals,Total Registrations (000s),1995,2358076.007
+4-County regional Totals,Total Registrations,1995,2358076.007
 King County,Population,1995,1620382.785
 King County,Employment,1995,977872.9591
 King County,Retail Sales (nominal),1995,24472238320.0
@@ -506,7 +506,7 @@ Snohomish County,Cars and Gas Trucks,1995,411689.43539999996
 4-County regional Totals,Motor Fuel (gal.),1996,1504073225.0
 4-County regional Totals,Cars and Gas Trucks,1996,2347003.525
 4-County regional Totals,Diesel,1996,40.86768957
-4-County regional Totals,Total Registrations (000s),1996,2387871.2139999997
+4-County regional Totals,Total Registrations,1996,2387871.2139999997
 King County,Population,1996,1635307.798
 King County,Employment,1996,1018227.003
 King County,Retail Sales (nominal),1996,25616493420.0
@@ -530,7 +530,7 @@ Snohomish County,Cars and Gas Trucks,1996,418282.0312
 4-County regional Totals,Motor Fuel (gal.),1997,1651210374.0
 4-County regional Totals,Cars and Gas Trucks,1997,2397485.064
 4-County regional Totals,Diesel,1997,42.89682936
-4-County regional Totals,Total Registrations (000s),1997,2440381.893
+4-County regional Totals,Total Registrations,1997,2440381.893
 King County,Population,1997,1651892.7750000001
 King County,Employment,1997,1071461.74
 King County,Retail Sales (nominal),1997,27738487930.0
@@ -554,7 +554,7 @@ Snohomish County,Cars and Gas Trucks,1997,436086.3341
 4-County regional Totals,Motor Fuel (gal.),1998,1723039520.0
 4-County regional Totals,Cars and Gas Trucks,1998,2485868.141
 4-County regional Totals,Diesel,1998,46.29473308
-4-County regional Totals,Total Registrations (000s),1998,2532162.8740000003
+4-County regional Totals,Total Registrations,1998,2532162.8740000003
 King County,Population,1998,1676514.5829999999
 King County,Employment,1998,1118461.634
 King County,Retail Sales (nominal),1998,30393081830.0
@@ -578,7 +578,7 @@ Snohomish County,Cars and Gas Trucks,1998,456611.982
 4-County regional Totals,Motor Fuel (gal.),1999,1794146975.0
 4-County regional Totals,Cars and Gas Trucks,1999,2372438.841
 4-County regional Totals,Diesel,1999,42.05701181
-4-County regional Totals,Total Registrations (000s),1999,2414495.853
+4-County regional Totals,Total Registrations,1999,2414495.853
 King County,Population,1999,1703611.9409999999
 King County,Employment,1999,1152437.819
 King County,Retail Sales (nominal),1999,32859627070.000004
@@ -602,7 +602,7 @@ Snohomish County,Cars and Gas Trucks,1999,434084.35850000003
 4-County regional Totals,Motor Fuel (gal.),2000,1792946071.0
 4-County regional Totals,Cars and Gas Trucks,2000,2585787.152
 4-County regional Totals,Diesel,2000,49.35327104
-4-County regional Totals,Total Registrations (000s),2000,2635140.423
+4-County regional Totals,Total Registrations,2000,2635140.423
 King County,Population,2000,1728965.42
 King County,Employment,2000,1197042.94
 King County,Retail Sales (nominal),2000,36343664030.0
@@ -626,7 +626,7 @@ Snohomish County,Cars and Gas Trucks,2000,473041.9616
 4-County regional Totals,Motor Fuel (gal.),2001,1781478945.0
 4-County regional Totals,Cars and Gas Trucks,2001,2744277.912
 4-County regional Totals,Diesel,2001,60.49448153
-4-County regional Totals,Total Registrations (000s),2001,2804772.393
+4-County regional Totals,Total Registrations,2001,2804772.393
 King County,Population,2001,1748883.805
 King County,Employment,2001,1185489.858
 King County,Retail Sales (nominal),2001,36892609800.0
@@ -650,7 +650,7 @@ Snohomish County,Cars and Gas Trucks,2001,505898.7915
 4-County regional Totals,Motor Fuel (gal.),2002,1732430544.0
 4-County regional Totals,Cars and Gas Trucks,2002,2673698.358
 4-County regional Totals,Diesel,2002,61.59134817
-4-County regional Totals,Total Registrations (000s),2002,2735289.7060000002
+4-County regional Totals,Total Registrations,2002,2735289.7060000002
 King County,Population,2002,1770222.774
 King County,Employment,2002,1141831.403
 King County,Retail Sales (nominal),2002,35074100610.0
@@ -674,7 +674,7 @@ Snohomish County,Cars and Gas Trucks,2002,501585.7331
 4-County regional Totals,Motor Fuel (gal.),2003,1747309853.0
 4-County regional Totals,Cars and Gas Trucks,2003,2717501.968
 4-County regional Totals,Diesel,2003,63.78231965
-4-County regional Totals,Total Registrations (000s),2003,2781284.287
+4-County regional Totals,Total Registrations,2003,2781284.287
 King County,Population,2003,1785167.75
 King County,Employment,2003,1125560.014
 King County,Retail Sales (nominal),2003,34728815240.0
@@ -698,7 +698,7 @@ Snohomish County,Cars and Gas Trucks,2003,522328.03779999993
 4-County regional Totals,Motor Fuel (gal.),2004,1757533602.0
 4-County regional Totals,Cars and Gas Trucks,2004,2797150.614
 4-County regional Totals,Diesel,2004,69.21360882
-4-County regional Totals,Total Registrations (000s),2004,2866364.223
+4-County regional Totals,Total Registrations,2004,2866364.223
 King County,Population,2004,1796326.9949999999
 King County,Employment,2004,1131112.266
 King County,Retail Sales (nominal),2004,35702006540.0
@@ -722,7 +722,7 @@ Snohomish County,Cars and Gas Trucks,2004,538184.3859000001
 4-County regional Totals,Motor Fuel (gal.),2005,1763850485.0
 4-County regional Totals,Cars and Gas Trucks,2005,2828750.778
 4-County regional Totals,Diesel,2005,73.96520418
-4-County regional Totals,Total Registrations (000s),2005,2902715.9820000003
+4-County regional Totals,Total Registrations,2005,2902715.9820000003
 King County,Population,2005,1809174.5599999998
 King County,Employment,2005,1153844.693
 King County,Retail Sales (nominal),2005,38333342690.0
@@ -746,7 +746,7 @@ Snohomish County,Cars and Gas Trucks,2005,549855.1728
 4-County regional Totals,Motor Fuel (gal.),2006,1779821989.0
 4-County regional Totals,Cars and Gas Trucks,2006,2863113.554
 4-County regional Totals,Diesel,2006,80.15934875
-4-County regional Totals,Total Registrations (000s),2006,2943272.903
+4-County regional Totals,Total Registrations,2006,2943272.903
 King County,Population,2006,1833773.104
 King County,Employment,2006,1186847.563
 King County,Retail Sales (nominal),2006,41566804820.0
@@ -770,7 +770,7 @@ Snohomish County,Cars and Gas Trucks,2006,560086.9921
 4-County regional Totals,Motor Fuel (gal.),2007,1788781195.0
 4-County regional Totals,Cars and Gas Trucks,2007,2925945.225
 4-County regional Totals,Diesel,2007,86.50612513
-4-County regional Totals,Total Registrations (000s),2007,3012451.3499999996
+4-County regional Totals,Total Registrations,2007,3012451.3499999996
 King County,Population,2007,1862865.9009999998
 King County,Employment,2007,1209326.593
 King County,Retail Sales (nominal),2007,45629317670.0
@@ -794,7 +794,7 @@ Snohomish County,Cars and Gas Trucks,2007,574249.4822999999
 4-County regional Totals,Motor Fuel (gal.),2008,1759679945.0
 4-County regional Totals,Cars and Gas Trucks,2008,2946483.1100000003
 4-County regional Totals,Diesel,2008,89.21048122
-4-County regional Totals,Total Registrations (000s),2008,3035693.592
+4-County regional Totals,Total Registrations,2008,3035693.592
 King County,Population,2008,1883775.189
 King County,Employment,2008,1226783.828
 King County,Retail Sales (nominal),2008,47056348360.0
@@ -818,7 +818,7 @@ Snohomish County,Cars and Gas Trucks,2008,576523.7969999999
 4-County regional Totals,Motor Fuel (gal.),2009,1700738023.0
 4-County regional Totals,Cars and Gas Trucks,2009,2912343.693
 4-County regional Totals,Diesel,2009,88.72087691
-4-County regional Totals,Total Registrations (000s),2009,3001064.57
+4-County regional Totals,Total Registrations,2009,3001064.57
 King County,Population,2009,1901257.942
 King County,Employment,2009,1163330.34
 King County,Retail Sales (nominal),2009,41935584470.0
@@ -842,7 +842,7 @@ Snohomish County,Cars and Gas Trucks,2009,580825.3634
 4-County regional Totals,Motor Fuel (gal.),2010,1699738674.0
 4-County regional Totals,Cars and Gas Trucks,2010,2998711.798
 4-County regional Totals,Diesel,2010,88.04449929
-4-County regional Totals,Total Registrations (000s),2010,3086756.297
+4-County regional Totals,Total Registrations,2010,3086756.297
 King County,Population,2010,1922328.381
 King County,Employment,2010,1149766.448
 King County,Retail Sales (nominal),2010,38333544490.0
@@ -866,7 +866,7 @@ Snohomish County,Cars and Gas Trucks,2010,595998.6581
 4-County regional Totals,Motor Fuel (gal.),2011,1752023137.0
 4-County regional Totals,Cars and Gas Trucks,2011,3053686.2350000003
 4-County regional Totals,Diesel,2011,88.67719079
-4-County regional Totals,Total Registrations (000s),2011,3142363.426
+4-County regional Totals,Total Registrations,2011,3142363.426
 King County,Population,2011,1939870.7589999998
 King County,Employment,2011,1167133.333
 King County,Retail Sales (nominal),2011,39501706560.0
@@ -890,7 +890,7 @@ Snohomish County,Cars and Gas Trucks,2011,610160.4765
 4-County regional Totals,Motor Fuel (gal.),2012,1867534385.0
 4-County regional Totals,Cars and Gas Trucks,2012,3054455.436
 4-County regional Totals,Diesel,2012,88.85090786
-4-County regional Totals,Total Registrations (000s),2012,3143306.344
+4-County regional Totals,Total Registrations,2012,3143306.344
 King County,Population,2012,1950287.318
 King County,Employment,2012,1193766.8860000002
 King County,Retail Sales (nominal),2012,41614426640.0
@@ -914,7 +914,7 @@ Snohomish County,Cars and Gas Trucks,2012,613889.9694000001
 4-County regional Totals,Motor Fuel (gal.),2013,1857099021.0
 4-County regional Totals,Cars and Gas Trucks,2013,3094892.738
 4-County regional Totals,Diesel,2013,89.28817833
-4-County regional Totals,Total Registrations (000s),2013,3184180.9170000004
+4-County regional Totals,Total Registrations,2013,3184180.9170000004
 King County,Population,2013,1970454.6190000002
 King County,Employment,2013,1230333.554
 King County,Retail Sales (nominal),2013,44547870270.0
@@ -938,7 +938,7 @@ Snohomish County,Cars and Gas Trucks,2013,629695.2787
 4-County regional Totals,Motor Fuel (gal.),2014,1835938237.0
 4-County regional Totals,Cars and Gas Trucks,2014,3119917.475
 4-County regional Totals,Diesel,2014,89.65267304
-4-County regional Totals,Total Registrations (000s),2014,3209570.1479999996
+4-County regional Totals,Total Registrations,2014,3209570.1479999996
 King County,Population,2014,2002923.988
 King County,Employment,2014,1264466.888
 King County,Retail Sales (nominal),2014,47704186540.0
@@ -962,7 +962,7 @@ Snohomish County,Cars and Gas Trucks,2014,643156.9249
 4-County regional Totals,Motor Fuel (gal.),2015,1832182352.0
 4-County regional Totals,Cars and Gas Trucks,2015,3148899.9050000003
 4-County regional Totals,Diesel,2015,91.11753701
-4-County regional Totals,Total Registrations (000s),2015,3240017.442
+4-County regional Totals,Total Registrations,2015,3240017.442
 King County,Population,2015,2038687.939
 King County,Employment,2015,1307866.446
 King County,Retail Sales (nominal),2015,52104630170.0
@@ -986,7 +986,7 @@ Snohomish County,Cars and Gas Trucks,2015,664190.68
 4-County regional Totals,Motor Fuel (gal.),2016,1829014786.0
 4-County regional Totals,Cars and Gas Trucks,2016,3185838.27
 4-County regional Totals,Diesel,2016,108.0
-4-County regional Totals,Total Registrations (000s),2016,3293838.27
+4-County regional Totals,Total Registrations,2016,3293838.27
 King County,Population,2016,2083013.3449999997
 King County,Employment,2016,1355800.0
 King County,Retail Sales (nominal),2016,52439861540.0
@@ -1010,7 +1010,7 @@ Snohomish County,Cars and Gas Trucks,2016,681411.0175
 4-County regional Totals,Motor Fuel (gal.),2017,1909761069.0
 4-County regional Totals,Cars and Gas Trucks,2017,3320253.0
 4-County regional Totals,Diesel,2017,115.813
-4-County regional Totals,Total Registrations (000s),2017,3436066.0
+4-County regional Totals,Total Registrations,2017,3436066.0
 King County,Population,2017,2127123.768
 King County,Employment,2017,1382947.915
 King County,Retail Sales (nominal),2017,54225026110.0
@@ -1034,7 +1034,7 @@ Snohomish County,Cars and Gas Trucks,2017,742939.053
 4-County regional Totals,Motor Fuel (gal.),2018,1953725249.0
 4-County regional Totals,Cars and Gas Trucks,2018,3545364.0
 4-County regional Totals,Diesel,2018,135.411
-4-County regional Totals,Total Registrations (000s),2018,3680775.0
+4-County regional Totals,Total Registrations,2018,3680775.0
 King County,Population,2018,2169250.257
 King County,Employment,2018,1411510.194
 King County,Retail Sales (nominal),2018,57499789030.0
@@ -1058,7 +1058,7 @@ Snohomish County,Cars and Gas Trucks,2018,778610.2239000001
 4-County regional Totals,Motor Fuel (gal.),2019,1917427117.0
 4-County regional Totals,Cars and Gas Trucks,2019,3578504.583
 4-County regional Totals,Diesel,2019,137.9748959
-4-County regional Totals,Total Registrations (000s),2019,3716479.4790000003
+4-County regional Totals,Total Registrations,2019,3716479.4790000003
 King County,Population,2019,2212635.3880000003
 King County,Employment,2019,1427730.157
 King County,Retail Sales (nominal),2019,57520900340.0
@@ -1082,7 +1082,7 @@ Snohomish County,Cars and Gas Trucks,2019,793696.5847
 4-County regional Totals,Motor Fuel (gal.),2020,1914860233.0
 4-County regional Totals,Cars and Gas Trucks,2020,3630061.065
 4-County regional Totals,Diesel,2020,141.2925983
-4-County regional Totals,Total Registrations (000s),2020,3771353.6629999997
+4-County regional Totals,Total Registrations,2020,3771353.6629999997
 King County,Population,2020,2243394.0790000004
 King County,Employment,2020,1443054.1060000001
 King County,Retail Sales (nominal),2020,58594356830.0
@@ -1106,7 +1106,7 @@ Snohomish County,Cars and Gas Trucks,2020,807386.3391
 4-County regional Totals,Motor Fuel (gal.),2021,1908948354.0
 4-County regional Totals,Cars and Gas Trucks,2021,3680839.446
 4-County regional Totals,Diesel,2021,144.630851
-4-County regional Totals,Total Registrations (000s),2021,3825470.297
+4-County regional Totals,Total Registrations,2021,3825470.297
 King County,Population,2021,2273020.733
 King County,Employment,2021,1464298.007
 King County,Retail Sales (nominal),2021,61186815980.0
@@ -1130,7 +1130,7 @@ Snohomish County,Cars and Gas Trucks,2021,821471.9453
 4-County regional Totals,Motor Fuel (gal.),2022,1898866468.0
 4-County regional Totals,Cars and Gas Trucks,2022,3729881.472
 4-County regional Totals,Diesel,2022,147.9514712
-4-County regional Totals,Total Registrations (000s),2022,3877832.943
+4-County regional Totals,Total Registrations,2022,3877832.943
 King County,Population,2022,2301313.69
 King County,Employment,2022,1482236.918
 King County,Retail Sales (nominal),2022,61427569830.0
@@ -1154,7 +1154,7 @@ Snohomish County,Cars and Gas Trucks,2022,834988.8308
 4-County regional Totals,Motor Fuel (gal.),2023,1887824712.0
 4-County regional Totals,Cars and Gas Trucks,2023,3781628.108
 4-County regional Totals,Diesel,2023,151.4310278
-4-County regional Totals,Total Registrations (000s),2023,3933059.136
+4-County regional Totals,Total Registrations,2023,3933059.136
 King County,Population,2023,2330965.895
 King County,Employment,2023,1496965.538
 King County,Retail Sales (nominal),2023,61862171990.0
@@ -1178,7 +1178,7 @@ Snohomish County,Cars and Gas Trucks,2023,849127.2390000001
 4-County regional Totals,Motor Fuel (gal.),2024,1875277984.0
 4-County regional Totals,Cars and Gas Trucks,2024,3834697.06
 4-County regional Totals,Diesel,2024,155.0174238
-4-County regional Totals,Total Registrations (000s),2024,3989714.484
+4-County regional Totals,Total Registrations,2024,3989714.484
 King County,Population,2024,2361093.391
 King County,Employment,2024,1514782.863
 King County,Retail Sales (nominal),2024,63944380630.0
@@ -1202,7 +1202,7 @@ Snohomish County,Cars and Gas Trucks,2024,863687.0959000001
 4-County regional Totals,Motor Fuel (gal.),2025,1859736719.0
 4-County regional Totals,Cars and Gas Trucks,2025,3886923.696
 4-County regional Totals,Diesel,2025,158.624578
-4-County regional Totals,Total Registrations (000s),2025,4045548.274
+4-County regional Totals,Total Registrations,2025,4045548.274
 King County,Population,2025,2390344.98
 King County,Employment,2025,1532067.771
 King County,Retail Sales (nominal),2025,64834790550.0
@@ -1226,7 +1226,7 @@ Snohomish County,Cars and Gas Trucks,2025,877832.6795000001
 4-County regional Totals,Motor Fuel (gal.),2026,1846105599.0
 4-County regional Totals,Cars and Gas Trucks,2026,3940050.852
 4-County regional Totals,Diesel,2026,162.3240653
-4-County regional Totals,Total Registrations (000s),2026,4102374.917
+4-County regional Totals,Total Registrations,2026,4102374.917
 King County,Population,2026,2420072.835
 King County,Employment,2026,1547657.18
 King County,Retail Sales (nominal),2026,65478524600.0
@@ -1250,7 +1250,7 @@ Snohomish County,Cars and Gas Trucks,2026,891872.2456
 4-County regional Totals,Motor Fuel (gal.),2027,1834083223.0
 4-County regional Totals,Cars and Gas Trucks,2027,3993440.316
 4-County regional Totals,Diesel,2027,166.0911574
-4-County regional Totals,Total Registrations (000s),2027,4159531.473
+4-County regional Totals,Total Registrations,2027,4159531.473
 King County,Population,2027,2449556.498
 King County,Employment,2027,1566122.992
 King County,Retail Sales (nominal),2027,67563997310.00001
@@ -1274,7 +1274,7 @@ Snohomish County,Cars and Gas Trucks,2027,906021.2115000001
 4-County regional Totals,Motor Fuel (gal.),2028,1822865742.0
 4-County regional Totals,Cars and Gas Trucks,2028,4044403.859
 4-County regional Totals,Diesel,2028,169.8140699
-4-County regional Totals,Total Registrations (000s),2028,4214217.928
+4-County regional Totals,Total Registrations,2028,4214217.928
 King County,Population,2028,2477112.591
 King County,Employment,2028,1585669.079
 King County,Retail Sales (nominal),2028,69057839260.0
@@ -1298,7 +1298,7 @@ Snohomish County,Cars and Gas Trucks,2028,919552.5926
 4-County regional Totals,Motor Fuel (gal.),2029,1813542084.0
 4-County regional Totals,Cars and Gas Trucks,2029,4096258.5609999998
 4-County regional Totals,Diesel,2029,173.6312818
-4-County regional Totals,Total Registrations (000s),2029,4269889.843
+4-County regional Totals,Total Registrations,2029,4269889.843
 King County,Population,2029,2504832.211
 King County,Employment,2029,1603696.567
 King County,Retail Sales (nominal),2029,69922184290.0
@@ -1322,7 +1322,7 @@ Snohomish County,Cars and Gas Trucks,2029,933182.8923000001
 4-County regional Totals,Motor Fuel (gal.),2030,1806339922.0
 4-County regional Totals,Cars and Gas Trucks,2030,4149487.51
 4-County regional Totals,Diesel,2030,177.5653164
-4-County regional Totals,Total Registrations (000s),2030,4327052.826
+4-County regional Totals,Total Registrations,2030,4327052.826
 King County,Population,2030,2532911.352
 King County,Employment,2030,1623427.8830000001
 King County,Retail Sales (nominal),2030,71962482180.0
@@ -1346,7 +1346,7 @@ Snohomish County,Cars and Gas Trucks,2030,947209.64
 4-County regional Totals,Motor Fuel (gal.),2031,1799719298.0
 4-County regional Totals,Cars and Gas Trucks,2031,4200429.534
 4-County regional Totals,Diesel,2031,181.4604844
-4-County regional Totals,Total Registrations (000s),2031,4381890.019
+4-County regional Totals,Total Registrations,2031,4381890.019
 King County,Population,2031,2559327.527
 King County,Employment,2031,1644383.386
 King County,Retail Sales (nominal),2031,74146945190.0
@@ -1370,7 +1370,7 @@ Snohomish County,Cars and Gas Trucks,2031,960298.0564
 4-County regional Totals,Motor Fuel (gal.),2032,1793171322.0
 4-County regional Totals,Cars and Gas Trucks,2032,4247866.173
 4-County regional Totals,Diesel,2032,185.2616337
-4-County regional Totals,Total Registrations (000s),2032,4433127.806000001
+4-County regional Totals,Total Registrations,2032,4433127.806000001
 King County,Population,2032,2583082.349
 King County,Employment,2032,1662013.337
 King County,Retail Sales (nominal),2032,75698852430.0
@@ -1394,7 +1394,7 @@ Snohomish County,Cars and Gas Trucks,2032,972485.8431
 4-County regional Totals,Motor Fuel (gal.),2033,1789770382.0
 4-County regional Totals,Cars and Gas Trucks,2033,4298443.041
 4-County regional Totals,Diesel,2033,189.2577876
-4-County regional Totals,Total Registrations (000s),2033,4487700.829
+4-County regional Totals,Total Registrations,2033,4487700.829
 King County,Population,2033,2608216.6390000004
 King County,Employment,2033,1679836.344
 King County,Retail Sales (nominal),2033,77679406770.0
@@ -1418,7 +1418,7 @@ Snohomish County,Cars and Gas Trucks,2033,985352.8345
 4-County regional Totals,Motor Fuel (gal.),2034,1788846759.0
 4-County regional Totals,Cars and Gas Trucks,2034,4350748.886
 4-County regional Totals,Diesel,2034,193.3909464
-4-County regional Totals,Total Registrations (000s),2034,4544139.8319999995
+4-County regional Totals,Total Registrations,2034,4544139.8319999995
 King County,Population,2034,2633862.97
 King County,Employment,2034,1699017.596
 King County,Retail Sales (nominal),2034,79976302730.0
@@ -1442,7 +1442,7 @@ Snohomish County,Cars and Gas Trucks,2034,998549.5588
 4-County regional Totals,Motor Fuel (gal.),2035,1790905256.0
 4-County regional Totals,Cars and Gas Trucks,2035,4406044.351
 4-County regional Totals,Diesel,2035,197.7207022
-4-County regional Totals,Total Registrations (000s),2035,4603765.053
+4-County regional Totals,Total Registrations,2035,4603765.053
 King County,Population,2035,2660778.296
 King County,Employment,2035,1718740.8069999998
 King County,Retail Sales (nominal),2035,82162517240.0
@@ -1466,7 +1466,7 @@ Snohomish County,Cars and Gas Trucks,2035,1012404.8470000001
 4-County regional Totals,Motor Fuel (gal.),2036,1795445696.0
 4-County regional Totals,Cars and Gas Trucks,2036,4463144.311
 4-County regional Totals,Diesel,2036,202.1980624
-4-County regional Totals,Total Registrations (000s),2036,4665342.373000001
+4-County regional Totals,Total Registrations,2036,4665342.373000001
 King County,Population,2036,2688424.744
 King County,Employment,2036,1739542.1919999998
 King County,Retail Sales (nominal),2036,84836962470.0
@@ -1490,7 +1490,7 @@ Snohomish County,Cars and Gas Trucks,2036,1026445.6889999999
 4-County regional Totals,Motor Fuel (gal.),2037,1801803899.0
 4-County regional Totals,Cars and Gas Trucks,2037,4520371.965
 4-County regional Totals,Diesel,2037,206.7495801
-4-County regional Totals,Total Registrations (000s),2037,4727121.545
+4-County regional Totals,Total Registrations,2037,4727121.545
 King County,Population,2037,2715616.285
 King County,Employment,2037,1762019.972
 King County,Retail Sales (nominal),2037,88114781020.0
@@ -1514,7 +1514,7 @@ Snohomish County,Cars and Gas Trucks,2037,1040571.2089999999
 4-County regional Totals,Motor Fuel (gal.),2038,1808145137.0
 4-County regional Totals,Cars and Gas Trucks,2038,4573137.486
 4-County regional Totals,Diesel,2038,211.1644224
-4-County regional Totals,Total Registrations (000s),2038,4784301.909
+4-County regional Totals,Total Registrations,2038,4784301.909
 King County,Population,2038,2739612.579
 King County,Employment,2038,1785045.639
 King County,Retail Sales (nominal),2038,91366889960.0
@@ -1538,7 +1538,7 @@ Snohomish County,Cars and Gas Trucks,2038,1053529.4710000001
 4-County regional Totals,Motor Fuel (gal.),2039,1815362525.0
 4-County regional Totals,Cars and Gas Trucks,2039,4623991.528
 4-County regional Totals,Diesel,2039,215.5565244
-4-County regional Totals,Total Registrations (000s),2039,4839548.053
+4-County regional Totals,Total Registrations,2039,4839548.053
 King County,Population,2039,2761973.794
 King County,Employment,2039,1804751.412
 King County,Retail Sales (nominal),2039,94528512170.0
@@ -1562,7 +1562,7 @@ Snohomish County,Cars and Gas Trucks,2039,1065986.217
 4-County regional Totals,Motor Fuel (gal.),2040,1824276785.0
 4-County regional Totals,Cars and Gas Trucks,2040,4674771.569
 4-County regional Totals,Diesel,2040,220.0107064
-4-County regional Totals,Total Registrations (000s),2040,4894782.274999999
+4-County regional Totals,Total Registrations,2040,4894782.274999999
 King County,Population,2040,2783820.347
 King County,Employment,2040,1823434.1879999998
 King County,Retail Sales (nominal),2040,97786053010.0
@@ -1586,7 +1586,7 @@ Snohomish County,Cars and Gas Trucks,2040,1078300.725
 4-County regional Totals,Motor Fuel (gal.),2041,1835851228.0
 4-County regional Totals,Cars and Gas Trucks,2041,4728580.819
 4-County regional Totals,Diesel,2041,224.6752034
-4-County regional Totals,Total Registrations (000s),2041,4953256.022
+4-County regional Totals,Total Registrations,2041,4953256.022
 King County,Population,2041,2807124.557
 King County,Employment,2041,1841989.4589999998
 King County,Retail Sales (nominal),2041,101072085600.0
@@ -1610,7 +1610,7 @@ Snohomish County,Cars and Gas Trucks,2041,1091071.7340000002
 4-County regional Totals,Motor Fuel (gal.),2042,1849857263.0
 4-County regional Totals,Cars and Gas Trucks,2042,4784973.234
 4-County regional Totals,Diesel,2042,229.5336562
-4-County regional Totals,Total Registrations (000s),2042,5014506.89
+4-County regional Totals,Total Registrations,2042,5014506.89
 King County,Population,2042,2831520.8389999997
 King County,Employment,2042,1861539.9
 King County,Retail Sales (nominal),2042,104741713300.0
@@ -1634,7 +1634,7 @@ Snohomish County,Cars and Gas Trucks,2042,1104391.744
 4-County regional Totals,Motor Fuel (gal.),2043,1865793125.0
 4-County regional Totals,Cars and Gas Trucks,2043,4842998.652
 4-County regional Totals,Diesel,2043,234.5445653
-4-County regional Totals,Total Registrations (000s),2043,5077543.217999999
+4-County regional Totals,Total Registrations,2043,5077543.217999999
 King County,Population,2043,2856459.842
 King County,Employment,2043,1882284.232
 King County,Retail Sales (nominal),2043,108733463400.0
@@ -1658,7 +1658,7 @@ Snohomish County,Cars and Gas Trucks,2043,1118004.063
 4-County regional Totals,Motor Fuel (gal.),2044,1883326342.0
 4-County regional Totals,Cars and Gas Trucks,2044,4902260.313
 4-County regional Totals,Diesel,2044,239.6918071
-4-County regional Totals,Total Registrations (000s),2044,5141952.121
+4-County regional Totals,Total Registrations,2044,5141952.121
 King County,Population,2044,2881730.631
 King County,Employment,2044,1903463.59
 King County,Retail Sales (nominal),2044,112906983600.0
@@ -1682,7 +1682,7 @@ Snohomish County,Cars and Gas Trucks,2044,1131784.0329999998
 4-County regional Totals,Motor Fuel (gal.),2045,1902269281.0
 4-County regional Totals,Cars and Gas Trucks,2045,4963155.971999999
 4-County regional Totals,Diesel,2045,244.9977924
-4-County regional Totals,Total Registrations (000s),2045,5208153.765
+4-County regional Totals,Total Registrations,2045,5208153.765
 King County,Population,2045,2907593.413
 King County,Employment,2045,1924875.101
 King County,Retail Sales (nominal),2045,117367021700.0
@@ -1706,7 +1706,7 @@ Snohomish County,Cars and Gas Trucks,2045,1145853.514
 4-County regional Totals,Motor Fuel (gal.),2046,1921648263.0
 4-County regional Totals,Cars and Gas Trucks,2046,5023152.784
 4-County regional Totals,Diesel,2046,250.3396812
-4-County regional Totals,Total Registrations (000s),2046,5273492.465
+4-County regional Totals,Total Registrations,2046,5273492.465
 King County,Population,2046,2932719.056
 King County,Employment,2046,1945645.497
 King County,Retail Sales (nominal),2046,121849985400.0
@@ -1730,7 +1730,7 @@ Snohomish County,Cars and Gas Trucks,2046,1159451.0760000001
 4-County regional Totals,Motor Fuel (gal.),2047,1941753293.0
 4-County regional Totals,Cars and Gas Trucks,2047,5083282.147
 4-County regional Totals,Diesel,2047,255.7691831
-4-County regional Totals,Total Registrations (000s),2047,5339051.33
+4-County regional Totals,Total Registrations,2047,5339051.33
 King County,Population,2047,2957608.883
 King County,Employment,2047,1965632.9009999998
 King County,Retail Sales (nominal),2047,126426862900.0
@@ -1754,7 +1754,7 @@ Snohomish County,Cars and Gas Trucks,2047,1172929.657
 4-County regional Totals,Motor Fuel (gal.),2048,1962103468.0
 4-County regional Totals,Cars and Gas Trucks,2048,5142791.528
 4-County regional Totals,Diesel,2048,261.2493683
-4-County regional Totals,Total Registrations (000s),2048,5404040.896000001
+4-County regional Totals,Total Registrations,2048,5404040.896000001
 King County,Population,2048,2981858.021
 King County,Employment,2048,1984937.118
 King County,Retail Sales (nominal),2048,130970888200.0
@@ -1778,7 +1778,7 @@ Snohomish County,Cars and Gas Trucks,2048,1186115.02
 4-County regional Totals,Motor Fuel (gal.),2049,1982797877.0
 4-County regional Totals,Cars and Gas Trucks,2049,5201903.016
 4-County regional Totals,Diesel,2049,266.7918415
-4-County regional Totals,Total Registrations (000s),2049,5468694.857000001
+4-County regional Totals,Total Registrations,2049,5468694.857000001
 King County,Population,2049,3005628.5640000002
 King County,Employment,2049,2003252.2980000002
 King County,Retail Sales (nominal),2049,135304830599.99998
@@ -1802,7 +1802,7 @@ Snohomish County,Cars and Gas Trucks,2049,1199045.271
 4-County regional Totals,Motor Fuel (gal.),2050,2004464980.0
 4-County regional Totals,Cars and Gas Trucks,2050,5262452.5309999995
 4-County regional Totals,Diesel,2050,272.4922073
-4-County regional Totals,Total Registrations (000s),2050,5534944.738999999
+4-County regional Totals,Total Registrations,2050,5534944.738999999
 King County,Population,2050,3029909.142
 King County,Employment,2050,2021312.901
 King County,Retail Sales (nominal),2050,139847883600.0

@@ -2,7 +2,7 @@ import pandas as pd
 from dash import dcc, html, dash_table, callback
 from dash.dependencies import Input, Output
 
-from components import ids, common_functions
+from components import ids, common_components
 from components.supplementary_data_components import supplementary_data
 
 
@@ -62,7 +62,7 @@ def render_population_filter(data: pd.DataFrame) -> html.Div:
                 value=""
             ),
             html.H6("Year Range"),
-            common_functions.year_slider_2018(slider_id="supplementary-population-slider",
+            common_components.year_slider_2018(slider_id="supplementary-population-slider",
                                               years_min=years_min, years_max=years_max)
         ]
     )

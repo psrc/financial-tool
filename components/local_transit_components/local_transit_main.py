@@ -2,7 +2,7 @@ import pandas as pd
 from dash import dcc, html, dash_table, callback
 from dash.dependencies import Input, Output
 
-from components import ids, common_functions
+from components import ids, common_components
 from components.local_transit_components import local_transit_data
 
 
@@ -129,8 +129,8 @@ def render_revenue_filter(data: pd.DataFrame) -> html.Div:
                 value=""
             ),
             html.H6("Year Range"),
-            common_functions.year_slider_2018(slider_id=ids.LOCAL_TRANSIT_REVENUE_YEAR_SLIDER,
-                                              years_min=years_min, years_max=years_max)
+            common_components.year_slider_2018(slider_id=ids.LOCAL_TRANSIT_REVENUE_YEAR_SLIDER,
+                                               years_min=years_min, years_max=years_max)
         ]
     )
 
@@ -178,8 +178,8 @@ def render_boarding_filter(data: pd.DataFrame) -> html.Div:
                 value=""
             ),
             html.H6("Year Range"),
-            common_functions.year_slider_2018(slider_id=ids.LOCAL_TRANSIT_BOARDING_YEAR_SLIDER,
-                                              years_min=years_min, years_max=years_max)
+            common_components.year_slider_2018(slider_id=ids.LOCAL_TRANSIT_BOARDING_YEAR_SLIDER,
+                                               years_min=years_min, years_max=years_max)
         ]
     )
 
