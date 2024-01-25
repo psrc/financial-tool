@@ -1,6 +1,8 @@
 # financial-tool
 
 Financial tool is a dashboard created with Dash for **2018 RTP financial law revenue**.
+- original spreadsheet: \\FILE\dept\Trans\Finance\LRTP Finance\2022 Regional Transportation Plan\Current_Law_Revenue_Tool_Update\Model_Testing_and_Review\Model\July-8-TPB\16_C_RTP_CLR_Tool_Fed_State_No_Gas_July_TPB_County_Breakdown.xlsx
+- deep dive slides: X:\Trans\Finance\LRTP Finance\2022 Regional Transportation Plan\Background_Materials\Finance Planning 101\FinanceDeepDive.pptx
 
 ### Current features (June 2023):
 
