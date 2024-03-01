@@ -10,8 +10,7 @@ data_config = toml.load(os.path.join(os.getcwd(), "../configuration.toml"))
 predict_subarea_population = False
 predict_boardings_local_transit = False
 predict_fare_per_boarding_local_transit = False
-predict_revenue_local_transit = True
-predict_tax_base = False
+predict_revenue_local_transit = False
 
 # Subarea Allocation Bases - Population
 if predict_subarea_population:
@@ -208,7 +207,7 @@ if predict_revenue_local_transit:
     # PART 4: Sales & Use Tax
     transit_sales_tax_rate = pd.read_csv(data_config['data_transit_sales_tax_rate']).astype({'Year': 'int64'})
 
-    retail_sales = pd.read_csv(data_config['data_tax_base'])
+    retail_sales = pd.read_csv(data_config['input_tax_base'])
     retail_sales = retail_sales[retail_sales['Tax Base Category'] == 'Retail Sales (nominal)']
 
     result_transit_sales_tax = pd.DataFrame()

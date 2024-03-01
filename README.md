@@ -26,7 +26,7 @@ python app.py
 ### Development Notes
 
 - **preparing data for the app**\
-[`excel_raw_data_process.ipynb`](https://github.com/psrc/financial-tool/blob/main/scripts/archive_scripts/excel_raw_data_process.ipynb) handles the initial processing from excel data copied from original spreadsheet. 
+[`create_input_data_2018.py`](https://github.com/psrc/financial-tool/blob/main/scripts/archive_scripts/excel_raw_data_process.ipynb) handles the initial processing from excel data copied from original spreadsheet. 
 This notebook is not part of the forecasting script. The processed input data for forecasting is stored in [`scripts/script_data/input_data_2018`](https://github.com/psrc/financial-tool/tree/main/scripts/script_data/input_data_2018). <br> 
 The forecasting calculation happens in [`scripts`](https://github.com/psrc/financial-tool/tree/main/scripts). 
 The calculated output that is ready for the Dash app is stored in [`app_data`](https://github.com/psrc/financial-tool/tree/main/app_data)

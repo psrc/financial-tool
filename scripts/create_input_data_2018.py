@@ -16,7 +16,9 @@ replace_subarea_population = False
 replace_boardings_local_transit = False
 replace_fare_per_boarding_local_transit = False
 replace_revenue_local_transit = False
-replace_tax_base = True
+replace_tax_base = False
+replace_state_highway_revenue = False
+replace_county_roads_revenue = True
 
 # actual data from 2018 excel spreadsheet
 
@@ -34,6 +36,12 @@ Excel_data_parameter = "script_data/excel_data_2018/parameters_tax.csv"
 
 # Subarea Allocation Bases Tab
 Excel_data_subarea_population = "script_data/excel_data_2018/subarea_allocation_bases_population_actual.csv"
+
+# State Highway
+Excel_data_state_highway_revenue = "script_data/excel_data_2018/state_highway_revenue_generated_2014.csv"
+
+# County Roads
+Excel_data_revenue_county_roads = "script_data/excel_data_2018/county_roads_revenue.csv"
 
 
 if replace_parameter:
@@ -129,6 +137,24 @@ if replace_tax_base:
     tax_base["Tax Base Category"] = tax_base["Tax Base Category"].map(new_values)
     tax_base = tax_base[['County', 'Tax Base Category', 'Year', 'Value']]
 
-    tax_base.to_csv(data_config['data_tax_base'], index=False)
+    tax_base.to_csv(data_config['input_tax_base'], index=False)
 
 
+if replace_state_highway_revenue:
+    df = pd.read_csv(Excel_data_state_highway_revenue)
+
+    state_highway = pd.melt(df,
+                            id_vars='Base Program Revenue Type',
+                            value_vars=df.columns[1:],
+                            var_name='Year',
+                            value_name='Nominal').dropna().astype({'Year': 'int64'})
+
+    state_highway.to_csv(data_config['input_state_highway_revenue'], index=False)
+
+if replace_county_roads_revenue:
+    df = pd.read_csv(Excel_data_revenue_county_roads)
+
+    county_roads = pd.melt(df, id_vars=['County', 'Revenue Category', 'Revenue Type'], value_vars=df.columns[3:],
+                    var_name='Year', value_name='Value').dropna()
+
+    county_roads.to_csv(data_config['input_county_roads_revenue'], index=False)

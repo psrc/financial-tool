@@ -61,3 +61,31 @@ def interpolate_population(df, pop_col, start_year, end_year):
         last_val = val
 
     return df3[pop_col]
+
+# 3/1/2024 county roads
+def add_years(df: pd.DataFrame, group_cols: list, end_year: int):
+    """
+    add rows for missing years
+    - Year column will become the index
+    """
+    _df = df.copy().set_index('Year')
+    # _df['Data Type'] = "Actual"
+    _df = _df.reindex(list(range(min(_df.index), end_year+1)))
+    _df[group_cols] = _df[group_cols].ffill()
+    _df['Data Type'] = _df['Value'].apply(lambda x: "Forecast" if np.isnan(x) else "Actual")
+    return _df
+
+def forecast_prev_year_multiply(df: pd.DataFrame, value_colname: str, mult_value: float):
+    """
+    year Y revenue = Estimated Y-1 revenue × mult_value
+    """
+    _df = df.copy()
+
+    # list of forecasting yesrs
+    forecast_years = _df.loc[np.isnan(_df[value_colname])].index
+
+    for idx in forecast_years:
+        prev_value = _df[value_colname][idx-1]
+        _df.loc[idx,value_colname] = prev_value * mult_value
+    _df = _df.reset_index()
+    return _df
