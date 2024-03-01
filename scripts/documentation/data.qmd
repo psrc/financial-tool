@@ -1,0 +1,35 @@
+---
+title: data input
+date: today
+
+format: 
+    html:   
+        toc: true
+        number-sections: true
+
+execute:
+  enabled: true
+---
+
+## local transit
+
+
+## city streets revenue
+
+```{python}
+import pandas as pd
+city_streets_data = pd.read_csv("data_notes.csv").\
+        fillna("")
+pd.options.display.max_colwidth = 100
+
+city_streets_table = city_streets_data.loc[city_streets_data['revenue tab']=="City Streets Revenue",['revenue category','revenue type','forecast']].\
+    set_index(['revenue category','revenue type'])
+
+city_streets_source = city_streets_data.loc[city_streets_data['revenue tab']=="City Streets Revenue",]['source'].unique()
+```
+
+- data source: `{python} print(city_streets_source)`
+
+```{python} 
+city_streets_table
+```

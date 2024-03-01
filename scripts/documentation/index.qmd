@@ -1,0 +1,35 @@
+---
+title: Financial Tool Documentation
+date: today
+
+format: 
+    html:   
+        toc: true
+        number-sections: true
+
+jupyter: python3
+---
+
+Financial tool is a dashboard created with Dash for 2018 RTP financial law revenue.
+
+- original spreadsheet: `\FILE\dept\Trans\Finance\LRTP Finance\2022 Regional Transportation Plan\Current_Law_Revenue_Tool_Update\Model_Testing_and_Review\Model\July-8-TPB\16_C_RTP_CLR_Tool_Fed_State_No_Gas_July_TPB_County_Breakdown.xlsx`
+- deep dive slides: `X:\Trans\Finance\LRTP Finance\2022 Regional Transportation Plan\Background_Materials\Finance Planning 101\FinanceDeepDive.pptx`
+
+## State Highway
+
+- Includes all WSDOT capital, operating investments, and debt service within the PSRC region
+- Revenues include fuel tax, license, permits, and fees (LPF), tolls, and federal contributions
+
+![state tax breakdown](state_fuel_tax.png)
+
+1. **Base program**: dedicated to motor vehicle and multimodal funds for maintenance, preservation, safety, operations, and grant programs
+    - Funded using base 23¢ fuel tax, License, Permit &  Fee (LPF) revenues, tolls, and federal contributions
+    - Statewide revenues forecast – regional revenues estimated based on a rate of return
+
+2. **Nickel & Transportation Partnership Act**: fund major highway expansion projects
+    - Funded with 14.5¢ fuel tax and LPF increases in 2000s
+    - Significant amount of Nickel & TPA revenues were bonded – debt service to be retired in early 2040s
+
+
+3. **Connecting Washington**
+

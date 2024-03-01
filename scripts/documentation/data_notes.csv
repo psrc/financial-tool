@@ -1,0 +1,67 @@
+﻿revenue tab,revenue category,revenue type,forecast,source,note
+City Streets Revenue,LOCAL TAXES & FEES,Vehicle License Fee,,,
+City Streets Revenue,LOCAL TAXES & FEES,Mitigation and Impact Fees,,,
+City Streets Revenue,LOCAL TAXES & FEES,Commercial Parking Tax,year Y revenue= (Y city population/Y-1 city population) ×  Y-1 revenue,"WA Budgeting, Accounting and Reporting System (BARS)",
+City Streets Revenue,LOCAL TAXES & FEES,Street Utility,,,
+City Streets Revenue,LOCAL TAXES & FEES,Local/Road Improvement Districts (LIDs/RIDs),year Y revenue= (Y city population/Y-1 city population) ×  Y-1 revenue,"WA Budgeting, Accounting and Reporting System (BARS)",
+City Streets Revenue,LOCAL TAXES & FEES,Real Estate Excise Tax,year Y revenue= Y-1 revenue × Inflation,"WA Budgeting, Accounting and Reporting System (BARS)",
+City Streets Revenue,LOCAL TAXES & FEES,General Fund Revenues,Revenue = Inflation × Average actual revenues for prior 10 years,"WA Budgeting, Accounting and Reporting System (BARS)",Growth by inflation but capped at 40% (FWG recommendation for 2018 RTP)
+City Streets Revenue,LOCAL TAXES & FEES,Other Local,Revenue = (Combine growth in city population and inflation) × (Average actual revenues for prior 10 years),"WA Budgeting, Accounting and Reporting System (BARS)",
+City Streets Revenue,LOCAL TAXES & FEES,General Obligation Bonds,,,
+City Streets Revenue,STATE TAX DISTRIBUTIONS,City Gas Tax Distribution,year Y revenue= (Y fuel forecasts/Y-1 fuel forecasts) × Y-1 revenue,"WA Budgeting, Accounting and Reporting System (BARS)",
+City Streets Revenue,STATE TAX DISTRIBUTIONS,Transportation Improvement Board,year Y revenue= (Y fuel forecasts/Y-1 fuel forecasts) × Y-1 revenue,"WA Budgeting, Accounting and Reporting System (BARS)",
+City Streets Revenue,STATE TAX DISTRIBUTIONS,Other State Funds,"year Y Revenues = Combine growth in city population and inflation, Y vs. Y-1 × Y-1 revenue","WA Budgeting, Accounting and Reporting System (BARS)",
+City Streets Revenue,FEDERAL TAX DISTRIBUTIONS,Other Federal Funds,year Y revenue = Estimated Y-1 revenue × 1.025,"WA Budgeting, Accounting and Reporting System (BARS)",
+City Streets Revenue,FEDERAL TAX DISTRIBUTIONS,Other Federal Funds (FHWA),,"WA Budgeting, Accounting and Reporting System (BARS)",
+City Streets Revenue,FEDERAL TAX DISTRIBUTIONS,PSRC Federal Funds,,,
+City Streets Revenue,FEDERAL TAX DISTRIBUTIONS,FTA (PSRC) - City of Seattle,,,
+County Roads Revenue,LOCAL TAXES & FEES,County Road Levy,revenue = Prior year revenue × 1.01,"WA Budgeting, Accounting and Reporting System (BARS)",
+County Roads Revenue,LOCAL TAXES & FEES,Vehicle License Fee,,,
+County Roads Revenue,LOCAL TAXES & FEES,Mitigation and Impact Fees,,,"1) Numbers hard coded starting 2031. Hence corrected it by removing hard coded entries.
+2) No forecast methodology provided in the tool received from EcoNorthwest. Have updated the methodology using the approach as City program."
+County Roads Revenue,LOCAL TAXES & FEES,Local/Road Improvement Districts (LIDs/RIDs),,,
+County Roads Revenue,LOCAL TAXES & FEES,Real Estate Excise Tax,"A = County Population × Regional Per Capita Personal Income for current year
+B = County Population × Regional Per Capita Personal Income for prior year
+Growth =  A/B 
+Revenue = Growth × Prior year revenue","WA Budgeting, Accounting and Reporting System (BARS)",
+County Roads Revenue,LOCAL TAXES & FEES,General Fund Revenues,"Calculate growth in county population (current year vs. previous year)
+Calculate inflation using CPI (current year vs. previous year)
+
+Revenue = Combine growth in city population and inflation × Prior year revenue","WA Budgeting, Accounting and Reporting System (BARS)","Based on the feedback from deep dive sessions, have changed forecasting methodology to use inflation alone rather than the combination of county population and inflation. This is to ensure consistency with the methodology for City GF revenues.
+
+Refer to X:\Trans\Finance\LRTP Finance\2022 Regional Transportation Plan\Background_Materials\Finance Planning 101\RevenueSources_KM.xlsx"
+County Roads Revenue,LOCAL TAXES & FEES,Other Local,"Calculate growth in county population (current year vs. previous year)
+Calculate inflation using CPI (current year vs. previous year)
+
+Revenue = Combine growth in city population and inflation × Prior year revenue","WA Budgeting, Accounting and Reporting System (BARS)","311.40 Reclassified Reforestation Surtax
+322.40 Street and Curb Permits
+343.10 Storm Drainage Fees & Charges
+343.83 Storm Drainage Fees and Charges
+344.10 Road/Street Maintenance and Repair Charges
+344.90 Other Transportation Related Fees
+320.XX Other Licenses and Permits
+322.90 Other Nonbusiness Licenses and Permits"
+County Roads Revenue,LOCAL TAXES & FEES,General Obligation Bonds,,,"1) Numbers hard coded starting 2031. Hence corrected it by removing hard coded entries.
+
+2) No forecast methodology in tool.
+Peer Review Panel confirmed that this source can be ignored since the revenue from this source is of very small magnitude and inconsistent"
+County Roads Revenue,STATE TAX DISTRIBUTIONS,County Gas Tax Distribution,year Y revenue= (Y regional fuel forecasts/Y-1 regional fuel forecasts) × Y-1 revenue,"WA Budgeting, Accounting and Reporting System (BARS)",
+County Roads Revenue,STATE TAX DISTRIBUTIONS,Transportation Improvement Board,year Y revenue= (Y regional fuel forecasts/Y-1 regional fuel forecasts) × Y-1 revenue,"WA Budgeting, Accounting and Reporting System (BARS)",
+County Roads Revenue,STATE TAX DISTRIBUTIONS,Other State Funds,"Calculate growth in county population (current year vs. previous year)
+Calculate inflation using CPI (current year vs. previous year)
+
+Revenue = Combine growth in city population and inflation × Prior year revenue","WA Budgeting, Accounting and Reporting System (BARS)","336.00.71 Multimodal Account Distributions
+317.40 Timber Harvest Tax - private land
+335 State Shared Revenues
+335.00.91 PUD Privilege Tax
+335.02.31 Reforestation Harvest Tax - Forest Excise Tax
+335.02.32 Non-Timber Revenue from State Forest Land
+335.02.33 Sale of Timber from State Forest Land
+335.91 Impact Funds
+336.XX Other State Entitlements
+336.02.31 Dept. of Natural Resources - payment on lieu of property taxes"
+County Roads Revenue,FEDERAL TAX DISTRIBUTIONS,Other Federal Grants,"Estimate 2015 Revenue = (average 2006-2009, 2011-2014 revenue) × 1.025
+Prior year estimate × 1.025","WA Budgeting, Accounting and Reporting System (BARS)",
+County Roads Revenue,FEDERAL TAX DISTRIBUTIONS,PSRC Federal Grants,,,
+County Roads Revenue,FEDERAL TAX DISTRIBUTIONS,Other Federal Funds (highways),"# Estimate 2021 Revenue = (average 2016-2020 revenue) × 1.025
+# Prior year estimate × 1.025","WA Budgeting, Accounting and Reporting System (BARS)",

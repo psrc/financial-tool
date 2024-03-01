@@ -1,0 +1,15 @@
+project:
+  type: book
+  output-dir: "financial-tool-notebook"
+
+book:
+  title: "financial tool documentation"
+  date: today
+  chapters:
+    - index.qmd
+    - data_notes.ipynb
+
+format:
+  html:
+    theme: cosmo
+    echo: false
