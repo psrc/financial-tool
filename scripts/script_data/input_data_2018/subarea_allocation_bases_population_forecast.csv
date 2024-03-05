@@ -1,0 +1,1021 @@
+County,PopulationArea,Year,Population
+King County,Cities,2000,1387812.0
+King County,Cities,2001,1404829.0
+King County,Cities,2002,1427263.0
+King County,Cities,2003,1436622.0
+King County,Cities,2004,1443623.0
+King County,Cities,2005,1455474.0
+King County,Cities,2006,1481836.0
+King County,Cities,2007,1508783.0
+King County,Cities,2008,1559103.0
+King County,Cities,2009,1580145.0
+King County,Cities,2010,1606249.0
+King County,Cities,2011,1657335.0
+King County,Cities,2012,1701280.0
+King County,Cities,2013,1728800.0
+King County,Cities,2014,1739734.0
+King County,Cities,2015,1799520.0
+King County,Cities,2016,1859180.0
+King County,Cities,2017,1906640.0
+King County,Cities,2018,1942960.0
+King County,Cities,2019,1950189.0
+King County,Cities,2020,1957444.0
+King County,Cities,2021,1984422.0
+King County,Cities,2022,2011772.0
+King County,Cities,2023,2039499.0
+King County,Cities,2024,2067608.0
+King County,Cities,2025,2096102.0
+King County,Cities,2026,2122355.0
+King County,Cities,2027,2148937.0
+King County,Cities,2028,2175852.0
+King County,Cities,2029,2203104.0
+King County,Cities,2030,2230693.0
+King County,Cities,2031,2254414.0
+King County,Cities,2032,2278388.0
+King County,Cities,2033,2302617.0
+King County,Cities,2034,2327103.0
+King County,Cities,2035,2351847.0
+King County,Cities,2036,2374749.0
+King County,Cities,2037,2397874.0
+King County,Cities,2038,2421224.0
+King County,Cities,2039,2444801.0
+King County,Cities,2040,2468605.0
+King County,Cities,2041,2491722.0
+King County,Cities,2042,2515056.0
+King County,Cities,2043,2538608.0
+King County,Cities,2044,2562381.0
+King County,Cities,2045,2586373.0
+King County,Cities,2046,2609214.0
+King County,Cities,2047,2632257.0
+King County,Cities,2048,2655503.0
+King County,Cities,2049,2678954.0
+King County,Cities,2050,2702610.0
+King County,Unincorp.,2000,349234.0
+King County,Unincorp.,2001,350658.0
+King County,Unincorp.,2002,350251.0
+King County,Unincorp.,2003,351460.0
+King County,Unincorp.,2004,357160.0
+King County,Unincorp.,2005,359525.0
+King County,Unincorp.,2006,363373.0
+King County,Unincorp.,2007,362315.0
+King County,Unincorp.,2008,332022.0
+King County,Unincorp.,2009,329060.0
+King County,Unincorp.,2010,325000.0
+King County,Unincorp.,2011,285265.0
+King County,Unincorp.,2012,255720.0
+King County,Unincorp.,2013,253100.0
+King County,Unincorp.,2014,228601.0
+King County,Unincorp.,2015,253280.0
+King County,Unincorp.,2016,245920.0
+King County,Unincorp.,2017,247060.0
+King County,Unincorp.,2018,247240.0
+King County,Unincorp.,2019,249133.0
+King County,Unincorp.,2020,251039.0
+King County,Unincorp.,2021,252286.0
+King County,Unincorp.,2022,253539.0
+King County,Unincorp.,2023,254798.0
+King County,Unincorp.,2024,256064.0
+King County,Unincorp.,2025,257333.0
+King County,Unincorp.,2026,258544.0
+King County,Unincorp.,2027,259760.0
+King County,Unincorp.,2028,260982.0
+King County,Unincorp.,2029,262210.0
+King County,Unincorp.,2030,263441.0
+King County,Unincorp.,2031,264540.0
+King County,Unincorp.,2032,265644.0
+King County,Unincorp.,2033,266752.0
+King County,Unincorp.,2034,267865.0
+King County,Unincorp.,2035,268980.0
+King County,Unincorp.,2036,270039.0
+King County,Unincorp.,2037,271102.0
+King County,Unincorp.,2038,272170.0
+King County,Unincorp.,2039,273242.0
+King County,Unincorp.,2040,274316.0
+King County,Unincorp.,2041,275369.0
+King County,Unincorp.,2042,276426.0
+King County,Unincorp.,2043,277487.0
+King County,Unincorp.,2044,278552.0
+King County,Unincorp.,2045,279618.0
+King County,Unincorp.,2046,280663.0
+King County,Unincorp.,2047,281712.0
+King County,Unincorp.,2048,282765.0
+King County,Unincorp.,2049,283822.0
+King County,Unincorp.,2050,284882.0
+King County,Total,2000,1737046.0
+King County,Total,2001,1755487.0
+King County,Total,2002,1777514.0
+King County,Total,2003,1788082.0
+King County,Total,2004,1800783.0
+King County,Total,2005,1814999.0
+King County,Total,2006,1845209.0
+King County,Total,2007,1871098.0
+King County,Total,2008,1891125.0
+King County,Total,2009,1909205.0
+King County,Total,2010,1931249.0
+King County,Total,2011,1942600.0
+King County,Total,2012,1957000.0
+King County,Total,2013,1981900.0
+King County,Total,2014,1968335.0
+King County,Total,2015,2052800.0
+King County,Total,2016,2105100.0
+King County,Total,2017,2153700.0
+King County,Total,2018,2190200.0
+King County,Total,2019,2199323.0
+King County,Total,2020,2208483.0
+King County,Total,2021,2236741.0
+King County,Total,2022,2265361.0
+King County,Total,2023,2294347.0
+King County,Total,2024,2323704.0
+King County,Total,2025,2353435.0
+King County,Total,2026,2380926.0
+King County,Total,2027,2408738.0
+King County,Total,2028,2436875.0
+King County,Total,2029,2465340.0
+King County,Total,2030,2494134.0
+King County,Total,2031,2518973.0
+King County,Total,2032,2544060.0
+King County,Total,2033,2569397.0
+King County,Total,2034,2594986.0
+King County,Total,2035,2620827.0
+King County,Total,2036,2644804.0
+King County,Total,2037,2669000.0
+King County,Total,2038,2693417.0
+King County,Total,2039,2718058.0
+King County,Total,2040,2742921.0
+King County,Total,2041,2767105.0
+King County,Total,2042,2791503.0
+King County,Total,2043,2816116.0
+King County,Total,2044,2840946.0
+King County,Total,2045,2865991.0
+King County,Total,2046,2889890.0
+King County,Total,2047,2913988.0
+King County,Total,2048,2938287.0
+King County,Total,2049,2962789.0
+King County,Total,2050,2987492.0
+King County,PTBA,2000,1737046.0
+King County,PTBA,2001,1755487.0
+King County,PTBA,2002,1777514.0
+King County,PTBA,2003,1788082.0
+King County,PTBA,2004,1800783.0
+King County,PTBA,2005,1814999.0
+King County,PTBA,2006,1845209.0
+King County,PTBA,2007,1871098.0
+King County,PTBA,2008,1891125.0
+King County,PTBA,2009,1909205.0
+King County,PTBA,2010,1931249.0
+King County,PTBA,2011,1942600.0
+King County,PTBA,2012,1957000.0
+King County,PTBA,2013,1981900.0
+King County,PTBA,2014,1967639.0
+King County,PTBA,2015,2052800.0
+King County,PTBA,2016,2105100.0
+King County,PTBA,2017,2153700.0
+King County,PTBA,2018,2190200.0
+King County,PTBA,2019,2198914.0
+King County,PTBA,2020,2207662.0
+King County,PTBA,2021,2235910.0
+King County,PTBA,2022,2264520.0
+King County,PTBA,2023,2293496.0
+King County,PTBA,2024,2322843.0
+King County,PTBA,2025,2352562.0
+King County,PTBA,2026,2380035.0
+King County,PTBA,2027,2407828.0
+King County,PTBA,2028,2435946.0
+King County,PTBA,2029,2464392.0
+King County,PTBA,2030,2493168.0
+King County,PTBA,2031,2518005.0
+King County,PTBA,2032,2543090.0
+King County,PTBA,2033,2568425.0
+King County,PTBA,2034,2594012.0
+King County,PTBA,2035,2619851.0
+King County,PTBA,2036,2643822.0
+King County,PTBA,2037,2668013.0
+King County,PTBA,2038,2692425.0
+King County,PTBA,2039,2717060.0
+King County,PTBA,2040,2741918.0
+King County,PTBA,2041,2766108.0
+King County,PTBA,2042,2790511.0
+King County,PTBA,2043,2815129.0
+King County,PTBA,2044,2839965.0
+King County,PTBA,2045,2865017.0
+King County,PTBA,2046,2888915.0
+King County,PTBA,2047,2913012.0
+King County,PTBA,2048,2937310.0
+King County,PTBA,2049,2961811.0
+King County,PTBA,2050,2986514.0
+King County,Sound Transit,2000,1466331.0
+King County,Sound Transit,2001,1487534.0
+King County,Sound Transit,2002,1509043.0
+King County,Sound Transit,2003,1530863.0
+King County,Sound Transit,2004,1552998.0
+King County,Sound Transit,2005,1575454.0
+King County,Sound Transit,2006,1598234.0
+King County,Sound Transit,2007,1621344.0
+King County,Sound Transit,2008,1644787.0
+King County,Sound Transit,2009,1668570.0
+King County,Sound Transit,2010,1692697.0
+King County,Sound Transit,2011,1703816.0
+King County,Sound Transit,2012,1715009.0
+King County,Sound Transit,2013,1726275.0
+King County,Sound Transit,2014,1737615.0
+King County,Sound Transit,2015,1772599.0
+King County,Sound Transit,2016,1808287.0
+King County,Sound Transit,2017,1844695.0
+King County,Sound Transit,2018,1881835.0
+King County,Sound Transit,2019,1919724.0
+King County,Sound Transit,2020,1958374.0
+King County,Sound Transit,2021,1985224.0
+King County,Sound Transit,2022,2012443.0
+King County,Sound Transit,2023,2040035.0
+King County,Sound Transit,2024,2068005.0
+King County,Sound Transit,2025,2096356.0
+King County,Sound Transit,2026,2122500.0
+King County,Sound Transit,2027,2148970.0
+King County,Sound Transit,2028,2175770.0
+King County,Sound Transit,2029,2202904.0
+King County,Sound Transit,2030,2230373.0
+King County,Sound Transit,2031,2254006.0
+King County,Sound Transit,2032,2277890.0
+King County,Sound Transit,2033,2302027.0
+King County,Sound Transit,2034,2326419.0
+King County,Sound Transit,2035,2351067.0
+King County,Sound Transit,2036,2373906.0
+King County,Sound Transit,2037,2396967.0
+King County,Sound Transit,2038,2420252.0
+King County,Sound Transit,2039,2443763.0
+King County,Sound Transit,2040,2467500.0
+King County,Sound Transit,2041,2490513.0
+King County,Sound Transit,2042,2513740.0
+King County,Sound Transit,2043,2537184.0
+King County,Sound Transit,2044,2560847.0
+King County,Sound Transit,2045,2584728.0
+King County,Sound Transit,2046,2607493.0
+King County,Sound Transit,2047,2630458.0
+King County,Sound Transit,2048,2653626.0
+King County,Sound Transit,2049,2676998.0
+King County,Sound Transit,2050,2700573.0
+Kitsap County,Cities,2000,72073.0
+Kitsap County,Cities,2001,73267.0
+Kitsap County,Cities,2002,74050.0
+Kitsap County,Cities,2003,75332.0
+Kitsap County,Cities,2004,75136.0
+Kitsap County,Cities,2005,72670.0
+Kitsap County,Cities,2006,74657.0
+Kitsap County,Cities,2007,76131.0
+Kitsap County,Cities,2008,77865.0
+Kitsap County,Cities,2009,78836.0
+Kitsap County,Cities,2010,81111.0
+Kitsap County,Cities,2011,82505.0
+Kitsap County,Cities,2012,83880.0
+Kitsap County,Cities,2013,83495.0
+Kitsap County,Cities,2014,79099.0
+Kitsap County,Cities,2015,86260.0
+Kitsap County,Cities,2016,88280.0
+Kitsap County,Cities,2017,89080.0
+Kitsap County,Cities,2018,90830.0
+Kitsap County,Cities,2019,88593.0
+Kitsap County,Cities,2020,86410.0
+Kitsap County,Cities,2021,87769.0
+Kitsap County,Cities,2022,89149.0
+Kitsap County,Cities,2023,90551.0
+Kitsap County,Cities,2024,91975.0
+Kitsap County,Cities,2025,93418.0
+Kitsap County,Cities,2026,94737.0
+Kitsap County,Cities,2027,96074.0
+Kitsap County,Cities,2028,97430.0
+Kitsap County,Cities,2029,98805.0
+Kitsap County,Cities,2030,100197.0
+Kitsap County,Cities,2031,101388.0
+Kitsap County,Cities,2032,102593.0
+Kitsap County,Cities,2033,103812.0
+Kitsap County,Cities,2034,105046.0
+Kitsap County,Cities,2035,106291.0
+Kitsap County,Cities,2036,107450.0
+Kitsap County,Cities,2037,108621.0
+Kitsap County,Cities,2038,109805.0
+Kitsap County,Cities,2039,111002.0
+Kitsap County,Cities,2040,112210.0
+Kitsap County,Cities,2041,113372.0
+Kitsap County,Cities,2042,114546.0
+Kitsap County,Cities,2043,115733.0
+Kitsap County,Cities,2044,116932.0
+Kitsap County,Cities,2045,118141.0
+Kitsap County,Cities,2046,119297.0
+Kitsap County,Cities,2047,120464.0
+Kitsap County,Cities,2048,121642.0
+Kitsap County,Cities,2049,122832.0
+Kitsap County,Cities,2050,124031.0
+Kitsap County,Unincorp.,2000,159896.0
+Kitsap County,Unincorp.,2001,160651.0
+Kitsap County,Unincorp.,2002,162606.0
+Kitsap County,Unincorp.,2003,164111.0
+Kitsap County,Unincorp.,2004,165641.0
+Kitsap County,Unincorp.,2005,167149.0
+Kitsap County,Unincorp.,2006,169392.0
+Kitsap County,Unincorp.,2007,171345.0
+Kitsap County,Unincorp.,2008,172040.0
+Kitsap County,Unincorp.,2009,172413.0
+Kitsap County,Unincorp.,2010,170022.0
+Kitsap County,Unincorp.,2011,171395.0
+Kitsap County,Unincorp.,2012,170620.0
+Kitsap County,Unincorp.,2013,170505.0
+Kitsap County,Unincorp.,2014,167468.0
+Kitsap County,Unincorp.,2015,171940.0
+Kitsap County,Unincorp.,2016,174310.0
+Kitsap County,Unincorp.,2017,175220.0
+Kitsap County,Unincorp.,2018,176290.0
+Kitsap County,Unincorp.,2019,177144.0
+Kitsap County,Unincorp.,2020,178001.0
+Kitsap County,Unincorp.,2021,179743.0
+Kitsap County,Unincorp.,2022,181502.0
+Kitsap County,Unincorp.,2023,183278.0
+Kitsap County,Unincorp.,2024,185071.0
+Kitsap County,Unincorp.,2025,186878.0
+Kitsap County,Unincorp.,2026,188566.0
+Kitsap County,Unincorp.,2027,190269.0
+Kitsap County,Unincorp.,2028,191987.0
+Kitsap County,Unincorp.,2029,193721.0
+Kitsap County,Unincorp.,2030,195468.0
+Kitsap County,Unincorp.,2031,196999.0
+Kitsap County,Unincorp.,2032,198542.0
+Kitsap County,Unincorp.,2033,200097.0
+Kitsap County,Unincorp.,2034,201665.0
+Kitsap County,Unincorp.,2035,203243.0
+Kitsap County,Unincorp.,2036,204715.0
+Kitsap County,Unincorp.,2037,206198.0
+Kitsap County,Unincorp.,2038,207691.0
+Kitsap County,Unincorp.,2039,209195.0
+Kitsap County,Unincorp.,2040,210708.0
+Kitsap County,Unincorp.,2041,212195.0
+Kitsap County,Unincorp.,2042,213692.0
+Kitsap County,Unincorp.,2043,215200.0
+Kitsap County,Unincorp.,2044,216718.0
+Kitsap County,Unincorp.,2045,218244.0
+Kitsap County,Unincorp.,2046,219721.0
+Kitsap County,Unincorp.,2047,221208.0
+Kitsap County,Unincorp.,2048,222705.0
+Kitsap County,Unincorp.,2049,224213.0
+Kitsap County,Unincorp.,2050,225729.0
+Kitsap County,Total,2000,231969.0
+Kitsap County,Total,2001,233918.0
+Kitsap County,Total,2002,236656.0
+Kitsap County,Total,2003,239443.0
+Kitsap County,Total,2004,240777.0
+Kitsap County,Total,2005,239819.0
+Kitsap County,Total,2006,244049.0
+Kitsap County,Total,2007,247476.0
+Kitsap County,Total,2008,249905.0
+Kitsap County,Total,2009,251249.0
+Kitsap County,Total,2010,251133.0
+Kitsap County,Total,2011,253900.0
+Kitsap County,Total,2012,254500.0
+Kitsap County,Total,2013,254000.0
+Kitsap County,Total,2014,246567.0
+Kitsap County,Total,2015,258200.0
+Kitsap County,Total,2016,262590.0
+Kitsap County,Total,2017,264300.0
+Kitsap County,Total,2018,267120.0
+Kitsap County,Total,2019,265763.0
+Kitsap County,Total,2020,264411.0
+Kitsap County,Total,2021,267515.0
+Kitsap County,Total,2022,270655.0
+Kitsap County,Total,2023,273832.0
+Kitsap County,Total,2024,277046.0
+Kitsap County,Total,2025,280296.0
+Kitsap County,Total,2026,283305.0
+Kitsap County,Total,2027,286346.0
+Kitsap County,Total,2028,289420.0
+Kitsap County,Total,2029,292527.0
+Kitsap County,Total,2030,295665.0
+Kitsap County,Total,2031,298389.0
+Kitsap County,Total,2032,301138.0
+Kitsap County,Total,2033,303912.0
+Kitsap County,Total,2034,306712.0
+Kitsap County,Total,2035,309534.0
+Kitsap County,Total,2036,312166.0
+Kitsap County,Total,2037,314821.0
+Kitsap County,Total,2038,317498.0
+Kitsap County,Total,2039,320198.0
+Kitsap County,Total,2040,322918.0
+Kitsap County,Total,2041,325568.0
+Kitsap County,Total,2042,328240.0
+Kitsap County,Total,2043,330934.0
+Kitsap County,Total,2044,333650.0
+Kitsap County,Total,2045,336385.0
+Kitsap County,Total,2046,339019.0
+Kitsap County,Total,2047,341674.0
+Kitsap County,Total,2048,344349.0
+Kitsap County,Total,2049,347045.0
+Kitsap County,Total,2050,349760.0
+Kitsap County,PTBA,2000,217627.0
+Kitsap County,PTBA,2001,219576.0
+Kitsap County,PTBA,2002,221542.0
+Kitsap County,PTBA,2003,223526.0
+Kitsap County,PTBA,2004,225528.0
+Kitsap County,PTBA,2005,227548.0
+Kitsap County,PTBA,2006,229586.0
+Kitsap County,PTBA,2007,231642.0
+Kitsap County,PTBA,2008,233716.0
+Kitsap County,PTBA,2009,235809.0
+Kitsap County,PTBA,2010,237921.0
+Kitsap County,PTBA,2011,240052.0
+Kitsap County,PTBA,2012,242202.0
+Kitsap County,PTBA,2013,244371.0
+Kitsap County,PTBA,2014,246560.0
+Kitsap County,PTBA,2015,249448.0
+Kitsap County,PTBA,2016,252370.0
+Kitsap County,PTBA,2017,255326.0
+Kitsap County,PTBA,2018,258316.0
+Kitsap County,PTBA,2019,261343.0
+Kitsap County,PTBA,2020,264404.0
+Kitsap County,PTBA,2021,267508.0
+Kitsap County,PTBA,2022,270648.0
+Kitsap County,PTBA,2023,273825.0
+Kitsap County,PTBA,2024,277039.0
+Kitsap County,PTBA,2025,280289.0
+Kitsap County,PTBA,2026,283298.0
+Kitsap County,PTBA,2027,286339.0
+Kitsap County,PTBA,2028,289413.0
+Kitsap County,PTBA,2029,292520.0
+Kitsap County,PTBA,2030,295658.0
+Kitsap County,PTBA,2031,298382.0
+Kitsap County,PTBA,2032,301131.0
+Kitsap County,PTBA,2033,303905.0
+Kitsap County,PTBA,2034,306705.0
+Kitsap County,PTBA,2035,309529.0
+Kitsap County,PTBA,2036,312161.0
+Kitsap County,PTBA,2037,314816.0
+Kitsap County,PTBA,2038,317493.0
+Kitsap County,PTBA,2039,320193.0
+Kitsap County,PTBA,2040,322913.0
+Kitsap County,PTBA,2041,325562.0
+Kitsap County,PTBA,2042,328233.0
+Kitsap County,PTBA,2043,330926.0
+Kitsap County,PTBA,2044,333641.0
+Kitsap County,PTBA,2045,336376.0
+Kitsap County,PTBA,2046,339010.0
+Kitsap County,PTBA,2047,341665.0
+Kitsap County,PTBA,2048,344341.0
+Kitsap County,PTBA,2049,347038.0
+Kitsap County,PTBA,2050,349753.0
+Pierce County,Cities,2000,385459.0
+Pierce County,Cities,2001,388498.0
+Pierce County,Cities,2002,394188.0
+Pierce County,Cities,2003,398332.0
+Pierce County,Cities,2004,401658.0
+Pierce County,Cities,2005,406460.0
+Pierce County,Cities,2006,414678.0
+Pierce County,Cities,2007,420426.0
+Pierce County,Cities,2008,423078.0
+Pierce County,Cities,2009,426175.0
+Pierce County,Cities,2010,428487.0
+Pierce County,Cities,2011,430040.0
+Pierce County,Cities,2012,432245.0
+Pierce County,Cities,2013,436005.0
+Pierce County,Cities,2014,429649.0
+Pierce County,Cities,2015,444070.0
+Pierce County,Cities,2016,452230.0
+Pierce County,Cities,2017,458920.0
+Pierce County,Cities,2018,463200.0
+Pierce County,Cities,2019,470698.0
+Pierce County,Cities,2020,478316.0
+Pierce County,Cities,2021,487279.0
+Pierce County,Cities,2022,496410.0
+Pierce County,Cities,2023,505712.0
+Pierce County,Cities,2024,515188.0
+Pierce County,Cities,2025,524839.0
+Pierce County,Cities,2026,533574.0
+Pierce County,Cities,2027,542454.0
+Pierce County,Cities,2028,551482.0
+Pierce County,Cities,2029,560660.0
+Pierce County,Cities,2030,569988.0
+Pierce County,Cities,2031,577891.0
+Pierce County,Cities,2032,585904.0
+Pierce County,Cities,2033,594028.0
+Pierce County,Cities,2034,602265.0
+Pierce County,Cities,2035,610614.0
+Pierce County,Cities,2036,618254.0
+Pierce County,Cities,2037,625990.0
+Pierce County,Cities,2038,633823.0
+Pierce County,Cities,2039,641754.0
+Pierce County,Cities,2040,649781.0
+Pierce County,Cities,2041,657493.0
+Pierce County,Cities,2042,665296.0
+Pierce County,Cities,2043,673192.0
+Pierce County,Cities,2044,681182.0
+Pierce County,Cities,2045,689264.0
+Pierce County,Cities,2046,696899.0
+Pierce County,Cities,2047,704618.0
+Pierce County,Cities,2048,712423.0
+Pierce County,Cities,2049,720314.0
+Pierce County,Cities,2050,728289.0
+Pierce County,Unincorp.,2000,315359.0
+Pierce County,Unincorp.,2001,320790.0
+Pierce County,Unincorp.,2002,326936.0
+Pierce County,Unincorp.,2003,333637.0
+Pierce County,Unincorp.,2004,342043.0
+Pierce County,Unincorp.,2005,350459.0
+Pierce County,Unincorp.,2006,359372.0
+Pierce County,Unincorp.,2007,366485.0
+Pierce County,Unincorp.,2008,371252.0
+Pierce County,Unincorp.,2009,370725.0
+Pierce County,Unincorp.,2010,366738.0
+Pierce County,Unincorp.,2011,372110.0
+Pierce County,Unincorp.,2012,375955.0
+Pierce County,Unincorp.,2013,378495.0
+Pierce County,Unincorp.,2014,370352.0
+Pierce County,Unincorp.,2015,386050.0
+Pierce County,Unincorp.,2016,392260.0
+Pierce County,Unincorp.,2017,400480.0
+Pierce County,Unincorp.,2018,409020.0
+Pierce County,Unincorp.,2019,404621.0
+Pierce County,Unincorp.,2020,400269.0
+Pierce County,Unincorp.,2021,402989.0
+Pierce County,Unincorp.,2022,405728.0
+Pierce County,Unincorp.,2023,408485.0
+Pierce County,Unincorp.,2024,411261.0
+Pierce County,Unincorp.,2025,414054.0
+Pierce County,Unincorp.,2026,416702.0
+Pierce County,Unincorp.,2027,419367.0
+Pierce County,Unincorp.,2028,422049.0
+Pierce County,Unincorp.,2029,424748.0
+Pierce County,Unincorp.,2030,427463.0
+Pierce County,Unincorp.,2031,429846.0
+Pierce County,Unincorp.,2032,432242.0
+Pierce County,Unincorp.,2033,434651.0
+Pierce County,Unincorp.,2034,437074.0
+Pierce County,Unincorp.,2035,439508.0
+Pierce County,Unincorp.,2036,441810.0
+Pierce County,Unincorp.,2037,444125.0
+Pierce County,Unincorp.,2038,446452.0
+Pierce County,Unincorp.,2039,448791.0
+Pierce County,Unincorp.,2040,451139.0
+Pierce County,Unincorp.,2041,453461.0
+Pierce County,Unincorp.,2042,455795.0
+Pierce County,Unincorp.,2043,458141.0
+Pierce County,Unincorp.,2044,460499.0
+Pierce County,Unincorp.,2045,462867.0
+Pierce County,Unincorp.,2046,465169.0
+Pierce County,Unincorp.,2047,467482.0
+Pierce County,Unincorp.,2048,469806.0
+Pierce County,Unincorp.,2049,472142.0
+Pierce County,Unincorp.,2050,474487.0
+Pierce County,Total,2000,700818.0
+Pierce County,Total,2001,709288.0
+Pierce County,Total,2002,721124.0
+Pierce County,Total,2003,731969.0
+Pierce County,Total,2004,743701.0
+Pierce County,Total,2005,756919.0
+Pierce County,Total,2006,774050.0
+Pierce County,Total,2007,786911.0
+Pierce County,Total,2008,794330.0
+Pierce County,Total,2009,796900.0
+Pierce County,Total,2010,795225.0
+Pierce County,Total,2011,802150.0
+Pierce County,Total,2012,808200.0
+Pierce County,Total,2013,814500.0
+Pierce County,Total,2014,800001.0
+Pierce County,Total,2015,830120.0
+Pierce County,Total,2016,844490.0
+Pierce County,Total,2017,859400.0
+Pierce County,Total,2018,872220.0
+Pierce County,Total,2019,875397.0
+Pierce County,Total,2020,878585.0
+Pierce County,Total,2021,890329.0
+Pierce County,Total,2022,902230.0
+Pierce County,Total,2023,914290.0
+Pierce County,Total,2024,926511.0
+Pierce County,Total,2025,938893.0
+Pierce County,Total,2026,950323.0
+Pierce County,Total,2027,961893.0
+Pierce County,Total,2028,973603.0
+Pierce County,Total,2029,985456.0
+Pierce County,Total,2030,997451.0
+Pierce County,Total,2031,1007770.0
+Pierce County,Total,2032,1018196.0
+Pierce County,Total,2033,1028730.0
+Pierce County,Total,2034,1039373.0
+Pierce County,Total,2035,1050122.0
+Pierce County,Total,2036,1060091.0
+Pierce County,Total,2037,1070155.0
+Pierce County,Total,2038,1080314.0
+Pierce County,Total,2039,1090570.0
+Pierce County,Total,2040,1100920.0
+Pierce County,Total,2041,1110977.0
+Pierce County,Total,2042,1121126.0
+Pierce County,Total,2043,1131368.0
+Pierce County,Total,2044,1141703.0
+Pierce County,Total,2045,1152131.0
+Pierce County,Total,2046,1162087.0
+Pierce County,Total,2047,1172129.0
+Pierce County,Total,2048,1182258.0
+Pierce County,Total,2049,1192474.0
+Pierce County,Total,2050,1202776.0
+Pierce County,PTBA,2000,606175.0
+Pierce County,PTBA,2001,617046.0
+Pierce County,PTBA,2002,628113.0
+Pierce County,PTBA,2003,639377.0
+Pierce County,PTBA,2004,650844.0
+Pierce County,PTBA,2005,662517.0
+Pierce County,PTBA,2006,674398.0
+Pierce County,PTBA,2007,686493.0
+Pierce County,PTBA,2008,698805.0
+Pierce County,PTBA,2009,711338.0
+Pierce County,PTBA,2010,724095.0
+Pierce County,PTBA,2011,665213.0
+Pierce County,PTBA,2012,611119.0
+Pierce County,PTBA,2013,561424.0
+Pierce County,PTBA,2014,515771.0
+Pierce County,PTBA,2015,523075.0
+Pierce County,PTBA,2016,530483.0
+Pierce County,PTBA,2017,537996.0
+Pierce County,PTBA,2018,545615.0
+Pierce County,PTBA,2019,553343.0
+Pierce County,PTBA,2020,561179.0
+Pierce County,PTBA,2021,570151.0
+Pierce County,PTBA,2022,579266.0
+Pierce County,PTBA,2023,588527.0
+Pierce County,PTBA,2024,597936.0
+Pierce County,PTBA,2025,607493.0
+Pierce County,PTBA,2026,616117.0
+Pierce County,PTBA,2027,624863.0
+Pierce County,PTBA,2028,633734.0
+Pierce County,PTBA,2029,642730.0
+Pierce County,PTBA,2030,651852.0
+Pierce County,PTBA,2031,659831.0
+Pierce County,PTBA,2032,667907.0
+Pierce County,PTBA,2033,676082.0
+Pierce County,PTBA,2034,684357.0
+Pierce County,PTBA,2035,692732.0
+Pierce County,PTBA,2036,700367.0
+Pierce County,PTBA,2037,708086.0
+Pierce County,PTBA,2038,715891.0
+Pierce County,PTBA,2039,723782.0
+Pierce County,PTBA,2040,731757.0
+Pierce County,PTBA,2041,739477.0
+Pierce County,PTBA,2042,747278.0
+Pierce County,PTBA,2043,755162.0
+Pierce County,PTBA,2044,763129.0
+Pierce County,PTBA,2045,771177.0
+Pierce County,PTBA,2046,778822.0
+Pierce County,PTBA,2047,786543.0
+Pierce County,PTBA,2048,794340.0
+Pierce County,PTBA,2049,802215.0
+Pierce County,PTBA,2050,810165.0
+Pierce County,Sound Transit,2000,553629.0
+Pierce County,Sound Transit,2001,563392.0
+Pierce County,Sound Transit,2002,573328.0
+Pierce County,Sound Transit,2003,583438.0
+Pierce County,Sound Transit,2004,593727.0
+Pierce County,Sound Transit,2005,604197.0
+Pierce County,Sound Transit,2006,614852.0
+Pierce County,Sound Transit,2007,625695.0
+Pierce County,Sound Transit,2008,636729.0
+Pierce County,Sound Transit,2009,647958.0
+Pierce County,Sound Transit,2010,659385.0
+Pierce County,Sound Transit,2011,662878.0
+Pierce County,Sound Transit,2012,666389.0
+Pierce County,Sound Transit,2013,669920.0
+Pierce County,Sound Transit,2014,673469.0
+Pierce County,Sound Transit,2015,684213.0
+Pierce County,Sound Transit,2016,695128.0
+Pierce County,Sound Transit,2017,706218.0
+Pierce County,Sound Transit,2018,717485.0
+Pierce County,Sound Transit,2019,728932.0
+Pierce County,Sound Transit,2020,740561.0
+Pierce County,Sound Transit,2021,751568.0
+Pierce County,Sound Transit,2022,762738.0
+Pierce County,Sound Transit,2023,774074.0
+Pierce County,Sound Transit,2024,785579.0
+Pierce County,Sound Transit,2025,797252.0
+Pierce County,Sound Transit,2026,807993.0
+Pierce County,Sound Transit,2027,818879.0
+Pierce County,Sound Transit,2028,829912.0
+Pierce County,Sound Transit,2029,841093.0
+Pierce County,Sound Transit,2030,852423.0
+Pierce County,Sound Transit,2031,862114.0
+Pierce County,Sound Transit,2032,871915.0
+Pierce County,Sound Transit,2033,881827.0
+Pierce County,Sound Transit,2034,891852.0
+Pierce County,Sound Transit,2035,901989.0
+Pierce County,Sound Transit,2036,911358.0
+Pierce County,Sound Transit,2037,920825.0
+Pierce County,Sound Transit,2038,930390.0
+Pierce County,Sound Transit,2039,940054.0
+Pierce County,Sound Transit,2040,949816.0
+Pierce County,Sound Transit,2041,959271.0
+Pierce County,Sound Transit,2042,968820.0
+Pierce County,Sound Transit,2043,978464.0
+Pierce County,Sound Transit,2044,988204.0
+Pierce County,Sound Transit,2045,998040.0
+Pierce County,Sound Transit,2046,1007376.0
+Pierce County,Sound Transit,2047,1016799.0
+Pierce County,Sound Transit,2048,1026310.0
+Pierce County,Sound Transit,2049,1035910.0
+Pierce County,Sound Transit,2050,1045598.0
+Snohomish County,Cities,2000,314882.0
+Snohomish County,Cities,2001,325027.0
+Snohomish County,Cities,2002,329032.0
+Snohomish County,Cities,2003,333163.0
+Snohomish County,Cities,2004,335309.0
+Snohomish County,Cities,2005,340862.0
+Snohomish County,Cities,2006,355994.0
+Snohomish County,Cities,2007,368259.0
+Snohomish County,Cities,2008,372948.0
+Snohomish County,Cities,2009,376418.0
+Snohomish County,Cities,2010,411043.0
+Snohomish County,Cities,2011,412565.0
+Snohomish County,Cities,2012,414455.0
+Snohomish County,Cities,2013,418000.0
+Snohomish County,Cities,2014,409015.0
+Snohomish County,Cities,2015,427340.0
+Snohomish County,Cities,2016,433865.0
+Snohomish County,Cities,2017,439600.0
+Snohomish County,Cities,2018,447565.0
+Snohomish County,Cities,2019,454517.0
+Snohomish County,Cities,2020,461575.0
+Snohomish County,Cities,2021,470998.0
+Snohomish County,Cities,2022,480614.0
+Snohomish County,Cities,2023,490426.0
+Snohomish County,Cities,2024,500438.0
+Snohomish County,Cities,2025,510653.0
+Snohomish County,Cities,2026,519851.0
+Snohomish County,Cities,2027,529215.0
+Snohomish County,Cities,2028,538747.0
+Snohomish County,Cities,2029,548451.0
+Snohomish County,Cities,2030,558328.0
+Snohomish County,Cities,2031,566657.0
+Snohomish County,Cities,2032,575110.0
+Snohomish County,Cities,2033,583689.0
+Snohomish County,Cities,2034,592396.0
+Snohomish County,Cities,2035,601232.0
+Snohomish County,Cities,2036,609290.0
+Snohomish County,Cities,2037,617456.0
+Snohomish County,Cities,2038,625732.0
+Snohomish County,Cities,2039,634119.0
+Snohomish County,Cities,2040,642616.0
+Snohomish County,Cities,2041,650747.0
+Snohomish County,Cities,2042,658981.0
+Snohomish County,Cities,2043,667319.0
+Snohomish County,Cities,2044,675762.0
+Snohomish County,Cities,2045,684310.0
+Snohomish County,Cities,2046,692360.0
+Snohomish County,Cities,2047,700505.0
+Snohomish County,Cities,2048,708746.0
+Snohomish County,Cities,2049,717084.0
+Snohomish County,Cities,2050,725516.0
+Snohomish County,Unincorp.,2000,291142.0
+Snohomish County,Unincorp.,2001,292837.0
+Snohomish County,Unincorp.,2002,300255.0
+Snohomish County,Unincorp.,2003,306779.0
+Snohomish County,Unincorp.,2004,313469.0
+Snohomish County,Unincorp.,2005,320484.0
+Snohomish County,Unincorp.,2006,320132.0
+Snohomish County,Unincorp.,2007,321055.0
+Snohomish County,Unincorp.,2008,326382.0
+Snohomish County,Unincorp.,2009,329476.0
+Snohomish County,Unincorp.,2010,302292.0
+Snohomish County,Unincorp.,2011,304435.0
+Snohomish County,Unincorp.,2012,308445.0
+Snohomish County,Unincorp.,2013,312500.0
+Snohomish County,Unincorp.,2014,321495.0
+Snohomish County,Unincorp.,2015,330260.0
+Snohomish County,Unincorp.,2016,338995.0
+Snohomish County,Unincorp.,2017,349800.0
+Snohomish County,Unincorp.,2018,357555.0
+Snohomish County,Unincorp.,2019,360527.0
+Snohomish County,Unincorp.,2020,363522.0
+Snohomish County,Unincorp.,2021,367781.0
+Snohomish County,Unincorp.,2022,372090.0
+Snohomish County,Unincorp.,2023,376449.0
+Snohomish County,Unincorp.,2024,380859.0
+Snohomish County,Unincorp.,2025,385318.0
+Snohomish County,Unincorp.,2026,389450.0
+Snohomish County,Unincorp.,2027,393626.0
+Snohomish County,Unincorp.,2028,397847.0
+Snohomish County,Unincorp.,2029,402113.0
+Snohomish County,Unincorp.,2030,406421.0
+Snohomish County,Unincorp.,2031,410160.0
+Snohomish County,Unincorp.,2032,413933.0
+Snohomish County,Unincorp.,2033,417741.0
+Snohomish County,Unincorp.,2034,421584.0
+Snohomish County,Unincorp.,2035,425461.0
+Snohomish County,Unincorp.,2036,429062.0
+Snohomish County,Unincorp.,2037,432693.0
+Snohomish County,Unincorp.,2038,436355.0
+Snohomish County,Unincorp.,2039,440048.0
+Snohomish County,Unincorp.,2040,443770.0
+Snohomish County,Unincorp.,2041,447412.0
+Snohomish County,Unincorp.,2042,451084.0
+Snohomish County,Unincorp.,2043,454786.0
+Snohomish County,Unincorp.,2044,458519.0
+Snohomish County,Unincorp.,2045,462281.0
+Snohomish County,Unincorp.,2046,465870.0
+Snohomish County,Unincorp.,2047,469487.0
+Snohomish County,Unincorp.,2048,473132.0
+Snohomish County,Unincorp.,2049,476805.0
+Snohomish County,Unincorp.,2050,480505.0
+Snohomish County,Total,2000,606024.0
+Snohomish County,Total,2001,617864.0
+Snohomish County,Total,2002,629287.0
+Snohomish County,Total,2003,639942.0
+Snohomish County,Total,2004,648778.0
+Snohomish County,Total,2005,661346.0
+Snohomish County,Total,2006,676126.0
+Snohomish County,Total,2007,689314.0
+Snohomish County,Total,2008,699330.0
+Snohomish County,Total,2009,705894.0
+Snohomish County,Total,2010,713335.0
+Snohomish County,Total,2011,717000.0
+Snohomish County,Total,2012,722900.0
+Snohomish County,Total,2013,730500.0
+Snohomish County,Total,2014,730510.0
+Snohomish County,Total,2015,757600.0
+Snohomish County,Total,2016,772860.0
+Snohomish County,Total,2017,789400.0
+Snohomish County,Total,2018,805120.0
+Snohomish County,Total,2019,815048.0
+Snohomish County,Total,2020,825097.0
+Snohomish County,Total,2021,838809.0
+Snohomish County,Total,2022,852749.0
+Snohomish County,Total,2023,866920.0
+Snohomish County,Total,2024,881327.0
+Snohomish County,Total,2025,895971.0
+Snohomish County,Total,2026,909323.0
+Snohomish County,Total,2027,922874.0
+Snohomish County,Total,2028,936627.0
+Snohomish County,Total,2029,950585.0
+Snohomish County,Total,2030,964749.0
+Snohomish County,Total,2031,976832.0
+Snohomish County,Total,2032,989066.0
+Snohomish County,Total,2033,1001453.0
+Snohomish County,Total,2034,1013996.0
+Snohomish County,Total,2035,1026693.0
+Snohomish County,Total,2036,1038364.0
+Snohomish County,Total,2037,1050167.0
+Snohomish County,Total,2038,1062105.0
+Snohomish County,Total,2039,1074178.0
+Snohomish County,Total,2040,1086386.0
+Snohomish County,Total,2041,1098169.0
+Snohomish County,Total,2042,1110080.0
+Snohomish County,Total,2043,1122120.0
+Snohomish County,Total,2044,1134291.0
+Snohomish County,Total,2045,1146591.0
+Snohomish County,Total,2046,1158238.0
+Snohomish County,Total,2047,1170004.0
+Snohomish County,Total,2048,1181889.0
+Snohomish County,Total,2049,1193895.0
+Snohomish County,Total,2050,1206021.0
+Snohomish County,PTBA,2000,405635.0
+Snohomish County,PTBA,2001,414401.0
+Snohomish County,PTBA,2002,423357.0
+Snohomish County,PTBA,2003,432505.0
+Snohomish County,PTBA,2004,441852.0
+Snohomish County,PTBA,2005,451400.0
+Snohomish County,PTBA,2006,461155.0
+Snohomish County,PTBA,2007,471121.0
+Snohomish County,PTBA,2008,481302.0
+Snohomish County,PTBA,2009,491703.0
+Snohomish County,PTBA,2010,502329.0
+Snohomish County,PTBA,2011,507196.0
+Snohomish County,PTBA,2012,512110.0
+Snohomish County,PTBA,2013,517072.0
+Snohomish County,PTBA,2014,522082.0
+Snohomish County,PTBA,2015,532632.0
+Snohomish County,PTBA,2016,543395.0
+Snohomish County,PTBA,2017,554376.0
+Snohomish County,PTBA,2018,565579.0
+Snohomish County,PTBA,2019,577009.0
+Snohomish County,PTBA,2020,588669.0
+Snohomish County,PTBA,2021,598471.0
+Snohomish County,PTBA,2022,608436.0
+Snohomish County,PTBA,2023,618567.0
+Snohomish County,PTBA,2024,628866.0
+Snohomish County,PTBA,2025,639334.0
+Snohomish County,PTBA,2026,648941.0
+Snohomish County,PTBA,2027,658692.0
+Snohomish County,PTBA,2028,668590.0
+Snohomish County,PTBA,2029,678636.0
+Snohomish County,PTBA,2030,688831.0
+Snohomish County,PTBA,2031,697478.0
+Snohomish County,PTBA,2032,706233.0
+Snohomish County,PTBA,2033,715098.0
+Snohomish County,PTBA,2034,724074.0
+Snohomish County,PTBA,2035,733161.0
+Snohomish County,PTBA,2036,741552.0
+Snohomish County,PTBA,2037,750039.0
+Snohomish County,PTBA,2038,758623.0
+Snohomish County,PTBA,2039,767305.0
+Snohomish County,PTBA,2040,776083.0
+Snohomish County,PTBA,2041,784542.0
+Snohomish County,PTBA,2042,793094.0
+Snohomish County,PTBA,2043,801739.0
+Snohomish County,PTBA,2044,810478.0
+Snohomish County,PTBA,2045,819310.0
+Snohomish County,PTBA,2046,827505.0
+Snohomish County,PTBA,2047,835782.0
+Snohomish County,PTBA,2048,844142.0
+Snohomish County,PTBA,2049,852585.0
+Snohomish County,PTBA,2050,861111.0
+Snohomish County,Sound Transit,2000,345315.0
+Snohomish County,Sound Transit,2001,352074.0
+Snohomish County,Sound Transit,2002,358964.0
+Snohomish County,Sound Transit,2003,365990.0
+Snohomish County,Sound Transit,2004,373153.0
+Snohomish County,Sound Transit,2005,380456.0
+Snohomish County,Sound Transit,2006,387902.0
+Snohomish County,Sound Transit,2007,395494.0
+Snohomish County,Sound Transit,2008,403234.0
+Snohomish County,Sound Transit,2009,411126.0
+Snohomish County,Sound Transit,2010,419173.0
+Snohomish County,Sound Transit,2011,422604.0
+Snohomish County,Sound Transit,2012,426064.0
+Snohomish County,Sound Transit,2013,429553.0
+Snohomish County,Sound Transit,2014,433070.0
+Snohomish County,Sound Transit,2015,442528.0
+Snohomish County,Sound Transit,2016,452192.0
+Snohomish County,Sound Transit,2017,462068.0
+Snohomish County,Sound Transit,2018,472160.0
+Snohomish County,Sound Transit,2019,482472.0
+Snohomish County,Sound Transit,2020,493009.0
+Snohomish County,Sound Transit,2021,501814.0
+Snohomish County,Sound Transit,2022,510776.0
+Snohomish County,Sound Transit,2023,519898.0
+Snohomish County,Sound Transit,2024,529183.0
+Snohomish County,Sound Transit,2025,538630.0
+Snohomish County,Sound Transit,2026,547138.0
+Snohomish County,Sound Transit,2027,555780.0
+Snohomish County,Sound Transit,2028,564559.0
+Snohomish County,Sound Transit,2029,573476.0
+Snohomish County,Sound Transit,2030,582532.0
+Snohomish County,Sound Transit,2031,590244.0
+Snohomish County,Sound Transit,2032,598058.0
+Snohomish County,Sound Transit,2033,605976.0
+Snohomish County,Sound Transit,2034,613999.0
+Snohomish County,Sound Transit,2035,622125.0
+Snohomish County,Sound Transit,2036,629636.0
+Snohomish County,Sound Transit,2037,637237.0
+Snohomish County,Sound Transit,2038,644930.0
+Snohomish County,Sound Transit,2039,652716.0
+Snohomish County,Sound Transit,2040,660593.0
+Snohomish County,Sound Transit,2041,668187.0
+Snohomish County,Sound Transit,2042,675868.0
+Snohomish County,Sound Transit,2043,683637.0
+Snohomish County,Sound Transit,2044,691496.0
+Snohomish County,Sound Transit,2045,699443.0
+Snohomish County,Sound Transit,2046,706923.0
+Snohomish County,Sound Transit,2047,714483.0
+Snohomish County,Sound Transit,2048,722124.0
+Snohomish County,Sound Transit,2049,729847.0
+Snohomish County,Sound Transit,2050,737650.0
+Snohomish County,City Transit,2000,82806.0
+Snohomish County,City Transit,2001,83983.0
+Snohomish County,City Transit,2002,85176.0
+Snohomish County,City Transit,2003,86387.0
+Snohomish County,City Transit,2004,87615.0
+Snohomish County,City Transit,2005,88860.0
+Snohomish County,City Transit,2006,90123.0
+Snohomish County,City Transit,2007,91403.0
+Snohomish County,City Transit,2008,92702.0
+Snohomish County,City Transit,2009,94020.0
+Snohomish County,City Transit,2010,95356.0
+Snohomish County,City Transit,2011,96180.0
+Snohomish County,City Transit,2012,97010.0
+Snohomish County,City Transit,2013,97848.0
+Snohomish County,City Transit,2014,98694.0
+Snohomish County,City Transit,2015,101195.0
+Snohomish County,City Transit,2016,103760.0
+Snohomish County,City Transit,2017,106389.0
+Snohomish County,City Transit,2018,109086.0
+Snohomish County,City Transit,2019,111851.0
+Snohomish County,City Transit,2020,114686.0
+Snohomish County,City Transit,2021,117410.0
+Snohomish County,City Transit,2022,120199.0
+Snohomish County,City Transit,2023,123054.0
+Snohomish County,City Transit,2024,125977.0
+Snohomish County,City Transit,2025,128968.0
+Snohomish County,City Transit,2026,131640.0
+Snohomish County,City Transit,2027,134367.0
+Snohomish County,City Transit,2028,137151.0
+Snohomish County,City Transit,2029,139992.0
+Snohomish County,City Transit,2030,142889.0
+Snohomish County,City Transit,2031,145314.0
+Snohomish County,City Transit,2032,147780.0
+Snohomish County,City Transit,2033,150288.0
+Snohomish County,City Transit,2034,152838.0
+Snohomish County,City Transit,2035,155429.0
+Snohomish County,City Transit,2036,157776.0
+Snohomish County,City Transit,2037,160158.0
+Snohomish County,City Transit,2038,162576.0
+Snohomish County,City Transit,2039,165030.0
+Snohomish County,City Transit,2040,167519.0
+Snohomish County,City Transit,2041,169882.0
+Snohomish County,City Transit,2042,172279.0
+Snohomish County,City Transit,2043,174709.0
+Snohomish County,City Transit,2044,177174.0
+Snohomish County,City Transit,2045,179671.0
+Snohomish County,City Transit,2046,182008.0
+Snohomish County,City Transit,2047,184375.0
+Snohomish County,City Transit,2048,186773.0
+Snohomish County,City Transit,2049,189202.0
+Snohomish County,City Transit,2050,191660.0

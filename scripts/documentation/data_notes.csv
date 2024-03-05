@@ -60,8 +60,8 @@ Revenue = Combine growth in city population and inflation × Prior year revenue"
 335.91 Impact Funds
 336.XX Other State Entitlements
 336.02.31 Dept. of Natural Resources - payment on lieu of property taxes"
-County Roads Revenue,FEDERAL TAX DISTRIBUTIONS,Other Federal Grants,"Estimate 2015 Revenue = (average 2006-2009, 2011-2014 revenue) × 1.025
-Prior year estimate × 1.025","WA Budgeting, Accounting and Reporting System (BARS)",
+County Roads Revenue,FEDERAL TAX DISTRIBUTIONS,Other Federal Grants,"# Estimate 2021 Revenue = (Y CPI/Y-1 CPI) * (average 2016-2020 revenue)
+# Prior year estimate × (Y CPI/Y-1 CPI) ","WA Budgeting, Accounting and Reporting System (BARS)",
 County Roads Revenue,FEDERAL TAX DISTRIBUTIONS,PSRC Federal Grants,,,
 County Roads Revenue,FEDERAL TAX DISTRIBUTIONS,Other Federal Funds (highways),"# Estimate 2021 Revenue = (average 2016-2020 revenue) × 1.025
 # Prior year estimate × 1.025","WA Budgeting, Accounting and Reporting System (BARS)",

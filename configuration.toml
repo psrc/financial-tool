@@ -13,7 +13,8 @@ input_local_transit_revenue = "script_data/input_data_2018/local_transit_actual_
 input_local_transit_boardings = "script_data/input_data_2018/local_transit_actual_boardings.csv"            # FIXME: consider RTP forecast data
 input_local_transit_fare_per_boarding = "script_data/input_data_2018/local_transit_fare_per_boarding.csv"
 input_tax_base = "script_data/input_data_2018/tax_base.csv"
-input_subarea_population = "script_data/input_data_2018/subarea_allocation_bases_population_actual.csv"
+input_subarea_population_actual = "script_data/input_data_2018/subarea_allocation_bases_population_actual.csv"
+input_subarea_population_forecast = "script_data/input_data_2018/subarea_allocation_bases_population_forecast.csv"
 input_state_highway_revenue = "script_data/input_data_2018/state_highway_revenue_generated.csv"
 input_county_roads_revenue = "script_data/input_data_2018/county_roads_revenue_generated.csv"
 

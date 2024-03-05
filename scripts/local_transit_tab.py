@@ -14,7 +14,7 @@ predict_revenue_local_transit = False
 
 # Subarea Allocation Bases - Population
 if predict_subarea_population:
-    subarea_population = pd.read_csv(data_config['data_subarea_population'])
+    subarea_population = pd.read_csv(data_config['input_subarea_population_actual'])
 
     result_subarea_population = pd.DataFrame()
     for i_county in data_config['all_counties']:
@@ -38,7 +38,7 @@ if predict_subarea_population:
                 df_pop = df_pop[['County', 'PopulationArea', 'Year', 'Population']]
 
                 result_subarea_population = pd.concat([result_subarea_population, df_pop], ignore_index=True)
-    result_subarea_population.to_csv(data_config['result_subarea_population'], index=False)
+    result_subarea_population.to_csv(data_config['input_subarea_population_forecast'], index=False)
 
 # Local Transit - Total Fixed-Route boardings
 if predict_boardings_local_transit:
